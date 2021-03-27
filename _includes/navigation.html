@@ -1,0 +1,9 @@
+{% for item in site.data.navigation %}
+<a class="nav-link {% if page.url==item.link %}active{% endif %} border-0" data-toggle="tabs" href="{{ item.link }}">
+    <h5>
+        <span class="home-hover">
+            {{ item.name }}
+        </span>
+    </h5>
+</a>
+{% endfor %}

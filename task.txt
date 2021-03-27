@@ -1,0 +1,4 @@
+1. Create default html
+2. Add icons
+3. Remove author
+4. Customize about

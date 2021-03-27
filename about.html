@@ -1,0 +1,41 @@
+---
+layout: default
+title: About
+---
+
+<div class="container-fluid">
+  <div class="row rounded-left">
+    {% for author in site.authors %}
+    <div class="col-sm-4 bg-light p-2">
+      <div class="card h-100">
+        <div class="card-header" style="text-align: center;">
+          {{ author.name }}
+        </div>
+        <a href="/" class="btn btn-light" role="button">
+          <img src="{{ author.profile_image}}" class="card-img-top img-fluid" alt="{{ author.name }}">
+          <p style="text-align: center;">{{ author.image_caption }}</p>
+        </a>
+        <div class="card-body">
+          <p class="card-text">
+            <b>Born:</b> {{ author.born }}
+          </p>
+          <p class="card-text">
+            <b>Education:</b> <a href="{{ author.school_link}}">{{ author.school }}</a>
+          </p>
+          </p>
+          <p class="card-text">
+            <b>Occupation:</b> {{ author.occupation }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8 bg-light p-2">
+      <ul class="list-group">
+        <li class="list-group-item border-0 bg-light" style="text-align: center;">
+          <p class="text-dark" style="text-align: justify;word-spacing: 0px;">{{ author.content | markdownify }}</p>
+        </li>
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</div>

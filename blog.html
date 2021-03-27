@@ -1,0 +1,39 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="container-fluid">
+  <div class="row rounded-left">
+    <div class="col p-2">
+      <span class=" mobile__size">
+        <div class="d-flex justify-content-right">
+          <a href="/blog/" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+            <h1>Blog</h1>
+          </a>
+        </div>
+      </span>
+      <ul class="list-group">
+        {% for post in site.posts %}
+        {% if post.type=="blog" %}
+        <li class="list-group-item border-0 bg-light">
+          <a href="{{ post.url }}" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">{{ post.title }}</h5>
+              <small class="text-muted desktop__size">{{ post.date | date_to_string }}</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets//images//2x2.jpg" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by {{ post.author }} | {{ post.date | date_to_string }}</small>
+            <p class="card-text" style="text-align: justify;word-spacing: -2px;">{{ post.excerpt }}</p>
+            <small class="text-muted desktop__size"> by {{ post.author }}</small>
+          </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

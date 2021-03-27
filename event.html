@@ -1,0 +1,59 @@
+---
+layout: default
+title: Event
+---
+
+<div class="container-fluid">
+  <div class="row rounded-left">
+    <div class="col p-2">
+      <span class=" mobile__size">
+        <div class="d-flex justify-content-right">
+          <a href="/event/" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+            <h1>Event</h1>
+          </a>
+        </div>
+      </span>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        {% for post in site.posts %}
+        {% if post.type=="event" %}
+        <div class="col">
+          <div class="card h-100">
+            <a href="{{ post.url }}" class="btn btn-light" role="button">
+              <img src="{{ post.image_url }}" class="card-img-top" alt="{{ post.title }}">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">
+                {{ post.title }}
+              </h5>
+              <p>
+                <img src="/assets/images/group.png" width="24" height="24">
+                {{ post.responded }}
+              </p>
+              <p>
+                <img src="/assets/images/flag.png" width="24" height="24">
+                {{ post.created_by }}
+              </p>
+              <p>
+                <img src="/assets/images/web.png" width="24" height="24">
+                Website: {{ post.web }}
+              </p>
+              <p>
+                <img src="/assets/images/ticket.png" width="24" height="24">
+                Ticket: {{ post.ticket }}
+              </p>
+              <p>
+                <img src="/assets/images/information.png" width="24" height="24">
+                {{ post.info }}
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">{{ post.date | date_to_string }}</small>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

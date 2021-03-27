@@ -1,0 +1,18 @@
+<collection shelf = "Blog">
+   <platform title = "Blog">
+      <type>Twitter</type>
+      <format>Social Media</format>
+      <year>2020</year>
+      <rating>PG</rating>
+      <stars>10</stars>
+      <description>Tweets about pizza</description>
+   </platform>
+   <platform title = "Science">
+      <type>Programming, Science Fiction</type>
+      <format>Books</format>
+      <year>2019</year>
+      <rating>10</rating>
+      <stars>9</stars>
+      <description>A science fiction</description>
+   </platform>
+</collection>

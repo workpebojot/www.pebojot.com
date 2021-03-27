@@ -1,0 +1,54 @@
+---
+layout: default
+title: Project
+---
+
+<div class="container-fluid">
+  <div class="row rounded-left">
+    <div class="col p-2">
+      <span class=" mobile__size">
+        <div class="d-flex justify-content-right">
+          <a href="/project/" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+            <h1>Project</h1>
+          </a>
+        </div>
+      </span>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        {% for post in site.posts %}
+        {% if post.type=="project" %}
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-header">
+              {{ post.title }}
+            </div>
+            <a href="{{ post.url }}" class="btn btn-light"role="button">
+              <img src="{{ post.image_url }}" class="card-img-top img-fluid" alt="{{ post.title }}">
+            </a>
+            <div class="card-body">
+              <p class="card-text" style="text-align: justify;word-spacing: -2px;">{{ post.excerpt }}</p>
+              <div class="d-flex justify-content-evenly">
+                <button type="button" class="btn btn-light">
+                  <img src="{{ post.tag_logo_1 }}" width="32" height="32" class="img-fluid" alt="Github">
+                </button>
+                <button type="button" class="btn btn-light">
+                  <img src="{{ post.tag_logo_2 }}" width="32" height="32" class="img-fluid" alt="Github">
+                </button>
+                <button type="button" class="btn btn-light">
+                  <img src="{{ post.tag_logo_3 }}" width="32" height="32" class="img-fluid" alt="Github">
+                </button>
+                <a href="{{ post.repo_url }}" target="_blank" class="btn btn-light" role="button">
+                  <img src="{{ post.gh_logo }}" width="32" height="32" class="img-fluid" alt="Github">
+                </a>
+              </div>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">{{ post.date | date_to_string }}</small>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

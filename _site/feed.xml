@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-03-27T10:26:03+08:00</updated><id>/feed.xml</id><entry><title type="html">Muon: Software Package Directory</title><link href="/2021/03/20/project/" rel="alternate" type="text/html" title="Muon: Software Package Directory" /><published>2021-03-20T00:00:00+08:00</published><updated>2021-03-20T00:00:00+08:00</updated><id>/2021/03/20/project</id><content type="html" xml:base="/2021/03/20/project/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/112561133-8f042800-8e0f-11eb-9a51-311b6b9c878a.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;d-flex justify-content-end&quot;&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+        &lt;a type=&quot;button&quot; class=&quot;btn btn-light btn-block display-5&quot; href=&quot;https://github.com/workpebojot/Muon&quot;&gt;
+            Visit
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;flex-gh-button-hide&quot; class=&quot;p-1&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/Muon/subscription&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Watch workpebojot/Vacuum on GitHub&quot;&gt;
+            Watch
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;flex-gh-button-hide&quot; class=&quot;p-1&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/Muon/fork&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Fork workpebojot/Vacuum on GitHub&quot;&gt;
+            Fork
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;flex-gh-button-show&quot; class=&quot;p-1&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/Muon&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star workpebojot/Vacuum on GitHub&quot;&gt;
+            Star
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;
+            Follow
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;muon-a-software-project-manage-tool&quot;&gt;Muon: A Software Project Manage Tool&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  Muon uses &lt;a href=&quot;https://electron.atom.io/&quot;&gt;Electron&lt;/a&gt;, &lt;a href=&quot;https://facebook.github.io/react/&quot;&gt;React&lt;/a&gt;, &lt;a href=&quot;https://github.com/reactjs/react-router&quot;&gt;React Router&lt;/a&gt;, &lt;a href=&quot;https://webpack.github.io/docs/&quot;&gt;Webpack&lt;/a&gt; and &lt;a href=&quot;https://www.npmjs.com/package/react-refresh&quot;&gt;React Fast Refresh&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;install&quot;&gt;Install&lt;/h2&gt;
+
+&lt;p&gt;First, clone the repo via git and install dependencies:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone &lt;span class=&quot;nt&quot;&gt;--depth&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;--single-branch&lt;/span&gt; https://github.com/workpebojot/Muon.git your-project-name
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;your-project-name
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;npx yarn
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;starting-development&quot;&gt;Starting Development&lt;/h2&gt;
+
+&lt;p&gt;Start the app in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev&lt;/code&gt; environment:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;npx yarn start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;packaging-for-production&quot;&gt;Packaging for Production&lt;/h2&gt;
+
+&lt;p&gt;To package apps for the local platform:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;npx yarn package
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;MIT © &lt;a href=&quot;https://github.com/workpebojot/Muon&quot;&gt;Muon&lt;/a&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.</summary></entry><entry><title type="html">Software Ethics to me (or to you)</title><link href="/2021/03/03/blog/" rel="alternate" type="text/html" title="Software Ethics to me (or to you)" /><published>2021-03-03T00:00:00+08:00</published><updated>2021-03-03T00:00:00+08:00</updated><id>/2021/03/03/blog</id><content type="html" xml:base="/2021/03/03/blog/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/109771145-70a77400-7c37-11eb-97ff-c989647ecdd1.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+    &lt;h1&gt;Software Ethics to me (or to you)&lt;/h1&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;p&gt;
+By Edison Pebojot | 03 March 2021
+&lt;/p&gt;
+&lt;div style=&quot;text-align: justify&quot;&gt;
+&lt;p&gt;
+Software engineering as a discipline has a tentative perception of engineering ethics. Rules of ethics are incorporated into the professional associations that serve professionals of most engineering fields. The advantages and pitfalls of these professional associations can be argued, but the general consensus tends to be that they add little meaning and that credentials carry little weight among employers. In certain nations, the word &lt;i&gt;Engineer&lt;/i&gt; is a reserved term that can only be used for eligible persons. This is to preserve the engineer's integrity as a trustworthy professional.
+&lt;/p&gt;
+&lt;p&gt;
+A professional should be someone you can trust, and this is done by including it in the professional's preparation, one example is the &lt;b&gt;Hippocratic oath&lt;/b&gt; for medical practitioners or by regulatory or industry-led registration and certifications. Certification is generally acknowledged in the software development industry. This is a risky situation because we are not self-regulating, because there are no competent associations (which have their own ethical codes. One characteristic that ethics have in common is that people who work in these fields seek to do no harm.
+&lt;/p&gt;
+&lt;p&gt;
+There have been several attempts to remedy these vulnerabilities, the most popular of which are the &lt;b&gt;Geek Feminism&lt;/b&gt; and &lt;b&gt;Diversity&lt;/b&gt; campaigns, but these only address a few facets of ethical behavior. The &lt;b&gt;Code Craftsmanship&lt;/b&gt; campaign focuses on programming ethics, but it does not discuss the full extent of the issue. Ethics is an integral aspect of society, and it functions well where it is practiced by consensus rather than law. So, what is a software developer's ethical code? It's the same ethical code we all follow as people in society: &lt;i&gt;We should do no harm, or at the very least mitigate harm.&lt;/i&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: justify&quot;&gt;
+&lt;p&gt;
+Computers, especially mobile phones, have developed into personal devices that store data about users that they do not want to share with others. As a professional, you are supposed to protect your users' privacy, and this knowledge may also be helpful to an organization's decisions on how to create a better product or marketing strategy. Just because you can gather data doesn't mean you should. The &lt;b&gt;Big Data&lt;/b&gt; craze is based around the concept of collecting as much data as possible and evaluating the findings to see if some patterns appear. However, collecting more oriented data is easier to interpret. The EU's General Data Privacy Regulation have prompted improvements in corporate practices. 
+&lt;/p&gt;
+&lt;p&gt;
+You must also think like an attacker while collecting data. Giving users a random ID that isn't related to their real identification is one way to anonymize information. With enough data points, it might be possible too to connect this to a real user. In 2006, AOL made available the search logs of their search engine customers, who were connected to anonymous IDs. Journalists were able to positively identify the real users using data points. True anonymity would suggest that there are no data points in the system. For others, privacy is expected, while for others, it is appropriate. One example is the relationship between the state and its people. The NHS expected that care.data program would not only strengthen individual treatment, but also allow researchers to track national health patterns and potentially find new connections between various health conditions. But to the people, the privacy is appropriate. But, it was also impossible to render a cost-benefit comparison in this situation.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: justify&quot;&gt;
+&lt;p&gt;
+Developers must avoid functionality that have detrimental implications for the people who use the softwares we make because it may increase their cognitive workload. There are some categories of softwares on which developers may make an ethical decision. A facial recognition software, for example, may assist a social media user in &lt;i&gt;easily&lt;/i&gt; marking images, but if used by a totalitarian regime, it may be used to persecute people. There is no correct answer.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: justify&quot;&gt;
+&lt;p&gt;
+Energy usage is a visible effect IT has on the environment, but it sounds abstract from a developer's viewpoint, particularly as the world transitions to the cloud. When businesses run their own data centres, they could see how much electricity they were consuming. This influence is impossible to see in the cloud.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: justify&quot;&gt;
+&lt;p&gt;
+Via open source, tech developers have a distinct way of communicating. Open source work is performed on a voluntary basis and is subject to licensing. Playing politics or intimidation are also unethical in any occupation, but they are far too prevalent. It is appropriate to use an open source feature as a library within a commercial product, but all improvements made to the library must be restored to the original project so that everyone will benefit.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: left&quot;&gt;
+&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;div style=&quot;text-align: justify&quot;&gt;
+&lt;p&gt;
+Ethics is a vital feature in most technical fields, but it is seldom addressed in software development. The following are four ethical issues that you may encounter: Privacy, which is being legislated as a consequence of the profession's ethical failings; cognitive workload, where we can add harmful side effects on our userbase as we rely exclusively on other goals; energy conservation, which can seem hypothetical but has a clear real-world effect; and confidence, both within our profession and for those with whom we operate.
+&lt;/p&gt;
+&lt;p&gt;
+There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. Nonetheless, that is something we can take into consideration when developing structures in order to create a sustainable environment for everyone.
+&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Pebojot</name></author><summary type="html">Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.</summary></entry><entry><title type="html">An Android Platform for Filipino Employment (Beta Program)</title><link href="/2020/12/28/blog/" rel="alternate" type="text/html" title="An Android Platform for Filipino Employment (Beta Program)" /><published>2020-12-28T00:00:00+08:00</published><updated>2020-12-28T00:00:00+08:00</updated><id>/2020/12/28/blog</id><content type="html" xml:base="/2020/12/28/blog/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/110631793-dff60880-81e1-11eb-8427-fc3958f954c0.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+    &lt;h1&gt;An Android Platform for Filipino Employment (Beta Program)&lt;/h1&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;p&gt;
+    By Edison Pebojot | 28 December 2020
+&lt;/p&gt;
+
+&lt;div style=&quot;text-align: justify&quot;&gt;
+&lt;p&gt;
+According to Renz &amp;amp; Katarina (2020), “Students and unemployed individuals are found to be highly vulnerable to COVID stress and its implications. Employed participants reported lower amount of COVID stress. It is possible that the employed participants were not required to report to work yet (work from home) which acted as a buffer against pandemic stress” (p. 94). The Philippines' unemployment rate for April surges to 17.7%, the highest ever on record, as the coronavirus pandemic wipes out jobs. Unemployment soared to 17.7% in April 2020, equivalent to around 7.3 million jobless Filipinos amid the coronavirus pandemic, the Philippine Statistics Authority (PSA) announced on Friday, June 5 (Ralf, 2020), due to this huge impact on Filipinos, the researcher decided to find ways to solve this problem with the help of technology to provide employment to the unemployed Filipinos, and to reduce the problem of every Filipino family.
+&lt;/p&gt;
+&lt;p&gt;
+One such ways is the Internet. The Internet is a useful tool for identifying potential employment opportunities like an Electronic Mail (E-Mail) notification. The E-mail notiﬁcations identiﬁed a number of vacancies in the 6-month period; 42% of all those advertised. The vast majority of descriptions and person speciﬁcations were available for downloading (Karen, 2007).
+The researcher conducted a research about low Filipino employment rate and how to solve it. The researcher developed an android application to solve the problem. The android application, namely, Vacuum Cleaner application, is an application to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows Filipinos to provide work and services.
+&lt;/p&gt;
+&lt;p&gt;
+More specifically, the android program has a small scope and conducted only in a small number of Barangay. It was developed at the end of November and it started its consecutive increments during December. The subject of the research is the local people of the Barangay in Dingalan, Aurora. It was developed because the pandemic was widely disruptive to the economy, with most sectors and workforces adversely affected. The COVID-19 pandemic has had far-reaching economic consequences beyond the spread of the disease itself and efforts to quarantine it. As the SARS-CoV-2 virus has spread around the globe, concerns have shifted from supply-side manufacturing issues to decreased business in the services sector. The pandemic caused the largest global recession in history, with more than a third of the global population at the time being placed on lockdown
+&lt;/p&gt;
+&lt;p&gt;
+It was done using a set of development technology like Android Studio, Linux Development Environment, Aspire ES1-432 Windows 10 Professional laptop with 1.10 GHz (Gigahertz), android smartphone Samsung SM-G532/DS version 6.1.0 Marshmallow to use and test the application with 1.5GB Random Access Memory (RAM).
+&lt;/p&gt;
+&lt;p&gt;
+The Vacuum application was created to solve the major problems faced by the Filipino people. First of all, unemployment, Vacuum application is an android application where Filipinos have the ability to share or find work, it is easier than other platforms that currently exist today like JobStreet because first, you do not need a diploma to find a job. This is because it is an obstacle for some poor Filipinos in life. The application is simplified, facilitating job sharing where others have the ability to enter into a job without difficulty
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: left&quot;&gt;
+    &lt;h3&gt;Project Contexts&lt;/h3&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;div style=&quot;text-align: justify&quot;&gt;
+&lt;p&gt;
+The Vacuum application was created to solve the major problems faced by the Filipino people. First of all, unemployment, Vacuum application is an android application where Filipinos have the ability to share or find work, it is easier than other platforms that currently exist today like JobStreet because first, you do not need a diploma to find a job. This is because it is an obstacle for some poor Filipinos in life. The application is simplified, facilitating job sharing where others have the ability to enter into a job without difficulty.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: left&quot;&gt;
+    &lt;h3&gt;Purpose and Description&lt;/h3&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;div style=&quot;text-align: justify&quot;&gt;
+&lt;p&gt;
+The purpose of this research is to define the issue about Filipino unemployment and to quantify solution based on segregate abstraction from the subjects. The nature of the topic dictates the use of document requirement to be filled by the subject. The Philippine Statistics Authority provides evidence that employment is an essential component of both the improvement of Filipino unemployment conditions and the positive development of a society. More extensive and enduring support would likely have allowed unemployed Filipinos the opportunity to further expand their career.
+With the coronavirus pandemic wiping out workers, the Philippines' unemployment rate for April soared to 17.7 percent, the highest ever reported. In April 2020, unemployment increased to 17.7 percent, corresponding to around 7.3 million unemployed Filipinos in the wake of the coronavirus pandemic, the Philippine Statistics Authority (PSA) reported on Friday, June 5 (Ralf, 2020). With these numbers, if we do not act early, we may be assured that there is a huge economic loss.
+
+According Mayen Jaymalin (2020), “A labor group fears a worse unemployment situation in the country this year, unless the government enforces the necessary intervention measures. Federation of Free Workers (FFW) president Sonny Matula warned that more workers will lose their jobs than last year if the government will not fund job facilitation programs” (para.). Matula said that several small and medium sized businesses (SMEs), which form the bulk of businesses nationally, wouldn't be able to sustain the slump in industry due to the epidemic without state assistance.
+
+Support from the government is extremely difficult to receive and many still require funds such as vaccine procurement funds. The government is still negotiating for the vaccine supply (Jamaine, 2020).
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: left&quot;&gt;
+&lt;h3&gt;Recommendation&lt;/h3&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;div style=&quot;text-align: justify&quot;&gt;
+&lt;p&gt;
+The researcher demonstrates his research concerns and theories in this section, the importance of the analysis, the aims and research issues. The researcher further proposed that more study be performed on the grounds of the research concerns. The topic has research issues that puzzled the researcher and a theory to conceptualize the approximation of the conclusions of the analysis. The information provided by the software application was accurate on the basis of the main findings of the research study, since the software architecture was developed based on the Principle of Least Astonishment, a system feature that behaves in a manner that is assumed by most users to behave.
+&lt;/p&gt;
+&lt;p&gt;
+Privacy, however, is the prime consideration, since another actor will still violate the privacy of the actor. Fortunately, the proposed software application did not violate the data gathering and data processing regulation or legislation because the proposed software application prevents the researcher from gathering suspicious data and processing data in a skeptic way, which is the most important aspect of privacy, all in all. The cognitive load was also the biggest problem. The researcher, however, restricts actor interactions to the system component, which then decreases their cognitive load and increases the usability of the software application.
+&lt;/p&gt;
+&lt;p&gt;
+The pandemic has disrupted the economy deeply, negatively impacting most industries and workers. By developing a smartphone application using software development resources such as Android Studio, Visual Studio, and the Linux operating system, the researcher solved the research issue. The researcher tested the application using compatibility and conformance checking based on the quality requirements of the Android Core App. The research study values close collaboration between Filipino employees, helping displaced Filipino employees and their families, fostering the welfare of Filipino employees and their families, coordinating and integrating numerous Filipino employees and unemployed workers, and supporting the Filipino unemployed to minimize the expense of finding a job by distributing them.
+&lt;/p&gt;
+&lt;p&gt;
+The researcher proposed more studies on the unemployment rate or, more specifically, the Filipino unemployment rate. One such approach is to perform an investigation, an observation, or other method of data collection. And the researcher mush breaks it down into tasks on the basis of the obtained evidence or information that can make the software development process much easier to execute. To validate the application, the researcher should establish the architecture and design, development, and test case or criteria. To evaluate the application in real time and repeat the software development cycles after the released, monitoring tools can then be used. 
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;text-align: left&quot;&gt;
+&lt;h3&gt;Screenshot&lt;/h3&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;p&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956721-a3384080-4513-11eb-9fd2-fda8b70fbaf7.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956726-a5020400-4513-11eb-86f4-f131b6089dd6.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956727-a59a9a80-4513-11eb-9173-c29b3f598e7f.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956729-a6cbc780-4513-11eb-8e75-7314b038d302.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956730-a7645e00-4513-11eb-90bb-12c6e6416753.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956734-a8958b00-4513-11eb-9b4f-29a58e4d8184.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956737-a92e2180-4513-11eb-9dd9-768015b40494.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956740-a9c6b800-4513-11eb-965f-1a5ff378529f.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956741-aa5f4e80-4513-11eb-8b32-dcca9a024c35.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956743-ab907b80-4513-11eb-9211-14bd18017e1f.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956745-ac291200-4513-11eb-9e3b-358a692ac412.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956747-acc1a880-4513-11eb-93b8-90bca63d4b7a.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956752-adf2d580-4513-11eb-9d9a-132bfe542b59.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956753-ae8b6c00-4513-11eb-9482-4fb83e1959ef.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956755-af240280-4513-11eb-8c2b-fef19e0fb330.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956758-afbc9900-4513-11eb-9cd6-76c61c92581b.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956760-b0edc600-4513-11eb-96ce-09741b4511f5.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956763-b1865c80-4513-11eb-9914-8f56076171db.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956765-b21ef300-4513-11eb-8f2f-0ad0e43e7103.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.vacuum&quot;&gt;Download on Google Play&lt;/a&gt; (Redirect to Google Play)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.</summary></entry><entry><title type="html">The Vacuum Project</title><link href="/2020/10/28/project/" rel="alternate" type="text/html" title="The Vacuum Project" /><published>2020-10-28T00:00:00+08:00</published><updated>2020-10-28T00:00:00+08:00</updated><id>/2020/10/28/project</id><content type="html" xml:base="/2020/10/28/project/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/111940040-bfdf1700-8b08-11eb-9a18-4a7b935e8330.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;d-flex justify-content-end&quot;&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+        &lt;a type=&quot;button&quot; class=&quot;btn btn-light btn-block display-5&quot; href=&quot;https://github.com/workpebojot/Vacuum&quot;&gt;
+            Visit
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;flex-gh-button-hide&quot; class=&quot;p-1&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/Vacuum/subscription&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Watch workpebojot/Vacuum on GitHub&quot;&gt;
+            Watch
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;flex-gh-button-hide&quot; class=&quot;p-1&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/Vacuum/fork&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Fork workpebojot/Vacuum on GitHub&quot;&gt;
+            Fork
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;flex-gh-button-show&quot; class=&quot;p-1&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/Vacuum&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star workpebojot/Vacuum on GitHub&quot;&gt;
+            Star
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;
+            Follow
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;the-vacuum-project&quot;&gt;The Vacuum Project&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://travis-ci.com/workpebojot/Vacuum&quot;&gt;&lt;img src=&quot;https://travis-ci.com/workpebojot/Vacuum.svg?branch=master&quot; alt=&quot;Build Status&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://standardjs.com&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/code_style-standard-brightgreen.svg&quot; alt=&quot;JavaScript Style Guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The proposed &lt;strong&gt;Vacuum Cleaner&lt;/strong&gt; project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.&lt;/p&gt;
+
+&lt;p&gt;The pandemic was widely disruptive to the economy, with most sectors and workforces adversely affected. The COVID-19 pandemic has had far-reaching economic consequences beyond the spread of the disease itself and efforts to quarantine it. As the SARS-CoV-2 virus has spread around the globe, concerns have shifted from supply-side manufacturing issues to decreased business in the services sector. The pandemic caused the largest global recession in history, with more than a third of the global population at the time being placed on lockdown.&lt;/p&gt;
+
+&lt;h2 id=&quot;motivation-origination&quot;&gt;Motivation (Origination)&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;The &lt;strong&gt;Vacuum Cleaner&lt;/strong&gt; project is searching for a way to solve the economic crisis by supplying everyone with the opportunity to provide jobs and services. The Vacuum Cleaner for Android Platform can build employment and services and encourage close cooperation.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To foster nationalism among the everyone as being responsible for its own resources&lt;/li&gt;
+  &lt;li&gt;Support the unemployed people to reduce the transportation cost of seeking a career&lt;/li&gt;
+  &lt;li&gt;Include the correct searched job&lt;/li&gt;
+  &lt;li&gt;Organize and combine the different workers and jobless people in terms of geographical position&lt;/li&gt;
+  &lt;li&gt;Support the health of employees&lt;/li&gt;
+  &lt;li&gt;Aid for displaced employees and their families&lt;/li&gt;
+  &lt;li&gt;Promote cooperation between workers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956721-a3384080-4513-11eb-9fd2-fda8b70fbaf7.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956726-a5020400-4513-11eb-86f4-f131b6089dd6.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956727-a59a9a80-4513-11eb-9173-c29b3f598e7f.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956729-a6cbc780-4513-11eb-8e75-7314b038d302.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956730-a7645e00-4513-11eb-90bb-12c6e6416753.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956734-a8958b00-4513-11eb-9b4f-29a58e4d8184.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956737-a92e2180-4513-11eb-9dd9-768015b40494.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956740-a9c6b800-4513-11eb-965f-1a5ff378529f.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956741-aa5f4e80-4513-11eb-8b32-dcca9a024c35.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956743-ab907b80-4513-11eb-9211-14bd18017e1f.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956745-ac291200-4513-11eb-9e3b-358a692ac412.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956747-acc1a880-4513-11eb-93b8-90bca63d4b7a.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956752-adf2d580-4513-11eb-9d9a-132bfe542b59.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956753-ae8b6c00-4513-11eb-9482-4fb83e1959ef.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956755-af240280-4513-11eb-8c2b-fef19e0fb330.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956758-afbc9900-4513-11eb-9cd6-76c61c92581b.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956760-b0edc600-4513-11eb-96ce-09741b4511f5.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956763-b1865c80-4513-11eb-9914-8f56076171db.png&quot; /&gt;
+    &lt;img width=&quot;110&quot; height=&quot;200&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102956765-b21ef300-4513-11eb-8f2f-0ad0e43e7103.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;technology-and-framework-used&quot;&gt;Technology and Framework used&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;React Native Framework&lt;/li&gt;
+  &lt;li&gt;Java, JavaScript, Objective-C and GitHub CLI&lt;/li&gt;
+  &lt;li&gt;NPM, NPM Scripts, Nativebase, Android Native Library&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;code-example&quot;&gt;Code Example&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;In &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;src/abstract files&lt;/code&gt;, you can add your any dependencies there needed by your application. In short, we can illustrate it in simple graph:&lt;/p&gt;
+
+&lt;p&gt;&lt;img width=&quot;400&quot; height=&quot;300&quot; src=&quot;https://user-images.githubusercontent.com/38276345/102958422-c4029500-4517-11eb-81e3-cbb9b0f668c4.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And we can then express them in code:&lt;/p&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Dependencies&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Dependency&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Components&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;onSubmit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Success!&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Abstract&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Dependency&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./helper/method/dependency&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Or you can also write it like this to avoid bugs:&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Dependency&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./helper/method/dependecy&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Dependency&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Learn more at &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export&quot;&gt;MDN Mozilla Export Guideline&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Component&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Abstract&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;./src/abstract&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Dependecies&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Components&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;Abstract&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;onSubmit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Output &quot;Success!&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;git clone https://github.com/workpebojot/Vacuum.git&lt;/li&gt;
+  &lt;li&gt;cd Vacuum&lt;/li&gt;
+  &lt;li&gt;git init&lt;/li&gt;
+  &lt;li&gt;npm install&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;how-to-use&quot;&gt;How to use&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;In order to use this app, you have two options, you can use either use AVD or ADB support. To setup AVD, you can head to AVD Manual Guide at Android Developer Website: &lt;a href=&quot;https://developer.android.com/studio/run/managing-avds.html&quot;&gt;Create New AVD&lt;/a&gt;. To setup ADB, plug in your devices and run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;react-native run-android&lt;/code&gt;. However, since this app is still new, I’m not still sure if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;react-native run-ios&lt;/code&gt; will run correctly. But it will sure it can be configured for right patching.&lt;/p&gt;
+
+&lt;h2 id=&quot;contribute&quot;&gt;Contribute&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;I would like to invite everyone interested to expand on this simple project. If you are interested, kindly hit &lt;a href=&quot;https://github.com/workpebojot/Vacuum/blob/master/CONTRIBUTING.md&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;https://opensource.org/licenses/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-GPL%20v3-yellow.svg&quot; alt=&quot;GPLv3 License&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</summary></entry><entry><title type="html">Hackathon Event: AMA Computer University</title><link href="/2018/09/10/event/" rel="alternate" type="text/html" title="Hackathon Event: AMA Computer University" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>/2018/09/10/event</id><content type="html" xml:base="/2018/09/10/event/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/109907542-75266800-7cdd-11eb-88e7-fcaf71fef0cc.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;10 SEPTEMBER 2018 4AM UTC+8&lt;/b&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: left&quot;&gt;
+    &lt;h1&gt;AMA Computer University Hackathon Event&lt;/h1&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;small&gt;University · College · Technology&lt;/small&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;div style=&quot;text-align: left&quot;&gt;
+    &lt;h3&gt;Details&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: justify&quot;&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/group.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        256 people responsed
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/flag.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Event by AMA Computer University
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/web.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Website: N/A
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/ticket.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Ticket: N/A
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/information.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Private Event
+    &lt;/p&gt;
+    &lt;p&gt;
+    This was one of the most important events at AMA Computer College. It includes a number of activities ranging from computing to performing. One of my deans was there, and it was a fantastic experience.
+    &lt;/p&gt;
+&lt;/div&gt;</content><author><name>Pebojot</name></author><summary type="html"></summary></entry><entry><title type="html">Tree Planting: About Environmental Conservation</title><link href="/2018/05/31/event/" rel="alternate" type="text/html" title="Tree Planting: About Environmental Conservation" /><published>2018-05-31T00:00:00+08:00</published><updated>2018-05-31T00:00:00+08:00</updated><id>/2018/05/31/event</id><content type="html" xml:base="/2018/05/31/event/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/110062955-365be500-7da5-11eb-98f9-989cabe55b25.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;31 MAY 2018 8AM UTC+8&lt;/b&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: left&quot;&gt;
+    &lt;h1&gt;Tree Planting in Dingalan Aurora&lt;/h1&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;small&gt;High School Event · Tree Planting&lt;/small&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;div style=&quot;text-align: left&quot;&gt;
+    &lt;h3&gt;Details&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: justify&quot;&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/group.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        256 people responsed
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/flag.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Event by DENR
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/web.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Website: N/A
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/ticket.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Ticket: N/A
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/information.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Private Event
+    &lt;/p&gt;
+    &lt;p&gt;
+    This was the result of our tree-planting event. There was also a lecture where we learned about the value of environmental conservation in detail, followed by a fun activity. Here, with some of my former classmates, we planted trees at the top of our community.
+    &lt;/p&gt;
+&lt;/div&gt;</content><author><name>Pebojot</name></author><summary type="html">31 MAY 2018 8AM UTC+8 Tree Planting in Dingalan Aurora High School Event · Tree Planting Details 256 people responsed Event by DENR Website: N/A Ticket: N/A Private Event This was the result of our tree-planting event. There was also a lecture where we learned about the value of environmental conservation in detail, followed by a fun activity. Here, with some of my former classmates, we planted trees at the top of our community.</summary></entry><entry><title type="html">Theatre: Acting Session for El Filibusterismo in Grade 10</title><link href="/2016/03/12/event/" rel="alternate" type="text/html" title="Theatre: Acting Session for El Filibusterismo in Grade 10" /><published>2016-03-12T00:00:00+08:00</published><updated>2016-03-12T00:00:00+08:00</updated><id>/2016/03/12/event</id><content type="html" xml:base="/2016/03/12/event/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/109794170-8d9c7100-7c50-11eb-95c5-247de9f8c4d7.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;12 MARCH 2016 8AM UTC+8&lt;/b&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: left&quot;&gt;
+    &lt;h1&gt;Acting Session for El Filibusterismo in Grade 10&lt;/h1&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;small&gt;High School Event · Theatre&lt;/small&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;div style=&quot;text-align: left&quot;&gt;
+    &lt;h3&gt;Details&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: justify&quot;&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/group.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        23 people responsed
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/flag.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Event by Maria Yelle Creman
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/web.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Website: N/A
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/ticket.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Ticket: N/A
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/information.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Private Event
+    &lt;/p&gt;
+    &lt;p&gt;
+    What I recall is a conversation about multiple acting situations for our El Filibusterismo. We also go to beaches to take videos since it was a long activity. It was great fun, and I'll never forget it. I was in Surigao Del Sur at the time, and it was great to meet new people.
+    &lt;/p&gt;
+&lt;/div&gt;</content><author><name>Pebojot</name></author><summary type="html"></summary></entry></feed>

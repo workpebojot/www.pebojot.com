@@ -1,0 +1,15 @@
+collections:
+  authors:
+    output: true
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll_github_sample
+  - jekyll-twitter-plugin
+
+environment: production
+
+sass:
+   sass_dir: assets/css
