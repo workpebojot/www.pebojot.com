@@ -7,7 +7,9 @@
   <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
   <title>The Vacuum Project</title>
   <link rel="stylesheet" href="/assets/css/styles.css">
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:3000/feed.xml" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" />
   <!-- facebook -->
   <meta property="og:url" content="https://www.pebojot.com/2020/10/28/project/" />
   <meta property="og:type" content="website" />
@@ -26,6 +28,9 @@
 </head>
 
 <body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0"
+    nonce="dpT3lzjw"></script>
   <div class="container p-2">
     <nav class="navbar navbar-expand-lg navbar-light p-2">
       <a class="navbar-brand navbar__desktop" href="/">
@@ -37,17 +42,16 @@
         </span>
       </a>
       <a href="/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets//images//2x2.jpg" width="32" height="32" class="img-fluid rounded-circle"
-          alt="Edison Pebojot">
+        <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
       </a>
       <a href="/blog/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets//images//blog.png" class="img-fluid" alt="Blog">
+        <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
       </a>
       <a href="/event/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets//images//event.png" class="img-fluid" alt="Event">
+        <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
       </a>
       <a href="/project/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets//images//project.png" class="img-fluid" alt="Project">
+        <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
       </a>
       <span class="navbar__mobile">
         <a href="/about/" role="button" class="btn btn-secondary" style="margin: 2px;">
@@ -100,42 +104,52 @@
         </div>
       </div>
     </nav>
-    <div class="tab-content p-2">
+    <div class="tab-content mt-2">
       <div class="tab-pane container active" id="//2020/10/28/project/">
         <div class="container-fluid">
-          <div class="container-sm p-2">
+          <div class="container-sm">
             <p><img src="/assets/images/2020.10.28.project.cover.webp" class="rounded img-fluid" /></p>
-
-<div class="d-flex justify-content-end">
-    <div class="p-1">
-        <a type="button" class="btn btn-light btn-block display-5" href="https://github.com/workpebojot/Vacuum">
-            Visit
-        </a>
-    </div>
-    <div id="flex-gh-button-hide" class="p-1">
-        <a class="github-button" href="https://github.com/workpebojot/Vacuum/subscription" data-size="large" data-show-count="true" aria-label="Watch workpebojot/Vacuum on GitHub">
-            Watch
-        </a>
-    </div>
-    <div id="flex-gh-button-hide" class="p-1">
-        <a class="github-button" href="https://github.com/workpebojot/Vacuum/fork" data-size="large" data-show-count="true" aria-label="Fork workpebojot/Vacuum on GitHub">
-            Fork
-        </a>
-    </div>
-    <div id="flex-gh-button-show" class="p-1">
-        <a class="github-button" href="https://github.com/workpebojot/Vacuum" data-size="large" data-show-count="true" aria-label="Star workpebojot/Vacuum on GitHub">
-            Star
-        </a>
-    </div>
-    <div class="p-1">
-        <a class="github-button" href="https://github.com/workpebojot" data-size="large" data-show-count="true" aria-label="Follow @workpebojot on GitHub">
-            Follow
-        </a>
-    </div>
-</div>
 
 <h1 id="the-vacuum-project">The Vacuum Project</h1>
 <p><a href="https://travis-ci.com/workpebojot/Vacuum"><img src="https://travis-ci.com/workpebojot/Vacuum.svg?branch=master" alt="Build Status" /></a> <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Style Guide" /></a></p>
+
+<hr />
+
+<div class="desktop__size">
+  <div class="d-flex justify-content-start">
+    <div class="p-1">
+      <a class="github-button" href="https://github.com/workpebojot/Vacuum/subscription" data-size="large" data-show-count="true" aria-label="Watch workpebojot/Vacuum on GitHub">
+        Watch
+      </a>
+    </div>
+    <div class="p-1">
+      <a class="github-button" href="https://github.com/workpebojot/Vacuum/fork" data-size="large" data-show-count="true" aria-label="Fork workpebojot/Vacuum on GitHub">
+        Fork
+      </a>
+    </div>
+    <div class="p-1">
+      <a class="github-button" href="https://github.com/workpebojot/Vacuum" data-size="large" data-show-count="true" aria-label="Star workpebojot/Vacuum on GitHub">
+        Star
+      </a>
+    </div>
+    <div class="p-1">
+        <a class="github-button" href="https://github.com/workpebojot" data-size="large" data-show-count="true" aria-label="Follow @workpebojot on GitHub">Follow</a>
+    </div>
+  </div>
+</div>
+
+<div class="mobile__size">
+  <div class="d-flex justify-content-start">
+    <div class="p-1">
+      <a class="github-button" href="https://github.com/workpebojot/Vacuum" data-size="large" data-show-count="true" aria-label="Star workpebojot/Vacuum on GitHub">
+        Star
+      </a>
+    </div>
+    <div class="p-1">
+        <a class="github-button" href="https://github.com/workpebojot" data-size="large" data-show-count="true" aria-label="Follow @workpebojot on GitHub">Follow</a>
+    </div>
+  </div>
+</div>
 
 <p>The proposed <strong>Vacuum Cleaner</strong> project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.</p>
 
@@ -244,6 +258,40 @@
 <h2 id="license">License</h2>
 <hr />
 <p><a href="https://opensource.org/licenses/"><img src="https://img.shields.io/badge/License-GPL%20v3-yellow.svg" alt="GPLv3 License" /></a></p>
+
+<hr />
+
+<div class="desktop__size ">
+  <div class="d-flex align-items-center">
+    <div class="align-self-center">
+      <div class="fb-share-button align-self-center" style="vertical-align: super;" data-href="https://www.pebojot.com/2020/10/28/project/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+    </div>
+    &nbsp;
+    <div class="align-self-center">
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2020/10/28/project/" data-layout="button" data-size="small">
+                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
+            </div>
+        </div>
+    </div>
+</div>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
 
           </div>
         </div>
