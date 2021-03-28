@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-03-27T12:14:50+08:00</updated><id>/feed.xml</id><entry><title type="html">Muon: Software Package Directory</title><link href="/2021/03/20/project/" rel="alternate" type="text/html" title="Muon: Software Package Directory" /><published>2021-03-20T00:00:00+08:00</published><updated>2021-03-20T00:00:00+08:00</updated><id>/2021/03/20/project</id><content type="html" xml:base="/2021/03/20/project/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/112561133-8f042800-8e0f-11eb-9a51-311b6b9c878a.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2021-03-28T14:59:25+08:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">Muon: Software Package Directory</title><link href="http://localhost:3000/2021/03/20/project/" rel="alternate" type="text/html" title="Muon: Software Package Directory" /><published>2021-03-20T00:00:00+08:00</published><updated>2021-03-20T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/20/project</id><content type="html" xml:base="http://localhost:3000/2021/03/20/project/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.03.20.project.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;d-flex justify-content-end&quot;&gt;
     &lt;div class=&quot;p-1&quot;&gt;
@@ -63,7 +63,7 @@
 
 &lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
 
-&lt;p&gt;MIT © &lt;a href=&quot;https://github.com/workpebojot/Muon&quot;&gt;Muon&lt;/a&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.</summary></entry><entry><title type="html">Software Ethics to me (or to you)</title><link href="/2021/03/03/blog/" rel="alternate" type="text/html" title="Software Ethics to me (or to you)" /><published>2021-03-03T00:00:00+08:00</published><updated>2021-03-03T00:00:00+08:00</updated><id>/2021/03/03/blog</id><content type="html" xml:base="/2021/03/03/blog/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/109771145-70a77400-7c37-11eb-97ff-c989647ecdd1.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;MIT © &lt;a href=&quot;https://github.com/workpebojot/Muon&quot;&gt;Muon&lt;/a&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.</summary></entry><entry><title type="html">Software Ethics to me (or to you)</title><link href="http://localhost:3000/2021/03/03/blog/" rel="alternate" type="text/html" title="Software Ethics to me (or to you)" /><published>2021-03-03T00:00:00+08:00</published><updated>2021-03-03T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/03/blog</id><content type="html" xml:base="http://localhost:3000/2021/03/03/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.03.03.blog.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center&quot;&gt;
     &lt;h1&gt;Software Ethics to me (or to you)&lt;/h1&gt;
@@ -121,7 +121,7 @@ Ethics is a vital feature in most technical fields, but it is seldom addressed i
 &lt;p&gt;
 There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. Nonetheless, that is something we can take into consideration when developing structures in order to create a sustainable environment for everyone.
 &lt;/p&gt;
-&lt;/div&gt;</content><author><name>Pebojot</name></author><summary type="html">Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.</summary></entry><entry><title type="html">An Android Platform for Filipino Employment (Beta Program)</title><link href="/2020/12/28/blog/" rel="alternate" type="text/html" title="An Android Platform for Filipino Employment (Beta Program)" /><published>2020-12-28T00:00:00+08:00</published><updated>2020-12-28T00:00:00+08:00</updated><id>/2020/12/28/blog</id><content type="html" xml:base="/2020/12/28/blog/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/110631793-dff60880-81e1-11eb-8427-fc3958f954c0.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Pebojot</name></author><summary type="html">Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.</summary></entry><entry><title type="html">An Android Platform for Filipino Employment (Beta Program)</title><link href="http://localhost:3000/2020/12/28/blog/" rel="alternate" type="text/html" title="An Android Platform for Filipino Employment (Beta Program)" /><published>2020-12-28T00:00:00+08:00</published><updated>2020-12-28T00:00:00+08:00</updated><id>http://localhost:3000/2020/12/28/blog</id><content type="html" xml:base="http://localhost:3000/2020/12/28/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2020.12.28.blog.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center&quot;&gt;
     &lt;h1&gt;An Android Platform for Filipino Employment (Beta Program)&lt;/h1&gt;
@@ -227,7 +227,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.</summary></entry><entry><title type="html">The Vacuum Project</title><link href="/2020/10/28/project/" rel="alternate" type="text/html" title="The Vacuum Project" /><published>2020-10-28T00:00:00+08:00</published><updated>2020-10-28T00:00:00+08:00</updated><id>/2020/10/28/project</id><content type="html" xml:base="/2020/10/28/project/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/111940040-bfdf1700-8b08-11eb-9a18-4a7b935e8330.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.</summary></entry><entry><title type="html">The Vacuum Project</title><link href="http://localhost:3000/2020/10/28/project/" rel="alternate" type="text/html" title="The Vacuum Project" /><published>2020-10-28T00:00:00+08:00</published><updated>2020-10-28T00:00:00+08:00</updated><id>http://localhost:3000/2020/10/28/project</id><content type="html" xml:base="http://localhost:3000/2020/10/28/project/">&lt;p&gt;&lt;img src=&quot;/assets/images/2020.10.28.project.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;d-flex justify-content-end&quot;&gt;
     &lt;div class=&quot;p-1&quot;&gt;
@@ -366,7 +366,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 
 &lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;a href=&quot;https://opensource.org/licenses/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-GPL%20v3-yellow.svg&quot; alt=&quot;GPLv3 License&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</summary></entry><entry><title type="html">Hackathon Event: AMA Computer University</title><link href="/2018/09/10/event/" rel="alternate" type="text/html" title="Hackathon Event: AMA Computer University" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>/2018/09/10/event</id><content type="html" xml:base="/2018/09/10/event/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/109907542-75266800-7cdd-11eb-88e7-fcaf71fef0cc.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://opensource.org/licenses/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-GPL%20v3-yellow.svg&quot; alt=&quot;GPLv3 License&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</summary></entry><entry><title type="html">Hackathon Event: AMA Computer University</title><link href="http://localhost:3000/2018/09/10/event/" rel="alternate" type="text/html" title="Hackathon Event: AMA Computer University" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>http://localhost:3000/2018/09/10/event</id><content type="html" xml:base="http://localhost:3000/2018/09/10/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2018.09.10.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;10 SEPTEMBER 2018 4AM UTC+8&lt;/b&gt;&lt;/p&gt;
 &lt;div style=&quot;text-align: left&quot;&gt;
@@ -380,29 +380,29 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;/div&gt;
 &lt;div style=&quot;text-align: justify&quot;&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/group.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/group.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         256 people responsed
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/flag.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/flag.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         Event by AMA Computer University
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/web.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/web.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         Website: N/A
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/ticket.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/ticket.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         Ticket: N/A
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/information.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/information.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         Private Event
     &lt;/p&gt;
     &lt;p&gt;
     This was one of the most important events at AMA Computer College. It includes a number of activities ranging from computing to performing. One of my deans was there, and it was a fantastic experience.
     &lt;/p&gt;
-&lt;/div&gt;</content><author><name>Pebojot</name></author><summary type="html">10 SEPTEMBER 2018 4AM UTC+8 AMA Computer University Hackathon Event University · College · Technology Details 256 people responsed Event by AMA Computer University Website: N/A Ticket: N/A Private Event This was one of the most important events at AMA Computer College. It includes a number of activities ranging from computing to performing. One of my deans was there, and it was a fantastic experience.</summary></entry><entry><title type="html">Tree Planting: About Environmental Conservation</title><link href="/2018/05/31/event/" rel="alternate" type="text/html" title="Tree Planting: About Environmental Conservation" /><published>2018-05-31T00:00:00+08:00</published><updated>2018-05-31T00:00:00+08:00</updated><id>/2018/05/31/event</id><content type="html" xml:base="/2018/05/31/event/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/110062955-365be500-7da5-11eb-98f9-989cabe55b25.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Pebojot</name></author><summary type="html">10 SEPTEMBER 2018 4AM UTC+8 AMA Computer University Hackathon Event University · College · Technology Details 256 people responsed Event by AMA Computer University Website: N/A Ticket: N/A Private Event This was one of the most important events at AMA Computer College. It includes a number of activities ranging from computing to performing. One of my deans was there, and it was a fantastic experience.</summary></entry><entry><title type="html">Tree Planting: About Environmental Conservation</title><link href="http://localhost:3000/2018/05/31/event/" rel="alternate" type="text/html" title="Tree Planting: About Environmental Conservation" /><published>2018-05-31T00:00:00+08:00</published><updated>2018-05-31T00:00:00+08:00</updated><id>http://localhost:3000/2018/05/31/event</id><content type="html" xml:base="http://localhost:3000/2018/05/31/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2018.05.31.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;31 MAY 2018 8AM UTC+8&lt;/b&gt;&lt;/p&gt;
 &lt;div style=&quot;text-align: left&quot;&gt;
@@ -416,29 +416,29 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;/div&gt;
 &lt;div style=&quot;text-align: justify&quot;&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/group.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/group.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         256 people responsed
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/flag.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/flag.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         Event by DENR
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/web.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/web.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         Website: N/A
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/ticket.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/ticket.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         Ticket: N/A
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/information.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/information.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         Private Event
     &lt;/p&gt;
     &lt;p&gt;
     This was the result of our tree-planting event. There was also a lecture where we learned about the value of environmental conservation in detail, followed by a fun activity. Here, with some of my former classmates, we planted trees at the top of our community.
     &lt;/p&gt;
-&lt;/div&gt;</content><author><name>Pebojot</name></author><summary type="html">31 MAY 2018 8AM UTC+8 Tree Planting in Dingalan Aurora High School Event · Tree Planting Details 256 people responsed Event by DENR Website: N/A Ticket: N/A Private Event This was the result of our tree-planting event. There was also a lecture where we learned about the value of environmental conservation in detail, followed by a fun activity. Here, with some of my former classmates, we planted trees at the top of our community.</summary></entry><entry><title type="html">Theatre: Acting Session for El Filibusterismo in Grade 10</title><link href="/2016/03/12/event/" rel="alternate" type="text/html" title="Theatre: Acting Session for El Filibusterismo in Grade 10" /><published>2016-03-12T00:00:00+08:00</published><updated>2016-03-12T00:00:00+08:00</updated><id>/2016/03/12/event</id><content type="html" xml:base="/2016/03/12/event/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/109794170-8d9c7100-7c50-11eb-95c5-247de9f8c4d7.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Pebojot</name></author><summary type="html">31 MAY 2018 8AM UTC+8 Tree Planting in Dingalan Aurora High School Event · Tree Planting Details 256 people responsed Event by DENR Website: N/A Ticket: N/A Private Event This was the result of our tree-planting event. There was also a lecture where we learned about the value of environmental conservation in detail, followed by a fun activity. Here, with some of my former classmates, we planted trees at the top of our community.</summary></entry><entry><title type="html">Theatre: Acting Session for El Filibusterismo in Grade 10</title><link href="http://localhost:3000/2016/03/12/event/" rel="alternate" type="text/html" title="Theatre: Acting Session for El Filibusterismo in Grade 10" /><published>2016-03-12T00:00:00+08:00</published><updated>2016-03-12T00:00:00+08:00</updated><id>http://localhost:3000/2016/03/12/event</id><content type="html" xml:base="http://localhost:3000/2016/03/12/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2016.03.12.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;12 MARCH 2016 8AM UTC+8&lt;/b&gt;&lt;/p&gt;
 &lt;div style=&quot;text-align: left&quot;&gt;
@@ -452,23 +452,23 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;/div&gt;
 &lt;div style=&quot;text-align: justify&quot;&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/group.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/group.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         23 people responsed
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/flag.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/flag.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         Event by Maria Yelle Creman
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/web.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/web.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         Website: N/A
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/ticket.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/ticket.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         Ticket: N/A
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;img src=&quot;/assets/images/information.png&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        &lt;img src=&quot;/assets/images/information.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
         Private Event
     &lt;/p&gt;
     &lt;p&gt;
