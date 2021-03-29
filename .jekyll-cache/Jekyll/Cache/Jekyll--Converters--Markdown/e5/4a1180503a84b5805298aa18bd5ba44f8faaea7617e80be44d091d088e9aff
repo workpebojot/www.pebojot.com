@@ -1,0 +1,151 @@
+I"�'<p><img src="/assets/images/2021-3-29-blog-cover.webp" class="rounded img-fluid" /></p>
+
+<div style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
+    <h1>Basic steps of Software Requirement Gathering</h1>
+</div>
+<hr />
+
+<div class="desktop__size ">
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <small class="text-muted">
+          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+        </small>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        By Edison Pebojot
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        03 March 2021
+      </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+      </div>
+    </div>
+  </div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center">
+        <div class="align-self-center">
+            <small class="text-muted">
+                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+            </small>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            By Edison Pebojot
+        </div>
+        &nbsp;
+        <div class="align-self-center flex-grow-1">
+            03/03/2021
+        </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        </div>
+    </div>
+</div>
+<p><br /></p>
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+    The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager. It is very important that you put it on. But it is also important that you work with them so that you understand what they are really doing. If you understand what they’re doing, and what your whole team is doing, it’s just very easy to work with, and it will speed things up.
+</p>
+<p>
+    This is very important especially to senior developers. Many expect that senior developers should attend meetings with stakeholders to determine what stakeholders need, and to determine what product is needed to meet this need. Back then, there was a whiteboard on which stakeholder needs were posted, they were like sticky notes and there were tasks set up for a developer to do, done by just one person. But in the 21st Century, it is no longer done by just one person.
+</p>
+<p>
+  This is why there are workshops that teams do in the world of software industry. In the workshop, there are trainings, and prototypes that are shown to the stakeholders, the stakeholders, these are the people who may be interested in your product. If your prototype is about an XBOX gaming software, your stakeholder may be XBOX gamers, your stakeholder may also be a business team if the prototype is related to business management. Your supplier, and most importantly, your end-user, can too. This is done so that the team can get valuable information from stakeholders.
+</p>
+</div>
+
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  The order of your workshops depends on who your stakeholders are. Typically here is how you look at your problem, and how you can solve it instead of doing that solution and making a prototype right away. You might say it’s anti-agile, but you know you need to first see the problem and understand it thoroughly so you can avoid making a wrong solution. In workshops, your stakeholder can tell you a problem which will allow you to figure out what your challenges are, and determine what steps you and your team will take. This step is a process, in software development, it is called the design process. But here in this article, we will use a double diamond model.
+</p>
+<p>
+  <img src="https://user-images.githubusercontent.com/38276345/112810401-8f215380-90ad-11eb-8f10-1f746f5070fb.png" class="img-fluid" />
+  <figcaption>Figure 1. Double Diamond Model (<a href="https://en.wikipedia.org/wiki/File:Double_diamond.png" target="_blank">source</a>)</figcaption>
+</p>
+<p>
+  In the double diamond model, you will find a lot of problems, and you will find the most necessary problems. Then, you will find so many solutions, and you will find the most necessary solution. The stakeholder may understand what their problem is, but not the technology, which will help them for it to be fixed. Here the workshops using the double diamond model help because not only do we get the problem and solution from them, but they also know, and we, what technology should be used.
+</p>
+</div>
+
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  The other is the User Experience. The User Experience team puts users through a requirement gathering process. A laboratory -like place where User Experience researchers gather information on the subject. The User Experience practitioner is your best ally in the requirement gather process. Many successful companies have a User Experience team. What these successful companies do is, they combine the Development and User Experience teams into a single process so they work side by side to get user information. The UX team helps the development team, or the development team helps the UX team, this happens to remove the communication barrier that was common in the early days of software development.
+</p>
+</div>
+
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  This type of requirement gathering is qualitative research, that is, they take abstract information, usually in these abstract information are user emotions. But apart from qualitative research, there is also what is called quantitative research. Quantitative research is only effective if the user is already using your product, and this effectiveness will help the stakeholder clearly understand the effectiveness of your product.
+</p>
+</div>
+
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  If you have a real user on your product, it is very easy to get quantitative data using the analytics systems you have. And with this qualitative data, you can use continuous delivery so you can release a new feature early.
+</p>
+</div>
+<div style="text-align: left;font-family:sans-serif;">
+<h3>Summary</h3>
+</div>
+<hr />
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+Ethics is a vital feature in most technical fields, but it is seldom addressed in software development. The following are four ethical issues that you may encounter: Privacy, which is being legislated as a consequence of the profession's ethical failings; cognitive workload, where we can add harmful side effects on our userbase as we rely exclusively on other goals; energy conservation, which can seem hypothetical but has a clear real-world effect; and confidence, both within our profession and for those with whom we operate.
+</p>
+<p>
+There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. Nonetheless, that is something we can take into consideration when developing structures in order to create a sustainable environment for everyone.
+</p>
+</div>
+
+<hr />
+
+<div class="desktop__size ">
+  <div class="d-flex align-items-center">
+    <div class="align-self-center">
+      <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/03/blog/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+    </div>
+    &nbsp;
+    <div class="align-self-center">
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/03/blog/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        </div>
+    </div>
+</div>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
+:ET

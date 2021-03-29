@@ -1,28 +1,15 @@
----
-layout: post
-title: Software Ethics to me (or to you)
-author: Pebojot
-date: 2021-3-3
-excerpt: Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.
-short_description: Software engineering as a discipline has a tentative perception of engineering ethics. Ethics
-image_url: /assets/images/2021.03.03.blog.cover.webp
-latest: false
-blog_url: 2021/03/03/blog/
-type: blog
----
-<img src="/assets/images/2021.03.03.blog.cover.webp" class="rounded img-fluid">
+I"�(<p><img src="/assets/images/2021.03.03.blog.cover.webp" class="rounded img-fluid" /></p>
 
 <div style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
     <h1>Software Ethics to me (or to you)</h1>
 </div>
----
+<hr />
 
-  <div class="desktop__size ">
+<div class="desktop__size ">
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle"
-            alt="Edison Pebojot">
+          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -37,25 +24,21 @@ type: blog
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large"
-          data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot"
-          data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large"
-          aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
       </div>
     </div>
   </div>
-
 
 <div class="mobile__size">
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle"  alt="Edison Pebojot">
+                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -70,7 +53,7 @@ type: blog
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -78,13 +61,13 @@ type: blog
         </div>
     </div>
 </div>
-<br />
+<p><br /></p>
 <div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
 <p>
-Software engineering as a discipline has a tentative perception of engineering ethics. Rules of ethics are incorporated into the professional associations that serve professionals of most engineering fields. The advantages and pitfalls of these professional associations can be argued, but the general consensus tends to be that they add little meaning and that credentials carry little weight among employers. In certain nations, the word <i>Engineer</i> is a reserved term that can only be used for eligible persons. This is to preserve the engineer's integrity as a trustworthy professional.
+    The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager. It is very important that you put it on. But it is also important that you work with them so that you understand what they are really doing. If you understand what they’re doing, and what your whole team is doing, it’s just very easy to work with, and it will speed things up.
 </p>
 <p>
-A professional should be someone you can trust, and this is done by including it in the professional's preparation, one example is the <b>Hippocratic oath</b> for medical practitioners or by regulatory or industry-led registration and certifications. Certification is generally acknowledged in the software development industry. This is a risky situation because we are not self-regulating, because there are no competent associations (which have their own ethical codes. One characteristic that ethics have in common is that people who work in these fields seek to do no harm.
+    This is very important especially to senior developers. Many expect that senior developers should attend meetings with stakeholders to determine what stakeholders need, and to determine what product is needed to meet this need. Back then, there was a whiteboard on which stakeholder needs were posted, they were like sticky notes and there were tasks set up for a developer to do, done by just one person. But in the 21st Century, it is no longer done by just one person.
 </p>
 <p>
 There have been several attempts to remedy these vulnerabilities, the most popular of which are the <b>Geek Feminism</b> and <b>Diversity</b> campaigns, but these only address a few facets of ethical behavior. The <b>Code Craftsmanship</b> campaign focuses on programming ethics, but it does not discuss the full extent of the issue. Ethics is an integral aspect of society, and it functions well where it is practiced by consensus rather than law. So, what is a software developer's ethical code? It's the same ethical code we all follow as people in society: <i>We should do no harm, or at the very least mitigate harm.</i>
@@ -120,7 +103,7 @@ Via open source, tech developers have a distinct way of communicating. Open sour
 <div style="text-align: left;font-family:sans-serif;">
 <h3>Summary</h3>
 </div>
----
+<hr />
 <div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
 <p>
 Ethics is a vital feature in most technical fields, but it is seldom addressed in software development. The following are four ethical issues that you may encounter: Privacy, which is being legislated as a consequence of the profession's ethical failings; cognitive workload, where we can add harmful side effects on our userbase as we rely exclusively on other goals; energy conservation, which can seem hypothetical but has a clear real-world effect; and confidence, both within our profession and for those with whom we operate.
@@ -130,7 +113,7 @@ There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. N
 </p>
 </div>
 
----
+<hr />
 
 <div class="desktop__size ">
   <div class="d-flex align-items-center">
@@ -139,9 +122,8 @@ There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. N
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large"
-        data-show-screen-name="false" data-show-count="false">Tweet</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
 </div>
@@ -149,7 +131,7 @@ There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. N
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -157,8 +139,9 @@ There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. N
         </div>
     </div>
 </div>
+<p><br />
 <br />
 <br />
 <br />
-<br />
-<br />
+<br /></p>
+:ET
