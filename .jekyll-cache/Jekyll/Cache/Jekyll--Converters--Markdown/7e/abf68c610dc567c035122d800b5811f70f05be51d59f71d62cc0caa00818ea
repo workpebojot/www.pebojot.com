@@ -1,4 +1,4 @@
-I"©2<p><img src="/assets/images/2020.10.28.project.cover.webp" class="rounded img-fluid" /></p>
+I"“2<p><img src="/assets/images/2020.10.28.project.cover.webp" class="rounded img-fluid" /></p>
 
 <h1 id="the-vacuum-project">The Vacuum Project</h1>
 <p><a href="https://travis-ci.com/workpebojot/Vacuum"><img src="https://travis-ci.com/workpebojot/Vacuum.svg?branch=master" alt="Build Status" /></a> <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Style Guide" /></a></p>
@@ -154,7 +154,7 @@
 <div class="desktop__size ">
   <div class="d-flex align-items-center">
     <div class="align-self-center">
-      <div class="fb-share-button align-self-center" style="vertical-align: super;" data-href="https://www.pebojot.com/2020/10/28/project/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+      <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2020/10/28/project/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
     </div>
     &nbsp;
     <div class="align-self-center">
@@ -171,9 +171,7 @@
         </div>
         &nbsp;
         <div class="align-self-center">
-            <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2020/10/28/project/" data-layout="button" data-size="small">
-                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
-            </div>
+            <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2020/10/28/project/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
         </div>
     </div>
 </div>

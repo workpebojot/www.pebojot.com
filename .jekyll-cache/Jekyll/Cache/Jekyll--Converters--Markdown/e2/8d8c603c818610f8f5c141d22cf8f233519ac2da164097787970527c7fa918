@@ -1,6 +1,6 @@
-I"/(<p><img src="/assets/images/2021.03.03.blog.cover.webp" class="rounded img-fluid" /></p>
+I"a)<p><img src="/assets/images/2021.03.03.blog.cover.webp" class="rounded img-fluid" /></p>
 
-<div style="text-align: center">
+<div style="text-align: center;font-family:serif;word-spacing: 0px;">
     <h1>Software Ethics to me (or to you)</h1>
 </div>
 <hr />
@@ -62,7 +62,7 @@
     </div>
 </div>
 <p><br /></p>
-<div style="text-align: justify">
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;background-color:#444444;color:#bebebe;">
 <p>
 Software engineering as a discipline has a tentative perception of engineering ethics. Rules of ethics are incorporated into the professional associations that serve professionals of most engineering fields. The advantages and pitfalls of these professional associations can be argued, but the general consensus tends to be that they add little meaning and that credentials carry little weight among employers. In certain nations, the word <i>Engineer</i> is a reserved term that can only be used for eligible persons. This is to preserve the engineer's integrity as a trustworthy professional.
 </p>
@@ -74,7 +74,7 @@ There have been several attempts to remedy these vulnerabilities, the most popul
 </p>
 </div>
 
-<div style="text-align: justify">
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
 <p>
 Computers, especially mobile phones, have developed into personal devices that store data about users that they do not want to share with others. As a professional, you are supposed to protect your users' privacy, and this knowledge may also be helpful to an organization's decisions on how to create a better product or marketing strategy. Just because you can gather data doesn't mean you should. The <b>Big Data</b> craze is based around the concept of collecting as much data as possible and evaluating the findings to see if some patterns appear. However, collecting more oriented data is easier to interpret. The EU's General Data Privacy Regulation have prompted improvements in corporate practices. 
 </p>
@@ -83,19 +83,19 @@ You must also think like an attacker while collecting data. Giving users a rando
 </p>
 </div>
 
-<div style="text-align: justify">
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
 <p>
 Developers must avoid functionality that have detrimental implications for the people who use the softwares we make because it may increase their cognitive workload. There are some categories of softwares on which developers may make an ethical decision. A facial recognition software, for example, may assist a social media user in <i>easily</i> marking images, but if used by a totalitarian regime, it may be used to persecute people. There is no correct answer.
 </p>
 </div>
 
-<div style="text-align: justify">
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
 <p>
 Energy usage is a visible effect IT has on the environment, but it sounds abstract from a developer's viewpoint, particularly as the world transitions to the cloud. When businesses run their own data centres, they could see how much electricity they were consuming. This influence is impossible to see in the cloud.
 </p>
 </div>
 
-<div style="text-align: justify">
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
 <p>
 Via open source, tech developers have a distinct way of communicating. Open source work is performed on a voluntary basis and is subject to licensing. Playing politics or intimidation are also unethical in any occupation, but they are far too prevalent. It is appropriate to use an open source feature as a library within a commercial product, but all improvements made to the library must be restored to the original project so that everyone will benefit.
 </p>
@@ -104,7 +104,7 @@ Via open source, tech developers have a distinct way of communicating. Open sour
 <h3>Summary</h3>
 </div>
 <hr />
-<div style="text-align: justify">
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
 <p>
 Ethics is a vital feature in most technical fields, but it is seldom addressed in software development. The following are four ethical issues that you may encounter: Privacy, which is being legislated as a consequence of the profession's ethical failings; cognitive workload, where we can add harmful side effects on our userbase as we rely exclusively on other goals; energy conservation, which can seem hypothetical but has a clear real-world effect; and confidence, both within our profession and for those with whom we operate.
 </p>
@@ -118,7 +118,7 @@ There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. N
 <div class="desktop__size ">
   <div class="d-flex align-items-center">
     <div class="align-self-center">
-      <div class="fb-share-button align-self-center" style="vertical-align: super;" data-href="https://www.pebojot.com/2021/03/03/blog/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+      <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/03/blog/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
     </div>
     &nbsp;
     <div class="align-self-center">
@@ -135,9 +135,7 @@ There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. N
         </div>
         &nbsp;
         <div class="align-self-center">
-            <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/03/blog/" data-layout="button" data-size="small">
-                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
-            </div>
+            <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/03/blog/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
         </div>
     </div>
 </div>

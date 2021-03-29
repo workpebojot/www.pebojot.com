@@ -1,117 +1,6 @@
-<!doctype html>
-<html>
+I"C(<p><img src="/assets/images/2021.03.03.blog.cover.webp" class="rounded img-fluid" /></p>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
-  <title>Software Ethics to me (or to you)</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:3000/feed.xml" />
-  <!-- facebook -->
-  <meta property="og:url" content="https://www.pebojot.com/2021/03/03/blog/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:title" content="Software Ethics to me (or to you)" />
-  <meta property="og:description" content="Software engineering as a discipline has a tentative perception of engineering ethics. Ethics" />
-  <meta property="og:image" content="/assets/images/2021.03.03.blog.cover.webp" />
-  <!-- twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@workpebojot" />
-  <meta name="twitter:creator" content="@workpebojot" />
-  <meta property="og:url" content="https://www.pebojot.com/2021/03/03/blog/" />
-  <meta property="og:title" content="Software Ethics to me (or to you)" />
-  <meta property="og:description" content="Software engineering as a discipline has a tentative perception of engineering ethics. Ethics" />
-  <meta property="og:image" content="" />
-</head>
-
-<body>
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous"
-    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=875318043308259&autoLogAppEvents=1"
-    nonce="kjfhgux3"></script>
-  <div class="container p-2">
-    <nav class="navbar navbar-expand-lg navbar-light p-2">
-      <a class="navbar-brand navbar__desktop" href="/">
-        <h4>
-          Edison Pebojot
-        </h4>
-        <span>
-          <h6 class="text-secondary">Software Developer</h6>
-        </span>
-      </a>
-      <a href="/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
-      </a>
-      <a href="/blog/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-      </a>
-      <a href="/event/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
-      </a>
-      <a href="/project/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-      </a>
-      <span class="navbar__mobile">
-        <a href="/about/" role="button" class="btn btn-secondary" style="margin: 2px;">
-          About
-        </a>
-      </span>
-      <div class="collapse navbar-collapse justify-content-end navbar__desktop">
-        <div class="nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
-          
-<a class="nav-link  border-0" data-toggle="tabs" href="/">
-    <h5>
-        <span class="home-hover">
-            Home
-        </span>
-    </h5>
-</a>
-
-<a class="nav-link  border-0" data-toggle="tabs" href="/blog/">
-    <h5>
-        <span class="home-hover">
-            Blog
-        </span>
-    </h5>
-</a>
-
-<a class="nav-link  border-0" data-toggle="tabs" href="/event/">
-    <h5>
-        <span class="home-hover">
-            Event
-        </span>
-    </h5>
-</a>
-
-<a class="nav-link  border-0" data-toggle="tabs" href="/project/">
-    <h5>
-        <span class="home-hover">
-            Project
-        </span>
-    </h5>
-</a>
-
-<a class="nav-link  border-0" data-toggle="tabs" href="/about/">
-    <h5>
-        <span class="home-hover">
-            About
-        </span>
-    </h5>
-</a>
-
-        </div>
-      </div>
-    </nav>
-    <div class="tab-content mt-2">
-      <div class="tab-pane container active" id="//2021/03/03/blog/">
-        <div class="container-fluid">
-          <div class="container-sm">
-            <p><img src="/assets/images/2021.03.03.blog.cover.webp" class="rounded img-fluid" /></p>
-
-<div style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
+<div style="text-align: center">
     <h1>Software Ethics to me (or to you)</h1>
 </div>
 <hr />
@@ -185,7 +74,7 @@ There have been several attempts to remedy these vulnerabilities, the most popul
 </p>
 </div>
 
-<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<div style="text-align: justify">
 <p>
 Computers, especially mobile phones, have developed into personal devices that store data about users that they do not want to share with others. As a professional, you are supposed to protect your users' privacy, and this knowledge may also be helpful to an organization's decisions on how to create a better product or marketing strategy. Just because you can gather data doesn't mean you should. The <b>Big Data</b> craze is based around the concept of collecting as much data as possible and evaluating the findings to see if some patterns appear. However, collecting more oriented data is easier to interpret. The EU's General Data Privacy Regulation have prompted improvements in corporate practices. 
 </p>
@@ -194,28 +83,28 @@ You must also think like an attacker while collecting data. Giving users a rando
 </p>
 </div>
 
-<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<div style="text-align: justify">
 <p>
 Developers must avoid functionality that have detrimental implications for the people who use the softwares we make because it may increase their cognitive workload. There are some categories of softwares on which developers may make an ethical decision. A facial recognition software, for example, may assist a social media user in <i>easily</i> marking images, but if used by a totalitarian regime, it may be used to persecute people. There is no correct answer.
 </p>
 </div>
 
-<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<div style="text-align: justify">
 <p>
 Energy usage is a visible effect IT has on the environment, but it sounds abstract from a developer's viewpoint, particularly as the world transitions to the cloud. When businesses run their own data centres, they could see how much electricity they were consuming. This influence is impossible to see in the cloud.
 </p>
 </div>
 
-<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<div style="text-align: justify">
 <p>
 Via open source, tech developers have a distinct way of communicating. Open source work is performed on a voluntary basis and is subject to licensing. Playing politics or intimidation are also unethical in any occupation, but they are far too prevalent. It is appropriate to use an open source feature as a library within a commercial product, but all improvements made to the library must be restored to the original project so that everyone will benefit.
 </p>
 </div>
-<div style="text-align: left;font-family:sans-serif;">
+<div style="text-align: left">
 <h3>Summary</h3>
 </div>
 <hr />
-<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<div style="text-align: justify">
 <p>
 Ethics is a vital feature in most technical fields, but it is seldom addressed in software development. The following are four ethical issues that you may encounter: Privacy, which is being legislated as a consequence of the profession's ethical failings; cognitive workload, where we can add harmful side effects on our userbase as we rely exclusively on other goals; energy conservation, which can seem hypothetical but has a clear real-world effect; and confidence, both within our profession and for those with whom we operate.
 </p>
@@ -255,16 +144,4 @@ There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. N
 <br />
 <br />
 <br /></p>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-
-  <script src="/assets/js/bootstrap/bootstrap.js"></script>
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-</body>
-
-</html>
+:ET
