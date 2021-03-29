@@ -1,7 +1,7 @@
-I"§,<p><img src="/assets/images/2021-3-29-blog-cover.webp" class="rounded img-fluid" /></p>
+I"y,<p><img src="/assets/images/2021-3-29-blog-cover.webp" class="rounded img-fluid" /></p>
 
 <div style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
-    <h1>Basic steps of Software Requirement Gathering</h1>
+    <h1>The Basic of Software Requirement Gathering</h1>
 </div>
 <hr />
 
@@ -105,13 +105,13 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <hr />
 <div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
 <p>
-  Many people expect senior developers to attend meetings with stakeholders to figure out what they want. However, in the twenty-first century, it is no longer achieved by a single person. Your stakeholder will tell you an issue in a workshop, which can help you find out what your challenges are. The stakeholder needs were written on a whiteboard at the time to obtain useful input from stakeholders.
+  Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders.
 </p>
 <p>
-  Rather than grasping the concept and developing a prototype initially, you have to see the situation and grasp it fully before coming up with a solution. You will find a lot of problems in the double diamonds model, and you will find the most important problems. Then you'll discover a plethora of options, including the most pressing one. The order in which your workshops are held is determined by the stakeholders involved. The challenge is the issue, not the technologies that will assist them in addressing it.
+  Instead of doing that solution and making a prototype right away, you have to see the problem and understand it completely before coming up with a solution. You will find a lot of problems in the double diamonds model, and you will find the most important problems. Then you'll discover a plethora of options, including the most pressing one. The order in which your workshops are held is determined by the stakeholders involved.
 </p>
 <p>
-  The User Experience team conducts a requirement gathering process for customers. Many successful firms merge their Development and User Experience teams into one operation. Quantitative research is only effective if the user is already using your product. If you have a real user on your product, it is very easy to get quantitative data using the analytics systems. And with this quantitative data, you can use Continuous Delivery so you can release a new feature early. The User Experience practitioner is your best ally in the requirement gather process.
+  The User Experience team conducts a requirement gathering process with users. Many successful businesses combine their development and user experience teams into one process. Quantitative research is only useful if your product is already in use by the user. It's very easy to get quantitative data using your analytics systems if you have a real user on your product. You can also use continuous delivery with this quantitative data to release a new feature early. In the requirement gathering process, the User Experience practitioner is your best ally.
 </p>
 </div>
 
