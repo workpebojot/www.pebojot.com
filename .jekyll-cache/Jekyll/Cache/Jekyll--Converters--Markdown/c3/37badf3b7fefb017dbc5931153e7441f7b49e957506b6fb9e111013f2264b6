@@ -1,0 +1,149 @@
+I"�,<p><img src="/assets/images/2021-3-29-blog-cover.webp" class="rounded img-fluid" /></p>
+
+<div style="text-align: center;letter-spacing: 3px;font-family:sans-serif;word-spacing: 0px;">
+    <h1>The Basics of Software Requirement Gathering</h1>
+</div>
+<hr />
+
+<div class="desktop__size ">
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <small class="text-muted">
+          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+        </small>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        By Edison Pebojot
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        29 March 2021
+      </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+      </div>
+    </div>
+  </div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center">
+        <div class="align-self-center">
+            <small class="text-muted">
+                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+            </small>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            By Edison Pebojot
+        </div>
+        &nbsp;
+        <div class="align-self-center flex-grow-1">
+            03/29/2021
+        </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        </div>
+    </div>
+</div>
+<p><br /></p>
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  Each team's developer's role in gathering software requirements will be different. Someone is in charge of it in large groups. The <i>business analyst</i>, <i>product owner</i>, or <i>project manager</i> is this person. It is essential that you put it on. However, you must collaborate with them in order to fully comprehend what they are doing. It's just a lot easier to work with if you understand what they're doing, as well as what your entire team is doing.
+</p>
+<p>
+  This is critical, particularly for senior developers. Many people expect senior developers to attend meetings with <a href="https://en.wikipedia.org/wiki/Project_stakeholder" target="_blank">stakeholders</a> to figure out what they need and what product they need to meet that need. Stakeholder needs were posted on a whiteboard, like sticky notes, and tasks were set up for a developer to complete, which was done by just one person. However, in the twenty-first century, it is no longer done by a single person.
+</p>
+<p>
+  This is why teams in the software industry hold <a href="https://en.wikipedia.org/wiki/Workshop" target="_blank">workshops</a>. Trainings and prototypes are displayed to the stakeholders in the workshop. These are the people who might be interested in your product, or stakeholders. If your prototype is about XBOX gaming software, your stakeholders may be XBOX gamers; if the prototype is about business management, your stakeholders may be a business team. Your supplier, and, more importantly, your end-user, can do it as well. This is done in order for the team to obtain useful information from stakeholders.
+</p>
+</div>
+
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  The order in which your workshops are held is determined by the stakeholders involved. Instead of doing that solution and making a prototype right away, this is typically how you look at your problem and how you can solve it. You could argue that it is anti-<a href="https://en.wikipedia.org/wiki/Agile_software_development" target="_blank">agile</a>, but you know that in order to avoid making a mistake, you must first see and understand the problem. Your stakeholder can tell you about a problem in a workshop, which will help you figure out what your challenges are and what steps you and your team should take. This step is part of a larger process known as the <a href="https://en.wikipedia.org/wiki/Design#Process" target="_blank">design process</a> in software development. However, we will use a double diamond process (or model) in this article.
+</p>
+<p>
+  <img src="https://user-images.githubusercontent.com/38276345/112810401-8f215380-90ad-11eb-8f10-1f746f5070fb.png" class="img-fluid" />
+  <figcaption>Figure 1. Double Diamond Model (<a href="https://en.wikipedia.org/wiki/File:Double_diamond.png" target="_blank">source</a>)</figcaption>
+</p>
+<p>
+  You'll find a lot of problems in the double diamond model, as well as the most important ones. Then you'll come across a plethora of options before deciding on the most appropriate one. The stakeholder may understand the nature of their problem, but not the technology that will assist them in resolving it. Here, the double diamond workshops are beneficial because they not only provide us with the problem and solution, but they also know, as do we, which technology should be used.
+</p>
+</div>
+
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  The <a href="https://en.wikipedia.org/wiki/User_experience" target="_blank">User Experience</a> is the other. The User Experience team conducts a requirement gathering process with users. A sort of laboratory where User Experience researchers collect data on the subject. And most of these researchers are psychologists. In the requirement gathering process, the User Experience practitioner is your best ally. A User Experience team is found in many successful businesses. These successful companies combine the Development and User Experience teams into a single process, allowing them to work together to gather user data. The UX team assists the development team, or the development team assists the UX team, removing the communication barrier that existed in early software development.
+</p>
+</div>
+
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qualitative_research" target="_blank">qualitative research</a>, which means they take abstract (theoretical) data, which usually includes user emotions. But, in addition to qualitative research, there is also <a href="https://en.wikipedia.org/wiki/Quantitative_research" target="_blank">quantitative research</a>. Quantitative research is only useful if the user is already familiar with your product, and this familiarity will help the stakeholder understand how effective it is. It's very easy to get quantitative data using your <a href="https://en.wikipedia.org/wiki/Analytics" target="_blank">analytics</a> systems if you have a real user on your product. You can also use <a href="https://en.wikipedia.org/wiki/Continuous_delivery" target="_blank">continuous delivery</a> with this quantitative data to release a new feature early.
+</p>
+</div>
+
+<div style="text-align: left;font-family:sans-serif;">
+<h3>Summary</h3>
+</div>
+<hr />
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders.
+</p>
+<p>
+  Instead of doing that solution and making a prototype right away, you have to see the problem and understand it completely before coming up with a solution. You will find a lot of problems in the double diamonds model, and you will find the most important problems. Then you'll discover a plethora of options, including the most pressing one. The order in which your workshops are held is determined by the stakeholders involved.
+</p>
+<p>
+  The User Experience team conducts a requirement gathering process with users. Many successful businesses combine their development and user experience teams into one process. Quantitative research is only useful if your product is already in use by the user. It's very easy to get quantitative data using your analytics systems if you have a real user on your product. You can also use continuous delivery with this quantitative data to release a new feature early. In the requirement gathering process, the User Experience practitioner is your best ally.
+</p>
+</div>
+
+<hr />
+
+<div class="desktop__size ">
+  <div class="d-flex align-items-center">
+    <div class="align-self-center">
+      <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/03/blog/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+    </div>
+    &nbsp;
+    <div class="align-self-center">
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/03/blog/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        </div>
+    </div>
+</div>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
+:ET

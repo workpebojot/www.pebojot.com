@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-03-29T20:31:05+08:00</updated><id>/feed.xml</id><entry><title type="html">The Basics of Software Requirement Gathering</title><link href="/2021/03/29/blog/" rel="alternate" type="text/html" title="The Basics of Software Requirement Gathering" /><published>2021-03-29T00:00:00+08:00</published><updated>2021-03-29T00:00:00+08:00</updated><id>/2021/03/29/blog</id><content type="html" xml:base="/2021/03/29/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021-3-29-blog-cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2021-03-30T08:19:17+08:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">The Basics of Software Requirement Gathering</title><link href="http://localhost:3000/2021/03/29/blog/" rel="alternate" type="text/html" title="The Basics of Software Requirement Gathering" /><published>2021-03-29T00:00:00+08:00</published><updated>2021-03-29T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/29/blog</id><content type="html" xml:base="http://localhost:3000/2021/03/29/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021-3-29-blog-cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
-&lt;div style=&quot;text-align: center;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
-    &lt;h1&gt;The Basics of Software Requirement Gathering&lt;/h1&gt;
+&lt;div class=&quot;desktop__size &quot; style=&quot;text-align: center;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
+    &lt;h2&gt;The Basics of Software Requirement Gathering&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mobile__size &quot; style=&quot;text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
+    &lt;h2&gt;The Basics of Software Requirement Gathering&lt;/h2&gt;
 &lt;/div&gt;
 &lt;hr /&gt;
 
@@ -62,7 +65,7 @@
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div style=&quot;text-align: justify;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
+&lt;div style=&quot;text-align: justify;word-break: break-all;font-family:sans-serif;&quot;&gt;
 &lt;p&gt;
   Each team's developer's role in gathering software requirements will be different. Someone is in charge of it in large groups. The &lt;i&gt;business analyst&lt;/i&gt;, &lt;i&gt;product owner&lt;/i&gt;, or &lt;i&gt;project manager&lt;/i&gt; is this person. It is essential that you put it on. However, you must collaborate with them in order to fully comprehend what they are doing. It's just a lot easier to work with if you understand what they're doing, as well as what your entire team is doing.
 &lt;/p&gt;
@@ -74,7 +77,7 @@
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div style=&quot;text-align: justify;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
+&lt;div style=&quot;text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
 &lt;p&gt;
   The order in which your workshops are held is determined by the stakeholders involved. Instead of doing that solution and making a prototype right away, this is typically how you look at your problem and how you can solve it. You could argue that it is anti-&lt;a href=&quot;https://en.wikipedia.org/wiki/Agile_software_development&quot; target=&quot;_blank&quot;&gt;agile&lt;/a&gt;, but you know that in order to avoid making a mistake, you must first see and understand the problem. Your stakeholder can tell you about a problem in a workshop, which will help you figure out what your challenges are and what steps you and your team should take. This step is part of a larger process known as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Design#Process&quot; target=&quot;_blank&quot;&gt;design process&lt;/a&gt; in software development. However, we will use a double diamond process (or model) in this article.
 &lt;/p&gt;
@@ -87,15 +90,15 @@
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div style=&quot;text-align: justify;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
+&lt;div style=&quot;text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
 &lt;p&gt;
-  The &lt;a href=&quot;https://en.wikipedia.org/wiki/User_experience&quot; target=&quot;_blank&quot;&gt;User Experience&lt;/a&gt; is the other. The User Experience team conducts a requirement gathering process with users. A sort of laboratory where User Experience researchers collect data on the subjec. And most of these researchers are psychologists. In the requirement gathering process, the User Experience practitioner is your best ally. A User Experience team is found in many successful businesses. These successful companies combine the Development and User Experience teams into a single process, allowing them to work together to gather user data. The UX team assists the development team, or the development team assists the UX team, removing the communication barrier that existed in early software development.
+  The &lt;a href=&quot;https://en.wikipedia.org/wiki/User_experience&quot; target=&quot;_blank&quot;&gt;User Experience&lt;/a&gt; is the other. The User Experience team conducts a requirement gathering process with users. A sort of laboratory where User Experience researchers collect data on the subject. And most of these researchers are psychologists. In the requirement gathering process, the User Experience practitioner is your best ally. A User Experience team is found in many successful businesses. These successful companies combine the Development and User Experience teams into a single process, allowing them to work together to gather user data. The UX team assists the development team, or the development team assists the UX team, removing the communication barrier that existed in early software development.
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div style=&quot;text-align: justify;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
+&lt;div style=&quot;text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
 &lt;p&gt;
-This type of requirement gathering is &lt;a href=&quot;https://en.wikipedia.org/wiki/Qualitative_research&quot; target=&quot;_blank&quot;&gt;qualitative research&lt;/a&gt;, which means they take abstract (theoretical) data, which usually includes user emotions. But, in addition to qualitative research, there is also &lt;a href=&quot;https://en.wikipedia.org/wiki/Quantitative_research&quot; target=&quot;_blank&quot;&gt;quantitative research&lt;/a&gt;. Quantitative research is only useful if the user is already familiar with your product, and this familiarity will help the stakeholder understand how effective it is. It's very easy to get quantitative data using your &lt;a href=&quot;https://en.wikipedia.org/wiki/Analytics&quot; target=&quot;_blank&quot;&gt;analytics&lt;/a&gt; systems if you have a real user on your product. You can also use &lt;a href=&quot;https://en.wikipedia.org/wiki/Continuous_delivery&quot; target=&quot;_blank&quot;&gt;continuous delivery&lt;/a&gt; with this qualitative data to release a new feature early.
+This type of requirement gathering is &lt;a href=&quot;https://en.wikipedia.org/wiki/Qualitative_research&quot; target=&quot;_blank&quot;&gt;qualitative research&lt;/a&gt;, which means they take abstract (theoretical) data, which usually includes user emotions. But, in addition to qualitative research, there is also &lt;a href=&quot;https://en.wikipedia.org/wiki/Quantitative_research&quot; target=&quot;_blank&quot;&gt;quantitative research&lt;/a&gt;. Quantitative research is only useful if the user is already familiar with your product, and this familiarity will help the stakeholder understand how effective it is. It's very easy to get quantitative data using your &lt;a href=&quot;https://en.wikipedia.org/wiki/Analytics&quot; target=&quot;_blank&quot;&gt;analytics&lt;/a&gt; systems if you have a real user on your product. You can also use &lt;a href=&quot;https://en.wikipedia.org/wiki/Continuous_delivery&quot; target=&quot;_blank&quot;&gt;continuous delivery&lt;/a&gt; with this quantitative data to release a new feature early.
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -103,7 +106,7 @@ This type of requirement gathering is &lt;a href=&quot;https://en.wikipedia.org/
 &lt;h3&gt;Summary&lt;/h3&gt;
 &lt;/div&gt;
 &lt;hr /&gt;
-&lt;div style=&quot;text-align: justify;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
+&lt;div style=&quot;text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
 &lt;p&gt;
   Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders.
 &lt;/p&gt;
@@ -145,7 +148,7 @@ This type of requirement gathering is &lt;a href=&quot;https://en.wikipedia.org/
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.</summary></entry><entry><title type="html">Muon: Software Package Directory</title><link href="/2021/03/20/project/" rel="alternate" type="text/html" title="Muon: Software Package Directory" /><published>2021-03-20T00:00:00+08:00</published><updated>2021-03-20T00:00:00+08:00</updated><id>/2021/03/20/project</id><content type="html" xml:base="/2021/03/20/project/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.03.20.project.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.</summary></entry><entry><title type="html">Muon: Software Package Directory</title><link href="http://localhost:3000/2021/03/20/project/" rel="alternate" type="text/html" title="Muon: Software Package Directory" /><published>2021-03-20T00:00:00+08:00</published><updated>2021-03-20T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/20/project</id><content type="html" xml:base="http://localhost:3000/2021/03/20/project/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.03.20.project.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;muon-a-software-project-manage-tool&quot;&gt;Muon: A Software Project Manage Tool&lt;/h1&gt;
 &lt;hr /&gt;
@@ -251,10 +254,13 @@ This type of requirement gathering is &lt;a href=&quot;https://en.wikipedia.org/
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.</summary></entry><entry><title type="html">Software Ethics to me (or to you)</title><link href="/2021/03/03/blog/" rel="alternate" type="text/html" title="Software Ethics to me (or to you)" /><published>2021-03-03T00:00:00+08:00</published><updated>2021-03-03T00:00:00+08:00</updated><id>/2021/03/03/blog</id><content type="html" xml:base="/2021/03/03/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.03.03.blog.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.</summary></entry><entry><title type="html">Software Ethics to me (or to you)</title><link href="http://localhost:3000/2021/03/03/blog/" rel="alternate" type="text/html" title="Software Ethics to me (or to you)" /><published>2021-03-03T00:00:00+08:00</published><updated>2021-03-03T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/03/blog</id><content type="html" xml:base="http://localhost:3000/2021/03/03/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.03.03.blog.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
-&lt;div style=&quot;text-align: center;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
-    &lt;h1&gt;Software Ethics to me (or to you)&lt;/h1&gt;
+&lt;div class=&quot;desktop__size &quot; style=&quot;text-align: center;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
+    &lt;h2&gt;Software Ethics to me (or to you)&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mobile__size &quot; style=&quot;text-align: justify;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
+    &lt;h2&gt;Software Ethics to me (or to you)&lt;/h2&gt;
 &lt;/div&gt;
 &lt;hr /&gt;
 
@@ -396,10 +402,13 @@ There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. N
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.</summary></entry><entry><title type="html">An Android Platform for Filipino Employment (Beta Program)</title><link href="/2020/12/28/blog/" rel="alternate" type="text/html" title="An Android Platform for Filipino Employment (Beta Program)" /><published>2020-12-28T00:00:00+08:00</published><updated>2020-12-28T00:00:00+08:00</updated><id>/2020/12/28/blog</id><content type="html" xml:base="/2020/12/28/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2020.12.28.blog.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.</summary></entry><entry><title type="html">An Android Platform for Filipino Employment (Beta Program)</title><link href="http://localhost:3000/2020/12/28/blog/" rel="alternate" type="text/html" title="An Android Platform for Filipino Employment (Beta Program)" /><published>2020-12-28T00:00:00+08:00</published><updated>2020-12-28T00:00:00+08:00</updated><id>http://localhost:3000/2020/12/28/blog</id><content type="html" xml:base="http://localhost:3000/2020/12/28/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2020.12.28.blog.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
-&lt;div style=&quot;text-align: center;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
-    &lt;h1&gt;An Android Platform for Filipino Employment (Beta Program)&lt;/h1&gt;
+&lt;div class=&quot;desktop__size &quot; style=&quot;text-align: center;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
+    &lt;h2&gt;An Android Platform for Filipino Employment (Beta Program)&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mobile__size&quot; style=&quot;text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
+    &lt;h2&gt;An Android Platform for Filipino Employment (Beta Program)&lt;/h2&gt;
 &lt;/div&gt;
 &lt;hr /&gt;
 
@@ -583,7 +592,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.</summary></entry><entry><title type="html">The Vacuum Project</title><link href="/2020/10/28/project/" rel="alternate" type="text/html" title="The Vacuum Project" /><published>2020-10-28T00:00:00+08:00</published><updated>2020-10-28T00:00:00+08:00</updated><id>/2020/10/28/project</id><content type="html" xml:base="/2020/10/28/project/">&lt;p&gt;&lt;img src=&quot;/assets/images/2020.10.28.project.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.</summary></entry><entry><title type="html">The Vacuum Project</title><link href="http://localhost:3000/2020/10/28/project/" rel="alternate" type="text/html" title="The Vacuum Project" /><published>2020-10-28T00:00:00+08:00</published><updated>2020-10-28T00:00:00+08:00</updated><id>http://localhost:3000/2020/10/28/project</id><content type="html" xml:base="http://localhost:3000/2020/10/28/project/">&lt;p&gt;&lt;img src=&quot;/assets/images/2020.10.28.project.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;the-vacuum-project&quot;&gt;The Vacuum Project&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://travis-ci.com/workpebojot/Vacuum&quot;&gt;&lt;img src=&quot;https://travis-ci.com/workpebojot/Vacuum.svg?branch=master&quot; alt=&quot;Build Status&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://standardjs.com&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/code_style-standard-brightgreen.svg&quot; alt=&quot;JavaScript Style Guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -764,7 +773,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</summary></entry><entry><title type="html">Hackathon Event: AMA Computer University</title><link href="/2018/09/10/event/" rel="alternate" type="text/html" title="Hackathon Event: AMA Computer University" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>/2018/09/10/event</id><content type="html" xml:base="/2018/09/10/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2018.09.10.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</summary></entry><entry><title type="html">Hackathon Event: AMA Computer University</title><link href="http://localhost:3000/2018/09/10/event/" rel="alternate" type="text/html" title="Hackathon Event: AMA Computer University" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>http://localhost:3000/2018/09/10/event</id><content type="html" xml:base="http://localhost:3000/2018/09/10/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2018.09.10.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;10 SEPTEMBER 2018 4AM UTC+8&lt;/b&gt;&lt;/p&gt;
 &lt;div style=&quot;text-align: left&quot;&gt;
@@ -832,7 +841,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">10 SEPTEMBER 2018 4AM UTC+8 AMA Computer University Hackathon Event University · College · Technology Details 256 people responsed Event by AMA Computer University Website: N/A Ticket: N/A Private Event This was one of the most important events at AMA Computer College. It includes a number of activities ranging from computing to performing. One of my deans was there, and it was a fantastic experience. Share &amp;nbsp; Tweet Tweet &amp;nbsp; Share</summary></entry><entry><title type="html">Tree Planting: About Environmental Conservation</title><link href="/2018/05/31/event/" rel="alternate" type="text/html" title="Tree Planting: About Environmental Conservation" /><published>2018-05-31T00:00:00+08:00</published><updated>2018-05-31T00:00:00+08:00</updated><id>/2018/05/31/event</id><content type="html" xml:base="/2018/05/31/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2018.05.31.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">10 SEPTEMBER 2018 4AM UTC+8 AMA Computer University Hackathon Event University · College · Technology Details 256 people responsed Event by AMA Computer University Website: N/A Ticket: N/A Private Event This was one of the most important events at AMA Computer College. It includes a number of activities ranging from computing to performing. One of my deans was there, and it was a fantastic experience. Share &amp;nbsp; Tweet Tweet &amp;nbsp; Share</summary></entry><entry><title type="html">Tree Planting: About Environmental Conservation</title><link href="http://localhost:3000/2018/05/31/event/" rel="alternate" type="text/html" title="Tree Planting: About Environmental Conservation" /><published>2018-05-31T00:00:00+08:00</published><updated>2018-05-31T00:00:00+08:00</updated><id>http://localhost:3000/2018/05/31/event</id><content type="html" xml:base="http://localhost:3000/2018/05/31/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2018.05.31.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;31 MAY 2018 8AM UTC+8&lt;/b&gt;&lt;/p&gt;
 &lt;div style=&quot;text-align: left&quot;&gt;
@@ -900,7 +909,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">31 MAY 2018 8AM UTC+8 Tree Planting in Dingalan Aurora High School Event · Tree Planting Details 256 people responsed Event by DENR Website: N/A Ticket: N/A Private Event This was the result of our tree-planting event. There was also a lecture where we learned about the value of environmental conservation in detail, followed by a fun activity. Here, with some of my former classmates, we planted trees at the top of our community. Share &amp;nbsp; Tweet Tweet &amp;nbsp; Share</summary></entry><entry><title type="html">Theatre: Acting Session for El Filibusterismo in Grade 10</title><link href="/2016/03/12/event/" rel="alternate" type="text/html" title="Theatre: Acting Session for El Filibusterismo in Grade 10" /><published>2016-03-12T00:00:00+08:00</published><updated>2016-03-12T00:00:00+08:00</updated><id>/2016/03/12/event</id><content type="html" xml:base="/2016/03/12/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2016.03.12.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">31 MAY 2018 8AM UTC+8 Tree Planting in Dingalan Aurora High School Event · Tree Planting Details 256 people responsed Event by DENR Website: N/A Ticket: N/A Private Event This was the result of our tree-planting event. There was also a lecture where we learned about the value of environmental conservation in detail, followed by a fun activity. Here, with some of my former classmates, we planted trees at the top of our community. Share &amp;nbsp; Tweet Tweet &amp;nbsp; Share</summary></entry><entry><title type="html">Theatre: Acting Session for El Filibusterismo in Grade 10</title><link href="http://localhost:3000/2016/03/12/event/" rel="alternate" type="text/html" title="Theatre: Acting Session for El Filibusterismo in Grade 10" /><published>2016-03-12T00:00:00+08:00</published><updated>2016-03-12T00:00:00+08:00</updated><id>http://localhost:3000/2016/03/12/event</id><content type="html" xml:base="http://localhost:3000/2016/03/12/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2016.03.12.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;12 MARCH 2016 8AM UTC+8&lt;/b&gt;&lt;/p&gt;
 &lt;div style=&quot;text-align: left&quot;&gt;

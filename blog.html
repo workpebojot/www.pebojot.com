@@ -27,7 +27,7 @@ title: Blog
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by {{ post.author }} | {{ post.date | date_to_string }}</small>
-            <p class="card-text" style="text-align: justify;word-spacing: -2px;">{{ post.excerpt }}</p>
+            <p class="card-text" style="text-align: justify;word-break: break-all;">{{ post.excerpt }}</p>
             <small class="text-muted desktop__size"> by {{ post.author }}</small>
           </a>
         </li>
