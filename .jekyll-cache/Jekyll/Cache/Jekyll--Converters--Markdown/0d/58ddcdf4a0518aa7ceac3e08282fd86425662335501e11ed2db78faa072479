@@ -1,0 +1,109 @@
+I"8<p><img src="https://raw.githubusercontent.com/workpebojot/Muon/master/.erb/img/muon-banner.png" class="rounded img-fluid" /></p>
+
+<h1 id="muon-a-software-project-manage-tool">Muon: A Software Project Manage Tool</h1>
+<hr />
+
+<div class="desktop__size">
+  <div class="d-flex justify-content-start">
+    <div class="p-1">
+      <a class="github-button" href="https://github.com/workpebojot/Muon/subscription" data-size="large" data-show-count="true" aria-label="Watch workpebojot/Vacuum on GitHub">
+        Watch
+      </a>
+    </div>
+    <div class="p-1">
+      <a class="github-button" href="https://github.com/workpebojot/Muon/fork" data-size="large" data-show-count="true" aria-label="Fork workpebojot/Vacuum on GitHub">
+        Fork
+      </a>
+    </div>
+    <div class="p-1">
+      <a class="github-button" href="https://github.com/workpebojot/Muon" data-size="large" data-show-count="true" aria-label="Star workpebojot/Vacuum on GitHub">
+        Star
+      </a>
+    </div>
+    <div class="p-1">
+        <a class="github-button" href="https://github.com/workpebojot" data-size="large" data-show-count="true" aria-label="Follow @workpebojot on GitHub">Follow</a>
+    </div>
+  </div>
+</div>
+
+<div class="mobile__size">
+  <div class="d-flex justify-content-start">
+    <div class="p-1">
+      <a class="github-button" href="https://github.com/workpebojot/Muon" data-size="large" data-show-count="true" aria-label="Star workpebojot/Vacuum on GitHub">
+        Star
+      </a>
+    </div>
+    <div class="p-1">
+        <a class="github-button" href="https://github.com/workpebojot" data-size="large" data-show-count="true" aria-label="Follow @workpebojot on GitHub">Follow</a>
+    </div>
+  </div>
+</div>
+
+<p><br /></p>
+
+<p>
+  Muon uses <a href="https://electron.atom.io/">Electron</a>, <a href="https://facebook.github.io/react/">React</a>, <a href="https://github.com/reactjs/react-router">React Router</a>, <a href="https://webpack.github.io/docs/">Webpack</a> and <a href="https://www.npmjs.com/package/react-refresh">React Fast Refresh</a>.
+</p>
+
+<p><br /></p>
+
+<h2 id="install">Install</h2>
+
+<p>First, clone the repo via git and install dependencies:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone <span class="nt">--depth</span> 1 <span class="nt">--single-branch</span> https://github.com/workpebojot/Muon.git your-project-name
+<span class="nv">$ </span><span class="nb">cd </span>your-project-name
+<span class="nv">$ </span>npx yarn
+</code></pre></div></div>
+
+<h2 id="starting-development">Starting Development</h2>
+
+<p>Start the app in the <code class="language-plaintext highlighter-rouge">dev</code> environment:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>npx yarn start
+</code></pre></div></div>
+
+<h2 id="packaging-for-production">Packaging for Production</h2>
+
+<p>To package apps for the local platform:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>npx yarn package
+</code></pre></div></div>
+
+<h2 id="license">License</h2>
+
+<p>MIT © <a href="https://github.com/workpebojot/Muon">Muon</a>
+<a href="https://opensource.org/licenses/"><img src="https://img.shields.io/badge/License-MIT" alt="GPLv3 License" /></a> © 2018</p>
+
+<hr />
+
+<div class="desktop__size ">
+  <div class="d-flex align-items-center">
+    <div class="align-self-center">
+      <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/20/project/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+    </div>
+    &nbsp;
+    <div class="align-self-center">
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+          <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/20/project/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        </div>
+    </div>
+</div>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
+:ET

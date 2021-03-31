@@ -1,115 +1,4 @@
-<!doctype html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
-  <title>The Vacuum Project</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:3000/feed.xml" />
-  <!-- facebook -->
-  <meta property="og:url" content="https://www.pebojot.com/2020/10/28/project/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:title" content="The Vacuum Project" />
-  <meta property="og:description" content="The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos" />
-  <meta property="og:image" content="https://www.pebojot.com/assets/images/2020.10.28.project.cover.webp" />
-  <!-- twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@workpebojot" />
-  <meta name="twitter:creator" content="@workpebojot" />
-  <meta property="og:url" content="https://www.pebojot.com/2020/10/28/project/" />
-  <meta property="og:title" content="The Vacuum Project" />
-  <meta property="og:description" content="The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos" />
-  <meta property="og:image" content="https://www.pebojot.com/assets/images/2020.10.28.project.cover.webp" />
-</head>
-
-<body>
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous"
-    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=875318043308259&autoLogAppEvents=1"
-    nonce="kjfhgux3"></script>
-  <div class="container p-2">
-    <nav class="navbar navbar-expand-lg navbar-light p-2">
-      <a class="navbar-brand navbar__desktop" href="/">
-        <h4>
-          Edison Pebojot
-        </h4>
-        <span>
-          <h6 class="text-secondary">Software Developer</h6>
-        </span>
-      </a>
-      <a href="/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
-      </a>
-      <a href="/blog/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-      </a>
-      <a href="/event/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
-      </a>
-      <a href="/project/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-      </a>
-      <span class="navbar__mobile">
-        <a href="/about/" role="button" class="btn btn-secondary" style="margin: 2px;">
-          About
-        </a>
-      </span>
-      <div class="collapse navbar-collapse justify-content-end navbar__desktop">
-        <div class="nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
-          
-<a class="nav-link  border-0" data-toggle="tabs" href="/">
-    <h5>
-        <span class="home-hover">
-            Home
-        </span>
-    </h5>
-</a>
-
-<a class="nav-link  border-0" data-toggle="tabs" href="/blog/">
-    <h5>
-        <span class="home-hover">
-            Blog
-        </span>
-    </h5>
-</a>
-
-<a class="nav-link  border-0" data-toggle="tabs" href="/event/">
-    <h5>
-        <span class="home-hover">
-            Event
-        </span>
-    </h5>
-</a>
-
-<a class="nav-link  border-0" data-toggle="tabs" href="/project/">
-    <h5>
-        <span class="home-hover">
-            Project
-        </span>
-    </h5>
-</a>
-
-<a class="nav-link  border-0" data-toggle="tabs" href="/about/">
-    <h5>
-        <span class="home-hover">
-            About
-        </span>
-    </h5>
-</a>
-
-        </div>
-      </div>
-    </nav>
-    <div class="tab-content mt-2">
-      <div class="tab-pane container active" id="//2020/10/28/project/">
-        <div class="container-fluid">
-          <div class="container-sm">
-            <p><img src="https://user-images.githubusercontent.com/38276345/113085789-14724880-9213-11eb-93f7-187db9688673.png" class="rounded img-fluid" /></p>
+I"�1<p><img src="https://user-images.githubusercontent.com/38276345/113085789-14724880-9213-11eb-93f7-187db9688673.png" class="rounded img-fluid" /></p>
 
 <h1 id="the-vacuum-project">The Vacuum Project</h1>
 
@@ -257,7 +146,7 @@
 
 <h2 id="license">License</h2>
 <hr />
-<p><a href="https://opensource.org/licenses/"><img src="https://img.shields.io/badge/License-GPL%20v3-yellow.svg" alt="GPLv3 License" /></a> © 2020</p>
+<p><a href="https://opensource.org/licenses/"><img src="https://img.shields.io/badge/License-GPL%20v3-yellow.svg" alt="GPLv3 License" /></a> GPLv2 © 2021</p>
 
 <hr />
 
@@ -290,16 +179,4 @@
 <br />
 <br />
 <br /></p>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-
-  <script src="/assets/js/bootstrap/bootstrap.js"></script>
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-</body>
-
-</html>
+:ET

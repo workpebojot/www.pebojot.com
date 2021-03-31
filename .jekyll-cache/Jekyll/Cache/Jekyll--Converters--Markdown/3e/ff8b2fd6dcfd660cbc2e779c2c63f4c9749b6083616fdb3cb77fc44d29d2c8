@@ -1,0 +1,102 @@
+I"�<p><img src="/assets/images/2020.12.25.project.cover.webp" class="rounded img-fluid" /></p>
+
+<h1 id="wwwpebojotcom">www.pebojot.com</h1>
+<hr />
+
+<div class="desktop__size">
+  <div class="d-flex justify-content-start">
+    <div class="p-1">
+      <a class="github-button" href="https://github.com/workpebojot/www.pebojot.com/subscription" data-size="large" data-show-count="true" aria-label="Watch workpebojot/Vacuum on GitHub">
+        Watch
+      </a>
+    </div>
+    <div class="p-1">
+      <a class="github-button" href="https://github.com/workpebojot/www.pebojot.com/fork" data-size="large" data-show-count="true" aria-label="Fork workpebojot/Vacuum on GitHub">
+        Fork
+      </a>
+    </div>
+    <div class="p-1">
+      <a class="github-button" href="https://github.com/workpebojot/www.pebojot.com" data-size="large" data-show-count="true" aria-label="Star workpebojot/Vacuum on GitHub">
+        Star
+      </a>
+    </div>
+    <div class="p-1">
+        <a class="github-button" href="https://github.com/workpebojot" data-size="large" data-show-count="true" aria-label="Follow @workpebojot on GitHub">Follow</a>
+    </div>
+  </div>
+</div>
+
+<div class="mobile__size">
+  <div class="d-flex justify-content-start">
+    <div class="p-1">
+      <a class="github-button" href="https://github.com/workpebojot/www.pebojot.com" data-size="large" data-show-count="true" aria-label="Star workpebojot/Vacuum on GitHub">
+        Star
+      </a>
+    </div>
+    <div class="p-1">
+        <a class="github-button" href="https://github.com/workpebojot" data-size="large" data-show-count="true" aria-label="Follow @workpebojot on GitHub">Follow</a>
+    </div>
+  </div>
+</div>
+
+<p><br /></p>
+
+<h1 id="wwwpebojotcom-1">www.pebojot.com</h1>
+<hr />
+<p>In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.</p>
+
+<h2 id="motivation">Motivation</h2>
+<hr />
+<p>Edison Pebojot’s goal is to demonstrate that his relevant activity is in the software development industry. It encapsulates the most crucial information.</p>
+
+<h2 id="screenshot">Screenshot</h2>
+<hr />
+<p><img src="https://user-images.githubusercontent.com/38276345/113078688-2dc0c800-9206-11eb-846f-33ff5bc6ecc5.jpeg" /></p>
+
+<h2 id="technology-and-framework-used">Technology and Framework used</h2>
+<hr />
+<ul>
+  <li>Jekyll</li>
+  <li>Ruby Programming Language</li>
+  <li>JavaScript</li>
+</ul>
+
+<h2 id="contribute">Contribute</h2>
+<hr />
+<p>The project’s development version, on the other hand, is private. If you’d like to help, please contact me at pebojot.edison.work@outlook.com.</p>
+
+<h2 id="license">License</h2>
+<p>GPLv2 © 2021</p>
+
+<hr />
+
+<div class="desktop__size ">
+  <div class="d-flex align-items-center">
+    <div class="align-self-center">
+      <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/20/project/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+    </div>
+    &nbsp;
+    <div class="align-self-center">
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+          <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/20/project/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        </div>
+    </div>
+</div>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
+:ET

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2021-03-30T08:19:17+08:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">The Basics of Software Requirement Gathering</title><link href="http://localhost:3000/2021/03/29/blog/" rel="alternate" type="text/html" title="The Basics of Software Requirement Gathering" /><published>2021-03-29T00:00:00+08:00</published><updated>2021-03-29T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/29/blog</id><content type="html" xml:base="http://localhost:3000/2021/03/29/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021-3-29-blog-cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2021-03-31T11:52:01+08:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">The Basics of Software Requirement Gathering</title><link href="http://localhost:3000/2021/03/29/blog/" rel="alternate" type="text/html" title="The Basics of Software Requirement Gathering" /><published>2021-03-29T00:00:00+08:00</published><updated>2021-03-29T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/29/blog</id><content type="html" xml:base="http://localhost:3000/2021/03/29/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021-3-29-blog-cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;desktop__size &quot; style=&quot;text-align: center;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
     &lt;h2&gt;The Basics of Software Requirement Gathering&lt;/h2&gt;
@@ -148,7 +148,7 @@ This type of requirement gathering is &lt;a href=&quot;https://en.wikipedia.org/
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.</summary></entry><entry><title type="html">Muon: Software Package Directory</title><link href="http://localhost:3000/2021/03/20/project/" rel="alternate" type="text/html" title="Muon: Software Package Directory" /><published>2021-03-20T00:00:00+08:00</published><updated>2021-03-20T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/20/project</id><content type="html" xml:base="http://localhost:3000/2021/03/20/project/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.03.20.project.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.</summary></entry><entry><title type="html">Muon: Software Package Directory</title><link href="http://localhost:3000/2021/03/20/project/" rel="alternate" type="text/html" title="Muon: Software Package Directory" /><published>2021-03-20T00:00:00+08:00</published><updated>2021-03-20T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/20/project</id><content type="html" xml:base="http://localhost:3000/2021/03/20/project/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/workpebojot/Muon/master/.erb/img/muon-banner.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;muon-a-software-project-manage-tool&quot;&gt;Muon: A Software Project Manage Tool&lt;/h1&gt;
 &lt;hr /&gt;
@@ -192,7 +192,7 @@ This type of requirement gathering is &lt;a href=&quot;https://en.wikipedia.org/
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;
-  Muon uses &lt;a href=&quot;https://electron.atom.io/&quot;&gt;Electron&lt;/a&gt;, &lt;a href=&quot;https://facebook.github.io/react/&quot;&gt;React&lt;/a&gt;, &lt;a href=&quot;https://github.com/reactjs/react-router&quot;&gt;React Router&lt;/a&gt;, &lt;a href=&quot;https://webpack.github.io/docs/&quot;&gt;Webpack&lt;/a&gt; and &lt;a href=&quot;https://www.npmjs.com/package/react-refresh&quot;&gt;React Fast Refresh&lt;/a&gt;.
+  The muon is a software package directory tool. It helps find packages, modules, or libraries you can use for you software project.
 &lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -222,7 +222,7 @@ This type of requirement gathering is &lt;a href=&quot;https://en.wikipedia.org/
 
 &lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
 
-&lt;p&gt;MIT © &lt;a href=&quot;https://github.com/workpebojot/Muon&quot;&gt;Muon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://opensource.org/licenses/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-MIT%20-yellow.svg&quot; alt=&quot;GPLv3 License&quot; /&gt;&lt;/a&gt; © 2021&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -592,10 +592,107 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.</summary></entry><entry><title type="html">The Vacuum Project</title><link href="http://localhost:3000/2020/10/28/project/" rel="alternate" type="text/html" title="The Vacuum Project" /><published>2020-10-28T00:00:00+08:00</published><updated>2020-10-28T00:00:00+08:00</updated><id>http://localhost:3000/2020/10/28/project</id><content type="html" xml:base="http://localhost:3000/2020/10/28/project/">&lt;p&gt;&lt;img src=&quot;/assets/images/2020.10.28.project.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.</summary></entry><entry><title type="html">www.pebojot.com</title><link href="http://localhost:3000/2020/12/25/project/" rel="alternate" type="text/html" title="www.pebojot.com" /><published>2020-12-25T00:00:00+08:00</published><updated>2020-12-25T00:00:00+08:00</updated><id>http://localhost:3000/2020/12/25/project</id><content type="html" xml:base="http://localhost:3000/2020/12/25/project/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/113077296-788d1080-9203-11eb-82c0-93c385469856.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;wwwpebojotcom&quot;&gt;www.pebojot.com&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;desktop__size&quot;&gt;
+  &lt;div class=&quot;d-flex justify-content-start&quot;&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/www.pebojot.com/subscription&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Watch workpebojot/Vacuum on GitHub&quot;&gt;
+        Watch
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/www.pebojot.com/fork&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Fork workpebojot/Vacuum on GitHub&quot;&gt;
+        Fork
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/www.pebojot.com&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star workpebojot/Vacuum on GitHub&quot;&gt;
+        Star
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+  &lt;div class=&quot;d-flex justify-content-start&quot;&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/www.pebojot.com&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star workpebojot/Vacuum on GitHub&quot;&gt;
+        Star
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.&lt;/p&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;Edison Pebojot’s goal is to demonstrate that his relevant activity is in the software development industry. It encapsulates the most crucial information.&lt;/p&gt;
+
+&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/113078688-2dc0c800-9206-11eb-846f-33ff5bc6ecc5.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;technology-and-framework-used&quot;&gt;Technology and Framework used&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;Jekyll&lt;/li&gt;
+  &lt;li&gt;Ruby Programming Language&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;contribute&quot;&gt;Contribute&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;The project’s development version, on the other hand, is private. If you’d like to help, please contact me at pebojot.edison.work@outlook.com.&lt;/p&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://opensource.org/licenses/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-GPL%20v3-yellow.svg&quot; alt=&quot;GPLv3 License&quot; /&gt;&lt;/a&gt; © 2021&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;desktop__size &quot;&gt;
+  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2021/03/20/project/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &amp;nbsp;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
+      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+          &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2021/03/20/project/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.</summary></entry><entry><title type="html">The Vacuum Project</title><link href="http://localhost:3000/2020/10/28/project/" rel="alternate" type="text/html" title="The Vacuum Project" /><published>2020-10-28T00:00:00+08:00</published><updated>2020-10-28T00:00:00+08:00</updated><id>http://localhost:3000/2020/10/28/project</id><content type="html" xml:base="http://localhost:3000/2020/10/28/project/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/113085789-14724880-9213-11eb-93f7-187db9688673.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;the-vacuum-project&quot;&gt;The Vacuum Project&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://travis-ci.com/workpebojot/Vacuum&quot;&gt;&lt;img src=&quot;https://travis-ci.com/workpebojot/Vacuum.svg?branch=master&quot; alt=&quot;Build Status&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;https://standardjs.com&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/code_style-standard-brightgreen.svg&quot; alt=&quot;JavaScript Style Guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -741,7 +838,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 
 &lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;a href=&quot;https://opensource.org/licenses/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-GPL%20v3-yellow.svg&quot; alt=&quot;GPLv3 License&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://opensource.org/licenses/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-GPL%20v3-yellow.svg&quot; alt=&quot;GPLv3 License&quot; /&gt;&lt;/a&gt; © 2020&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -773,7 +870,205 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</summary></entry><entry><title type="html">Hackathon Event: AMA Computer University</title><link href="http://localhost:3000/2018/09/10/event/" rel="alternate" type="text/html" title="Hackathon Event: AMA Computer University" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>http://localhost:3000/2018/09/10/event</id><content type="html" xml:base="http://localhost:3000/2018/09/10/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2018.09.10.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</summary></entry><entry><title type="html">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</title><link href="http://localhost:3000/2020/08/28/event/" rel="alternate" type="text/html" title="Elliptic Curve Cryptography and Quantum Computing: The Mathematics" /><published>2020-08-28T00:00:00+08:00</published><updated>2020-08-28T00:00:00+08:00</updated><id>http://localhost:3000/2020/08/28/event</id><content type="html" xml:base="http://localhost:3000/2020/08/28/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2020.8.28.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;28 FEBRUARY 2020 7PM-9PM UTC+8&lt;/b&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: left&quot;&gt;
+    &lt;h1&gt;Elliptic Curve Cryptography and Quantum Computing: The Mathematics&lt;/h1&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;small&gt;Quantum Computing · Computing · Computer Science&lt;/small&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;div style=&quot;text-align: left&quot;&gt;
+    &lt;h3&gt;Details&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align: justify&quot;&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/group.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        15 people responsed
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/flag.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Event by Quantum Computing Philippines
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/web.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Website: https://bit.ly/3cAArSx (Meetup)
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/ticket.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Ticket: N/A
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;img src=&quot;/assets/images/information.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
+        Public Event
+    &lt;/p&gt;
+    &lt;p&gt;
+        Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session (and succeeding sessions) we will give an introduction of what Quantum Computing is and the mathematics required to understand it:
+        
+- Complex Numbers
+- Hilbert Spaces
+- Bracket Notation
+- Qubits
+- Bloch Sphere (Reimann Sphere )
+- Superposition
+- Entanglement
+- Measurement
+- Probability Theory
+- Eigenvectors
+    &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;desktop__size &quot;&gt;
+  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2018/09/10/event/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &amp;nbsp;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
+      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2018/09/10/event/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html"></summary></entry><entry><title type="html">Braindotnet</title><link href="http://localhost:3000/2018/10/12/project/" rel="alternate" type="text/html" title="Braindotnet" /><published>2018-10-12T00:00:00+08:00</published><updated>2018-10-12T00:00:00+08:00</updated><id>http://localhost:3000/2018/10/12/project</id><content type="html" xml:base="http://localhost:3000/2018/10/12/project/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/113077885-9d35b800-9204-11eb-8c60-9c8ddae1cb19.gif&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;braindotnet&quot;&gt;Braindotnet&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;desktop__size&quot;&gt;
+  &lt;div class=&quot;d-flex justify-content-start&quot;&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/braindotnet/subscription&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Watch workpebojot/Vacuum on GitHub&quot;&gt;
+        Watch
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/braindotnet/fork&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Fork workpebojot/Vacuum on GitHub&quot;&gt;
+        Fork
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/braindotnet&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star workpebojot/Vacuum on GitHub&quot;&gt;
+        Star
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+  &lt;div class=&quot;d-flex justify-content-start&quot;&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/braindotnet&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star workpebojot/Vacuum on GitHub&quot;&gt;
+        Star
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;p-1&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Developed during &lt;a href=&quot;https://www.github.com/workpebojot/&quot;&gt;Edison Pebojot&lt;/a&gt;’s freshman year at &lt;a href=&quot;https://en.wikipedia.org/wiki/AMA_Computer_University&quot;&gt;AMA Computer University&lt;/a&gt;, Braindotnet is a PWA social networking application. It was specifically created in the year 2018. The old website is still up and running, and you can find it &lt;a href=&quot;https://braindotnet.web.app/&quot;&gt;here&lt;/a&gt;. If you are on a desktop, press &lt;strong&gt;F12&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;The goal is to create a tool for students to communicate with one another. I originally intended it to be a quiz app for students, but it evolved into a social networking app.&lt;/p&gt;
+
+&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/113074331-70ca6d80-91fd-11eb-890f-889a3e32f417.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;technology-and-framework-used&quot;&gt;Technology and Framework used&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;Firebase&lt;/li&gt;
+  &lt;li&gt;Onsen UI&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+  &lt;li&gt;Node&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;code-example&quot;&gt;Code Example&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;The content will be initialized at the BODY id:&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;index.hmtl &amp;gt; #BODY
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ git clone [URL.git]&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ cd braindotnet&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ git init&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ npm install&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;how-to-used&quot;&gt;How to used&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;As you may know, I was a freshman in college at the time and am now a graduate student. I had completely forgotten how this project works. What I recall is that you’ll need a firebase CLI and that you’ll use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;firebase init&lt;/code&gt; to create a new project. That’s all there is to it; now you can code whatever you want. Then, using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;firebase deploy&lt;/code&gt;, you can upload your production folder to firebase hosting.&lt;/p&gt;
+
+&lt;h2 id=&quot;contribute&quot;&gt;Contribute&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;So if you want to contribute, feel free to open a PR for a review. Thanks! 😉&lt;/p&gt;
+
+&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;https://opensource.org/licenses/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-GPL%20v3-yellow.svg&quot; alt=&quot;GPLv3 License&quot; /&gt;&lt;/a&gt; © 2018&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;desktop__size &quot;&gt;
+  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2021/03/20/project/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &amp;nbsp;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
+      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+          &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2021/03/20/project/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University. Specifically, it was developed in the year 2018. The goal is to create a tool for students to communicate with one another.</summary></entry><entry><title type="html">Hackathon Event: AMA Computer University</title><link href="http://localhost:3000/2018/09/10/event/" rel="alternate" type="text/html" title="Hackathon Event: AMA Computer University" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>http://localhost:3000/2018/09/10/event</id><content type="html" xml:base="http://localhost:3000/2018/09/10/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2018.09.10.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;10 SEPTEMBER 2018 4AM UTC+8&lt;/b&gt;&lt;/p&gt;
 &lt;div style=&quot;text-align: left&quot;&gt;
@@ -909,72 +1204,4 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">31 MAY 2018 8AM UTC+8 Tree Planting in Dingalan Aurora High School Event · Tree Planting Details 256 people responsed Event by DENR Website: N/A Ticket: N/A Private Event This was the result of our tree-planting event. There was also a lecture where we learned about the value of environmental conservation in detail, followed by a fun activity. Here, with some of my former classmates, we planted trees at the top of our community. Share &amp;nbsp; Tweet Tweet &amp;nbsp; Share</summary></entry><entry><title type="html">Theatre: Acting Session for El Filibusterismo in Grade 10</title><link href="http://localhost:3000/2016/03/12/event/" rel="alternate" type="text/html" title="Theatre: Acting Session for El Filibusterismo in Grade 10" /><published>2016-03-12T00:00:00+08:00</published><updated>2016-03-12T00:00:00+08:00</updated><id>http://localhost:3000/2016/03/12/event</id><content type="html" xml:base="http://localhost:3000/2016/03/12/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2016.03.12.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;12 MARCH 2016 8AM UTC+8&lt;/b&gt;&lt;/p&gt;
-&lt;div style=&quot;text-align: left&quot;&gt;
-    &lt;h1&gt;Acting Session for El Filibusterismo in Grade 10&lt;/h1&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;small&gt;High School Event · Theatre&lt;/small&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;div style=&quot;text-align: left&quot;&gt;
-    &lt;h3&gt;Details&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div style=&quot;text-align: justify&quot;&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/group.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        23 people responsed
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/flag.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Event by Maria Yelle Creman
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/web.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Website: N/A
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/ticket.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Ticket: N/A
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/information.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Private Event
-    &lt;/p&gt;
-    &lt;p&gt;
-    What I recall is a conversation about multiple acting situations for our El Filibusterismo. We also go to beaches to take videos since it was a long activity. It was great fun, and I'll never forget it. I was in Surigao Del Sur at the time, and it was great to meet new people.
-    &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;desktop__size &quot;&gt;
-  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
-    &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2016/03/12/event/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &amp;nbsp;
-    &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
-      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;mobile__size&quot;&gt;
-    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
-        &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-        &lt;/div&gt;
-        &amp;nbsp;
-        &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2016/03/12/event/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">12 MARCH 2016 8AM UTC+8 Acting Session for El Filibusterismo in Grade 10 High School Event · Theatre Details 23 people responsed Event by Maria Yelle Creman Website: N/A Ticket: N/A Private Event What I recall is a conversation about multiple acting situations for our El Filibusterismo. We also go to beaches to take videos since it was a long activity. It was great fun, and I'll never forget it. I was in Surigao Del Sur at the time, and it was great to meet new people. Share &amp;nbsp; Tweet Tweet &amp;nbsp; Share</summary></entry></feed>
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">31 MAY 2018 8AM UTC+8 Tree Planting in Dingalan Aurora High School Event · Tree Planting Details 256 people responsed Event by DENR Website: N/A Ticket: N/A Private Event This was the result of our tree-planting event. There was also a lecture where we learned about the value of environmental conservation in detail, followed by a fun activity. Here, with some of my former classmates, we planted trees at the top of our community. Share &amp;nbsp; Tweet Tweet &amp;nbsp; Share</summary></entry></feed>
