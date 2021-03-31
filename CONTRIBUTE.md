@@ -1,0 +1,1 @@
+The project's development version, on the other hand, is private. If you'd like to help, please contact me at pebojot.edison.work@outlook.com.

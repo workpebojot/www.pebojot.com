@@ -1,4 +1,4 @@
-I"1<p><img src="https://user-images.githubusercontent.com/38276345/113077885-9d35b800-9204-11eb-8c60-9c8ddae1cb19.gif" class="rounded img-fluid" /></p>
+I"�<p><img src="https://user-images.githubusercontent.com/38276345/113077885-9d35b800-9204-11eb-8c60-9c8ddae1cb19.gif" class="rounded img-fluid" /></p>
 
 <h1 id="braindotnet">Braindotnet</h1>
 <hr />
@@ -49,7 +49,7 @@
 
 <h2 id="screenshot">Screenshot</h2>
 <hr />
-<p><img src="https://user-images.githubusercontent.com/38276345/113074331-70ca6d80-91fd-11eb-890f-889a3e32f417.png" /></p>
+<p><img src="https://user-images.githubusercontent.com/38276345/113074331-70ca6d80-91fd-11eb-890f-889a3e32f417.png" class="rounded img-fluid" /></p>
 
 <h2 id="technology-and-framework-used">Technology and Framework used</h2>
 <hr />
@@ -85,7 +85,7 @@
 
 <h2 id="license">License</h2>
 <hr />
-<p>GPLv2 © 2018</p>
+<p><a href="https://opensource.org/licenses/"><img src="https://img.shields.io/badge/License-GPL%20v3-yellow.svg" alt="GPLv3 License" /></a> © 2018</p>
 
 <hr />
 
