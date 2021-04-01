@@ -1,31 +1,18 @@
----
-layout: post
-title: Describe Your Task as a Software Developer
-author: Pebojot
-date: 2021-3-31
-excerpt: You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team.
-short_description: You'll need to decide what you're going to make once you've decided what product you need to make.
-image_url: /assets/images/2021.3.31.blog.cover.webp
-latest: true
-blog_url: 2021/03/31/blog/
-type: blog
----
-<img src="/assets/images/2021.3.31.blog.cover.webp" class="rounded img-fluid">
+I" :<p><img src="/assets/images/2021.3.31.blog.cover.webp" class="rounded img-fluid" /></p>
 
-<div class="desktop__size " style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
-    <h2>Describe Your Task as a Software Developer</h2>
+<div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
+    <h2>How to Describe Your Task as a Software Developer</h2>
 </div>
-<div class="mobile__size " style="text-align: justify;word-break: break-all;font-family:sans-serif;">
-    <h2>Describe Your Task as a Software Developer</h2>
+<div class="mobile__size " style="font-family:sans-serif;">
+    <h2>How to Describe Your Task as a Software Developer</h2>
 </div>
----
+<hr />
 
-  <div class="desktop__size ">
+<div class="desktop__size ">
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle"
-            alt="Edison Pebojot">
+          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -40,25 +27,21 @@ type: blog
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large"
-          data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot"
-          data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large"
-          aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
       </div>
     </div>
   </div>
-
 
 <div class="mobile__size">
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle"  alt="Edison Pebojot">
+                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -73,7 +56,7 @@ type: blog
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -81,8 +64,8 @@ type: blog
         </div>
     </div>
 </div>
-<br />
-<div style="text-align: justify;word-break: break-all;font-family:sans-serif;">
+<p><br /></p>
+<div style="text-align: left;hyphens: auto;font-family:sans-serif;">
     <p>
       What do you do when you first get the data from your users? I wrote a blog post about how to get requirements at <a href="https://www.pebojot.com/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>, but what do you do when you get the data from your users?
     </p>
@@ -157,7 +140,7 @@ type: blog
     </p>
 </div>
 
----
+<hr />
 
 <div class="desktop__size ">
   <div class="d-flex align-items-center">
@@ -166,9 +149,8 @@ type: blog
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large"
-        data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
 </div>
@@ -176,7 +158,7 @@ type: blog
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -184,8 +166,9 @@ type: blog
         </div>
     </div>
 </div>
+<p><br />
 <br />
 <br />
 <br />
-<br />
-<br />
+<br /></p>
+:ET
