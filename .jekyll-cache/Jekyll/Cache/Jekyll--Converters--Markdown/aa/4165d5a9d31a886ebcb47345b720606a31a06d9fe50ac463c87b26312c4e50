@@ -1,31 +1,18 @@
----
-layout: post
-title: Describe Your Task as a Software Developer
-author: Pebojot
-date: 2021-3-31
-excerpt: You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team.
-short_description: You'll need to decide what you're going to make once you've decided what product you need to make.
-image_url: /assets/images/2021.3.31.blog.cover.webp
-latest: true
-blog_url: 2021/03/31/blog/
-type: blog
----
-<img src="/assets/images/2021.3.31.blog.cover.webp" class="rounded img-fluid">
+I"i;<p><img src="/assets/images/2021.3.31.blog.cover.webp" class="rounded img-fluid" /></p>
 
-<div class="desktop__size " style="text-align: justify;word-break: keep-all;font-family:sans-serif;">
+<div class="desktop__size " style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
     <h2>Describe Your Task as a Software Developer</h2>
 </div>
-<div class="mobile__size " style="text-align: justify;word-break: keep-all;font-family:sans-serif;">
+<div class="mobile__size " style="text-align: justify;word-break: break-all;font-family:sans-serif;">
     <h2>Describe Your Task as a Software Developer</h2>
 </div>
----
+<hr />
 
-  <div class="desktop__size ">
+<div class="desktop__size ">
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle"
-            alt="Edison Pebojot">
+          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -40,25 +27,21 @@ type: blog
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large"
-          data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot"
-          data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large"
-          aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
       </div>
     </div>
   </div>
-
 
 <div class="mobile__size">
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle"  alt="Edison Pebojot">
+                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -73,7 +56,7 @@ type: blog
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -81,8 +64,8 @@ type: blog
         </div>
     </div>
 </div>
-<br />
-  <div style="text-align: justify;word-break: keep-all;font-family:sans-serif;">
+<p><br /></p>
+<div style="text-align: justify;word-break: keep-all;font-family:sans-serif;">
     <p>
       What do you do when you first get the data from your users? I wrote a blog post about how to get requirements at <a href="https://www.pebojot.com/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>, but what do you do when you get the data from your users?
     </p>
@@ -129,20 +112,22 @@ type: blog
             <li><b>T</b>estable</li>
         </ul>
     </p>
-    <p style="text-align: justify;word-break: break-all;font-family:sans-serif;">The user story must be <i>independent</i> and not reliant on other user stories This means you can move it up or down in your <a href="https://www.scrum.org/resources/what-is-a-product-backlog" target="_blank">backlog</a> at any time. The user story must be also <i>negotiable</i>. This means that the user's story can be changed or abandoned at any time.If your user story has a technical issue your team can either find another user story or discard it entirely. To make sense, your user story must also be <i>valuable</i> .A user story that keeps you busy but adds little value to your team should be removed.
+    <p style="text-align: justify;word-break: break-all;font-family:sans-serif;">
+      The user story must be <i>independent</i> and not reliant on other user stories This means you can move it up or down in your <a href="https://www.scrum.org/resources/what-is-a-product-backlog" target="_blank">backlog</a> at any time. The user story must be also <i>negotiable</i>. This means that the user's story can be changed or abandoned at any time.If your user story has a technical
+      issue your team can either find another user story or discard it entirely. To make sense, your user story must also be <i>valuable</i> .A user story that keeps you busy but adds little value to your team should be removed.
     </p>
     <p style="text-align: justify;word-break: break-all;font-family:sans-serif;">Some teams assign a point value to a backlog item, which aids us in prioritizing those items. The low-cost item has a high priority, while the high-cost item has a low priority. This means that the user story is also <i>estimatable</i> for this reason. It's difficult to prioritize a user story if you don't estimate it. If this isn't accurately estimated, there's a problem with the meaning of a user story. This means that if a user story's meaning is incorrect, it can not be implemented.
     </p>
     <p>
       <i>Small</i> is another feature of a good user story. However, it is contingent on your team's rules. Other teams are competing in a <a href="https://en.wikipedia.org/wiki/Scrum_Sprint" target="_blank">sprint</a>, so the user story must be small for them to move easily. There are other teams that run in the same sprint as well, and it's fine with them if the user story is large as long as they're comfortable with it. The big user story is easy to overlook, resulting in wasted time and effort. The user story is also <i>testable</i>, and that is the final INVEST requirement. There is no other way for the team to know if the user story is properly placed in the backlog if it is not testable. When a requirement is not testable, it may lack meaning, and this lack of meaning leads to a user story that can not be assigned value points.
     </p>
-    <p style="text-align: justify;word-break: break-all;font-family:sans-serif;">
+    <p>
       These INVEST requirements also contradict one another. If you want a user story to be independent, for example, you can enlarge it, or make it smaller. However, according to INVEST, the user story should be small  When you're laying the groundwork for a system, it's huge at first. When a user story is large  the technical tasks are usually large as well You can also check the cost estimate to see if the big user story is affordable. You can make a <a href="https://en.wikipedia.org/wiki/Minimum_viable_product" target="_blank">Minimum Viable Product</a> if the cost is low, but MVP has low value. However  the MVP may be required to become <a href="https://en.wikipedia.org/wiki/Business_as_usual_(business)" target="_blank">Business As Usual</a> or BAU on occasion.
     </p>
     <p>
       When a user story is brand new, it frequently fails to meet INVEST's requirements. As a result, the new user story can be added to the planning process's idea section (<a href="https://en.wikipedia.org/wiki/Kanban_board#/media/File:Sample_Kanban_Board.png" target="_blank">see more</a>). Before adding a new user story to the backlog, the team checks to see if it has value or is estimatable. And when a new user story has already fulfilled the INVEST requirement. You must decide what steps you will take. Each team has its own way of defining a user story. Another group requires a lengthy definition of a user story. Others, on the other hand, simply want to be brief. It's difficult to find the right determinant level. When you have too much, your efforts may be wasted, and when you don't have enough, you may make mistakes.
     </p>
-    <p style="text-align: justify;word-break: break-all;font-family:sans-serif;">
+    <p>
       As the project moves from the concept stage to the production stage, you'll need a higher level of detail. This means that there are other stages before the development stage, such as the information architecture stage. At each stage, you must have good communication skills. If there is a technical issue, a senior developer may be able to assist.
     </p>
     <p>
@@ -155,7 +140,7 @@ type: blog
     </p>
   </div>
 
----
+<hr />
 
 <div class="desktop__size ">
   <div class="d-flex align-items-center">
@@ -164,9 +149,8 @@ type: blog
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large"
-        data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
 </div>
@@ -174,7 +158,7 @@ type: blog
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -182,8 +166,9 @@ type: blog
         </div>
     </div>
 </div>
+<p><br />
 <br />
 <br />
 <br />
-<br />
-<br />
+<br /></p>
+:ET

@@ -1,16 +1,4 @@
----
-layout: post
-title: The Basics of Software Requirement Gathering
-author: Pebojot
-date: 2021-3-29
-excerpt: The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.
-short_description: The role of the developer in software requirement gathering will vary with each team. Large teams
-image_url: /assets/images/2021-3-29-blog-cover.webp
-latest: false
-blog_url: 2021/03/29/blog/
-type: blog
----
-<img src="/assets/images/2021-3-29-blog-cover.webp" class="rounded img-fluid">
+I"Õ-<p><img src="/assets/images/2021-3-29-blog-cover.webp" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
     <h2>The Basics of Software Requirement Gathering</h2>
@@ -18,14 +6,13 @@ type: blog
 <div class="mobile__size " style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
     <h2>The Basics of Software Requirement Gathering</h2>
 </div>
----
+<hr />
 
-  <div class="desktop__size ">
+<div class="desktop__size ">
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle"
-            alt="Edison Pebojot">
+          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -40,25 +27,21 @@ type: blog
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large"
-          data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot"
-          data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large"
-          aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
       </div>
     </div>
   </div>
-
 
 <div class="mobile__size">
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle"  alt="Edison Pebojot">
+                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -73,7 +56,7 @@ type: blog
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -81,7 +64,7 @@ type: blog
         </div>
     </div>
 </div>
-<br />
+<p><br /></p>
 <div style="text-align: justify;word-break: keep-all;font-family:sans-serif;">
 <p>
   Each team's developer's role in gathering software requirements will be different. Someone is in charge of it in large groups. The <i>business analyst</i>, <i>product owner</i>, or <i>project manager</i> is this person. It is essential that you put it on. However, you must collaborate with them in order to fully comprehend what they are doing. It's just a lot easier to work with if you understand what they're doing, as well as what your entire team is doing.
@@ -99,7 +82,7 @@ type: blog
   The order in which your workshops are held is determined by the stakeholders involved. Instead of doing that solution and making a prototype right away, this is typically how you look at your problem and how you can solve it. You could argue that it is anti-<a href="https://en.wikipedia.org/wiki/Agile_software_development" target="_blank">agile</a>, but you know that in order to avoid making a mistake, you must first see and understand the problem. Your stakeholder can tell you about a problem in a workshop, which will help you figure out what your challenges are and what steps you and your team should take. This step is part of a larger process known as the <a href="https://en.wikipedia.org/wiki/Design#Process" target="_blank">design process</a> in software development. However, we will use a double diamond process (or model) in this article.
 </p>
 <p>
-  <img src="https://user-images.githubusercontent.com/38276345/112810401-8f215380-90ad-11eb-8f10-1f746f5070fb.png" class="img-fluid">
+  <img src="https://user-images.githubusercontent.com/38276345/112810401-8f215380-90ad-11eb-8f10-1f746f5070fb.png" class="img-fluid" />
   <figcaption>Figure 1. Double Diamond Model (<a href="https://en.wikipedia.org/wiki/File:Double_diamond.png" target="_blank">source</a>)</figcaption>
 </p>
 <p>
@@ -122,7 +105,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div style="text-align: left;font-family:sans-serif;">
 <h3>Summary</h3>
 </div>
----
+<hr />
 <div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
 <p>
   Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders.
@@ -135,7 +118,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 </p>
 </div>
 
----
+<hr />
 
 <div class="desktop__size ">
   <div class="d-flex align-items-center">
@@ -144,9 +127,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large"
-        data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
 </div>
@@ -154,7 +136,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -162,8 +144,9 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
         </div>
     </div>
 </div>
+<p><br />
 <br />
 <br />
 <br />
-<br />
-<br />
+<br /></p>
+:ET
