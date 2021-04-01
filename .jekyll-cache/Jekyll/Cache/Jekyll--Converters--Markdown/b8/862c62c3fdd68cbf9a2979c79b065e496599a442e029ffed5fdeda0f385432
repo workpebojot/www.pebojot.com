@@ -1,0 +1,150 @@
+I"4*<p><img src="/assets/images/2021.03.03.blog.cover.webp" class="rounded img-fluid" /></p>
+
+<div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
+    <h2>Software Ethics to me (or to you)</h2>
+</div>
+<div class="mobile__size " style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+    <h2>Software Ethics to me (or to you)</h2>
+</div>
+<hr />
+
+<div class="desktop__size ">
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <small class="text-muted">
+          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+        </small>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        By Edison Pebojot
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        03 March 2021
+      </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+      </div>
+    </div>
+  </div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center">
+        <div class="align-self-center">
+            <small class="text-muted">
+                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+            </small>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            By Edison Pebojot
+        </div>
+        &nbsp;
+        <div class="align-self-center flex-grow-1">
+            03/03/2021
+        </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        </div>
+    </div>
+</div>
+<p><br /></p>
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+Software engineering as a discipline has a tentative perception of engineering ethics. Rules of ethics are incorporated into the professional associations that serve professionals of most engineering fields. The advantages and pitfalls of these professional associations can be argued, but the general consensus tends to be that they add little meaning and that credentials carry little weight among employers. In certain nations, the word <i>Engineer</i> is a reserved term that can only be used for eligible persons. This is to preserve the engineer's integrity as a trustworthy professional.
+</p>
+<p>
+A professional should be someone you can trust, and this is done by including it in the professional's preparation, one example is the <b>Hippocratic oath</b> for medical practitioners or by regulatory or industry-led registration and certifications. Certification is generally acknowledged in the software development industry. This is a risky situation because we are not self-regulating, because there are no competent associations (which have their own ethical codes. One characteristic that ethics have in common is that people who work in these fields seek to do no harm.
+</p>
+<p>
+There have been several attempts to remedy these vulnerabilities, the most popular of which are the <b>Geek Feminism</b> and <b>Diversity</b> campaigns, but these only address a few facets of ethical behavior. The <b>Code Craftsmanship</b> campaign focuses on programming ethics, but it does not discuss the full extent of the issue. Ethics is an integral aspect of society, and it functions well where it is practiced by consensus rather than law. So, what is a software developer's ethical code? It's the same ethical code we all follow as people in society: <i>We should do no harm, or at the very least mitigate harm.</i>
+</p>
+</div>
+
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+Computers, especially mobile phones, have developed into personal devices that store data about users that they do not want to share with others. As a professional, you are supposed to protect your users' privacy, and this knowledge may also be helpful to an organization's decisions on how to create a better product or marketing strategy. Just because you can gather data doesn't mean you should. The <b>Big Data</b> craze is based around the concept of collecting as much data as possible and evaluating the findings to see if some patterns appear. However, collecting more oriented data is easier to interpret. The EU's General Data Privacy Regulation have prompted improvements in corporate practices. 
+</p>
+<p>
+You must also think like an attacker while collecting data. Giving users a random ID that isn't related to their real identification is one way to anonymize information. With enough data points, it might be possible too to connect this to a real user. In 2006, AOL made available the search logs of their search engine customers, who were connected to anonymous IDs. Journalists were able to positively identify the real users using data points. True anonymity would suggest that there are no data points in the system. For others, privacy is expected, while for others, it is appropriate. One example is the relationship between the state and its people. The NHS expected that care.data program would not only strengthen individual treatment, but also allow researchers to track national health patterns and potentially find new connections between various health conditions. But to the people, the privacy is appropriate. But, it was also impossible to render a cost-benefit comparison in this situation.
+</p>
+</div>
+
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+Developers must avoid functionality that have detrimental implications for the people who use the softwares we make because it may increase their cognitive workload. There are some categories of softwares on which developers may make an ethical decision. A facial recognition software, for example, may assist a social media user in <i>easily</i> marking images, but if used by a totalitarian regime, it may be used to persecute people. There is no correct answer.
+</p>
+</div>
+
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+Energy usage is a visible effect IT has on the environment, but it sounds abstract from a developer's viewpoint, particularly as the world transitions to the cloud. When businesses run their own data centres, they could see how much electricity they were consuming. This influence is impossible to see in the cloud.
+</p>
+</div>
+
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+Via open source, tech developers have a distinct way of communicating. Open source work is performed on a voluntary basis and is subject to licensing. Playing politics or intimidation are also unethical in any occupation, but they are far too prevalent. It is appropriate to use an open source feature as a library within a commercial product, but all improvements made to the library must be restored to the original project so that everyone will benefit.
+</p>
+</div>
+<div style="text-align: left;font-family:sans-serif;">
+<h3>Summary</h3>
+</div>
+<hr />
+<div style="text-align: justify;font-family:sans-serif;word-spacing: 0px;">
+<p>
+Ethics is a vital feature in most technical fields, but it is seldom addressed in software development. The following are four ethical issues that you may encounter: Privacy, which is being legislated as a consequence of the profession's ethical failings; cognitive workload, where we can add harmful side effects on our userbase as we rely exclusively on other goals; energy conservation, which can seem hypothetical but has a clear real-world effect; and confidence, both within our profession and for those with whom we operate.
+</p>
+<p>
+There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. Nonetheless, that is something we can take into consideration when developing structures in order to create a sustainable environment for everyone.
+</p>
+</div>
+
+<hr />
+
+<div class="desktop__size ">
+  <div class="d-flex align-items-center">
+    <div class="align-self-center">
+      <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/03/blog/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+    </div>
+    &nbsp;
+    <div class="align-self-center">
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/03/blog/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        </div>
+    </div>
+</div>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
+:ET

@@ -1,4 +1,176 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2021-03-31T12:54:53+08:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">The Basics of Software Requirement Gathering</title><link href="http://localhost:3000/2021/03/29/blog/" rel="alternate" type="text/html" title="The Basics of Software Requirement Gathering" /><published>2021-03-29T00:00:00+08:00</published><updated>2021-03-29T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/29/blog</id><content type="html" xml:base="http://localhost:3000/2021/03/29/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021-3-29-blog-cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2021-04-01T09:36:55+08:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">How to Describe You Task as a Software Developer</title><link href="http://localhost:3000/2021/03/31/blog/" rel="alternate" type="text/html" title="How to Describe You Task as a Software Developer" /><published>2021-03-31T00:00:00+08:00</published><updated>2021-03-31T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/31/blog</id><content type="html" xml:base="http://localhost:3000/2021/03/31/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.3.31.blog.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;desktop__size &quot; style=&quot;text-align: center;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
+    &lt;h2&gt;How to Describe You Task as a Software Developer&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mobile__size &quot; style=&quot;text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
+    &lt;h2&gt;How to Describe You Task as a Software Developer&lt;/h2&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;desktop__size &quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;small class=&quot;text-muted&quot;&gt;
+          &lt;img src=&quot;/assets/images/2x2.webp&quot; width=&quot;30&quot; height=&quot;30&quot; class=&quot;img-fluid rounded-circle&quot; alt=&quot;Edison Pebojot&quot; /&gt;
+        &lt;/small&gt;
+      &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        By Edison Pebojot
+      &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        31 March 2021
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;a href=&quot;https://twitter.com/workpebojot?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-follow-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Follow @workpebojot&lt;/a&gt;
+        &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+      &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-color-scheme=&quot;no-preference: light; light: light; dark: light;&quot; data-size=&quot;large&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;small class=&quot;text-muted&quot;&gt;
+                &lt;img src=&quot;/assets/images/2x2.webp&quot; width=&quot;30&quot; height=&quot;30&quot; class=&quot;img-fluid rounded-circle&quot; alt=&quot;Edison Pebojot&quot; /&gt;
+            &lt;/small&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            By Edison Pebojot
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center flex-grow-1&quot;&gt;
+            03/31/2021
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/workpebojot?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-follow-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Follow @workpebojot&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a class=&quot;github-button align-self-center&quot; href=&quot;https://github.com/workpebojot&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: justify;word-break: break-all;font-family:sans-serif;&quot;&gt;
+    &lt;p&gt;
+      What do you do when you first get the data from your users? I wrote a blog post about how to get requirements at &lt;a href=&quot;https://www.pebojot.com/2021/03/29/blog/&quot;&gt;The Basics of Software Requirement Gathering&lt;/a&gt;, but what do you do when you get the data from your users?
+    &lt;/p&gt;
+    &lt;p&gt;
+        You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend the problem and write a solution in the code. &lt;a href=&quot;https://en.wikipedia.org/wiki/User_story&quot; target=&quot;_blank&quot;&gt;User stories&lt;/a&gt; have become almost synonymous with &lt;a href=&quot;https://en.wikipedia.org/wiki/Agile_software_development&quot; target=&quot;_blank&quot;&gt;agile&lt;/a&gt; in many teams, though non-agile user stories also exist. From the perspective of your users, user stories represent what will be a new feature of a system. This is how you usually write them:
+    &lt;/p&gt;
+    &lt;p style=&quot;background-color: #D9D9D6;&quot; class=&quot;p-1&quot;&gt;
+        &lt;b&gt;As &lt;i&gt;someone&lt;/i&gt;, I'd like &lt;i&gt;to do something&lt;/i&gt;. In order for me to &lt;i&gt;achieve something&lt;/i&gt;&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;a href=&quot;https://www.thoughtworks.com/insights/articles/how-implement-hypothesis-driven-development&quot; target=&quot;_blank&quot;&gt;Hypothesis-driven development&lt;/a&gt;, or an &lt;i&gt;ad-hoc approach&lt;/i&gt; like writing on the back of an index card, is another option. Consider the following scenario:
+    &lt;/p&gt;
+    &lt;p style=&quot;background-color: #D9D9D6;&quot; class=&quot;p-1&quot;&gt;
+        &lt;b&gt;&lt;i&gt;As a user, I'd like to create an account. In order for me to be able to check out faster the next time.&lt;/i&gt;&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        Now comes the big question: is it really necessary for the user to check more quickly? Irrational user stories should be avoided. You might even lose interest in your effort now that they don't need to check it right away. If they do this, the user story above might make sense:
+    &lt;/p&gt;
+    &lt;p style=&quot;background-color: #D9D9D6;&quot; class=&quot;p-1&quot;&gt;
+        &lt;b&gt;&lt;i&gt;[1] As a business, [2] I'd like to create an account. [3] In order for me to learn more about my customers, and because customers with accounts are more likely to return to the app, according to research.&lt;/i&gt;&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        Unreasonable user stories often occur in number 3. This line is difficult to write because the content still needs quite a bit of explanation. Number 2 depends on your team's discussion. The phrase &lt;i&gt;As a user&lt;/i&gt; is one of the indicators of irrational user stories. The first line above can not be applied to another user because users's needs are different. It's critical to know the difference between them when designing a user-friendly product. It's also a good idea to create a &lt;a href=&quot;https://en.wikipedia.org/wiki/Persona_(user_experience)&quot; target=&quot;_blank&quot;&gt;persona&lt;/a&gt; for them so that you can give them a sense of identity. It can also be difficult to write a user story because it covers such a broad range of technology.
+    &lt;/p&gt;
+    &lt;p&gt;
+       However, you can turn these user stories into tasks &lt;a href=&quot;https://en.wikipedia.org/wiki/User_story#Relationship_to_epics,_themes_and_initiatives&quot; target=&quot;_blank&quot;&gt;(see more)&lt;/a&gt;, which are user stories but are broken up into smaller tasks. Epics might look something like this if you're making a personal management software: 
+    &lt;/p&gt;
+    &lt;p style=&quot;background-color: #D9D9D6;&quot; class=&quot;p-1&quot;&gt;
+        &lt;b&gt;&lt;i&gt;As a customer, I'd like to manage my activity. In order for me to be fully productive.&lt;/i&gt;&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        It can be broken down into small user stories based on various customer activities. Prioritizing these individual user stories is simple. Prioritizing large user stories will be difficult and will cause problems for your team. Because there are unnecessary tasks that arise as a result of a system's unnecessary features.   
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;a href=&quot;https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/&quot; target=&quot;_blank&quot;&gt;Bill Wake&lt;/a&gt; suggests a mnemonic to help you remember the key elements of a user story. This is referred to as &lt;a href=&quot;https://en.wikipedia.org/wiki/INVEST_(mnemonic)&quot; target=&quot;_blank&quot;&gt;INVEST&lt;/a&gt;:
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;I&lt;/b&gt;ndependent&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;N&lt;/b&gt;egotiable&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;V&lt;/b&gt;aluable&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;E&lt;/b&gt;stimatable&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;S&lt;/b&gt;mall&lt;/li&gt;
+            &lt;li&gt;&lt;b&gt;T&lt;/b&gt;estable&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/p&gt;
+    &lt;p&gt;      
+      The user story must be &lt;i&gt;independent&lt;/i&gt; and not reliant on other user stories This means you can move it up or down in your &lt;a href=&quot;https://www.scrum.org/resources/what-is-a-product-backlog&quot; target=&quot;_blank&quot;&gt;backlog&lt;/a&gt; at any time. The user story must be also &lt;i&gt;negotiable&lt;/i&gt;. This means that the user's story can be changed or abandoned at any time. If your user story has a technical issue your team can either find another user story or discard it entirely. To make sense, your user story must also be &lt;i&gt;valuable&lt;/i&gt; .A user story that keeps you busy but adds little value to your team should be removed.
+    &lt;/p&gt;
+    &lt;p&gt;
+     Some teams assign a point value to a backlog item, which aids us in prioritizing those items. The low-cost item has a high priority, while the high-cost item has a low priority. This means that the user story is also &lt;i&gt;estimatable&lt;/i&gt; for this reason. It's difficult to prioritize a user story if you don't estimate it. If this isn't accurately estimated, there's a problem with the meaning of a user story. This means that if a user story's meaning is incorrect, it can not be implemented.
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;i&gt;Small&lt;/i&gt; is another feature of a good user story. However, it is contingent on your team's rules. Other teams are competing in a &lt;a href=&quot;https://en.wikipedia.org/wiki/Scrum_Sprint&quot; target=&quot;_blank&quot;&gt;sprint&lt;/a&gt;, so the user story must be small for them to move easily. There are other teams that run in the same sprint as well, and it's fine with them if the user story is large as long as they're comfortable with it. The big user story is easy to overlook, resulting in wasted time and effort. The user story is also &lt;i&gt;testable&lt;/i&gt;, and that is the final INVEST requirement. There is no other way for the team to know if the user story is properly placed in the backlog if it is not testable. When a requirement is not testable, it may lack meaning, and this lack of meaning leads to a user story that can not be assigned value points.
+    &lt;/p&gt;
+    &lt;p&gt;
+      These INVEST requirements also contradict one another. If you want a user story to be independent, for example, you can enlarge it, or make it smaller. However, according to INVEST, the user story should be small  When you're laying the groundwork for a system, it's huge at first. When a user story is large  the technical tasks are usually large as well You can also check the cost estimate to see if the big user story is affordable. You can make a &lt;a href=&quot;https://en.wikipedia.org/wiki/Minimum_viable_product&quot; target=&quot;_blank&quot;&gt;Minimum Viable Product&lt;/a&gt; if the cost is low, but MVP has low value. However  the MVP may be required to become &lt;a href=&quot;https://en.wikipedia.org/wiki/Business_as_usual_(business)&quot; target=&quot;_blank&quot;&gt;Business As Usual&lt;/a&gt; or BAU on occasion.
+    &lt;/p&gt;
+    &lt;p&gt;
+      When a user story is brand new, it frequently fails to meet INVEST's requirements. As a result, the new user story can be added to the planning process's idea section (&lt;a href=&quot;https://en.wikipedia.org/wiki/Kanban_board#/media/File:Sample_Kanban_Board.png&quot; target=&quot;_blank&quot;&gt;see more&lt;/a&gt;). Before adding a new user story to the backlog, the team checks to see if it has value or is estimatable. And when a new user story has already fulfilled the INVEST requirement. You must decide what steps you will take. Each team has its own way of defining a user story. Another group requires a lengthy definition of a user story. Others, on the other hand, simply want to be brief. It's difficult to find the right determinant level. When you have too much, your efforts may be wasted, and when you don't have enough, you may make mistakes.
+    &lt;/p&gt;
+    &lt;p&gt;
+      As the project moves from the concept stage to the production stage, you'll need a higher level of detail. This means that there are other stages before the development stage, such as the information architecture stage. At each stage, you must have good communication skills. If there is a technical issue, a senior developer may be able to assist.
+    &lt;/p&gt;
+    &lt;p&gt;
+      The &lt;a href=&quot;https://en.wikipedia.org/wiki/User_story#Acceptance_criteria&quot; target=&quot;_blank&quot;&gt;acceptance criteria&lt;/a&gt; are the most common level of determination you'll need as a developer. &lt;a href=&quot;https://en.wikipedia.org/wiki/Behavior-driven_development&quot; target=&quot;_blank&quot;&gt;Behavior-driven development&lt;/a&gt; is one method that works well in this situation. Where you'll talk about establishing acceptance criteria. Written communication is less effective than verbal communication. It's crucial to ask and answer questions within your team if you want to make a good decision. In addition, some teams prefer verbal communication to written communication.
+    &lt;/p&gt;
+    &lt;h3&gt;Summary&lt;/h3&gt;
+    &lt;hr /&gt;
+    &lt;p&gt;
+      A user story should be removed if it keeps you busy but adds little value to your team. The user story must stand alone and not be dependent on other user stories. If you don't estimate a user story, it's difficult to prioritize it. The user story, according to INVEST, should be brief. It's easy to overlook the big user story, resulting in wasted time and effort. The user story is negotiable and can be changed or abandoned at any time. If a technical issue arises with your user story, your team can either find another one or discard it entirely. At any point in time, a good user story can be moved up or down in your backlog. You must prefer verbal communication to written communication if you are working in team.
+    &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;desktop__size &quot;&gt;
+  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2021/03/03/blog/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &amp;nbsp;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
+      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2021/03/03/blog/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team.</summary></entry><entry><title type="html">The Basics of Software Requirement Gathering</title><link href="http://localhost:3000/2021/03/29/blog/" rel="alternate" type="text/html" title="The Basics of Software Requirement Gathering" /><published>2021-03-29T00:00:00+08:00</published><updated>2021-03-29T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/29/blog</id><content type="html" xml:base="http://localhost:3000/2021/03/29/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021-3-29-blog-cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;desktop__size &quot; style=&quot;text-align: center;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
     &lt;h2&gt;The Basics of Software Requirement Gathering&lt;/h2&gt;
@@ -127,7 +299,7 @@ This type of requirement gathering is &lt;a href=&quot;https://en.wikipedia.org/
     &lt;/div&gt;
     &amp;nbsp;
     &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
       &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -136,7 +308,7 @@ This type of requirement gathering is &lt;a href=&quot;https://en.wikipedia.org/
 &lt;div class=&quot;mobile__size&quot;&gt;
     &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
         &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
         &lt;/div&gt;
         &amp;nbsp;
         &lt;div class=&quot;align-self-center&quot;&gt;
@@ -233,7 +405,7 @@ This type of requirement gathering is &lt;a href=&quot;https://en.wikipedia.org/
     &lt;/div&gt;
     &amp;nbsp;
     &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
       &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -242,7 +414,7 @@ This type of requirement gathering is &lt;a href=&quot;https://en.wikipedia.org/
 &lt;div class=&quot;mobile__size&quot;&gt;
     &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
         &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
         &lt;/div&gt;
         &amp;nbsp;
         &lt;div class=&quot;align-self-center&quot;&gt;
@@ -381,7 +553,7 @@ There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. N
     &lt;/div&gt;
     &amp;nbsp;
     &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
       &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -390,7 +562,7 @@ There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. N
 &lt;div class=&quot;mobile__size&quot;&gt;
     &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
         &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
         &lt;/div&gt;
         &amp;nbsp;
         &lt;div class=&quot;align-self-center&quot;&gt;
@@ -571,7 +743,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
     &lt;/div&gt;
     &amp;nbsp;
     &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
       &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -580,7 +752,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;div class=&quot;mobile__size&quot;&gt;
     &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
         &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
         &lt;/div&gt;
         &amp;nbsp;
         &lt;div class=&quot;align-self-center&quot;&gt;
@@ -669,7 +841,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
     &lt;/div&gt;
     &amp;nbsp;
     &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
       &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -678,7 +850,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;div class=&quot;mobile__size&quot;&gt;
     &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
         &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
         &lt;/div&gt;
         &amp;nbsp;
         &lt;div class=&quot;align-self-center&quot;&gt;
@@ -849,7 +1021,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
     &lt;/div&gt;
     &amp;nbsp;
     &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
       &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -858,7 +1030,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;div class=&quot;mobile__size&quot;&gt;
     &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
         &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
         &lt;/div&gt;
         &amp;nbsp;
         &lt;div class=&quot;align-self-center&quot;&gt;
@@ -928,7 +1100,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
     &lt;/div&gt;
     &amp;nbsp;
     &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
       &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -937,7 +1109,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;div class=&quot;mobile__size&quot;&gt;
     &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
         &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
         &lt;/div&gt;
         &amp;nbsp;
         &lt;div class=&quot;align-self-center&quot;&gt;
@@ -1047,7 +1219,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
     &lt;/div&gt;
     &amp;nbsp;
     &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
       &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1056,7 +1228,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;div class=&quot;mobile__size&quot;&gt;
     &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
         &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
         &lt;/div&gt;
         &amp;nbsp;
         &lt;div class=&quot;align-self-center&quot;&gt;
@@ -1115,7 +1287,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
     &lt;/div&gt;
     &amp;nbsp;
     &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
       &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
     &lt;/div&gt;
   &lt;/div&gt;
@@ -1124,7 +1296,7 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;div class=&quot;mobile__size&quot;&gt;
     &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
         &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
         &lt;/div&gt;
         &amp;nbsp;
         &lt;div class=&quot;align-self-center&quot;&gt;
@@ -1136,72 +1308,4 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">10 SEPTEMBER 2018 4AM UTC+8 AMA Computer University Hackathon Event University · College · Technology Details 256 people responsed Event by AMA Computer University Website: N/A Ticket: N/A Private Event This was one of the most important events at AMA Computer College. It includes a number of activities ranging from computing to performing. One of my deans was there, and it was a fantastic experience. Share &amp;nbsp; Tweet Tweet &amp;nbsp; Share</summary></entry><entry><title type="html">Tree Planting: About Environmental Conservation</title><link href="http://localhost:3000/2018/05/31/event/" rel="alternate" type="text/html" title="Tree Planting: About Environmental Conservation" /><published>2018-05-31T00:00:00+08:00</published><updated>2018-05-31T00:00:00+08:00</updated><id>http://localhost:3000/2018/05/31/event</id><content type="html" xml:base="http://localhost:3000/2018/05/31/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2018.05.31.event.cover.webp&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;31 MAY 2018 8AM UTC+8&lt;/b&gt;&lt;/p&gt;
-&lt;div style=&quot;text-align: left&quot;&gt;
-    &lt;h1&gt;Tree Planting in Dingalan Aurora&lt;/h1&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;small&gt;High School Event · Tree Planting&lt;/small&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;div style=&quot;text-align: left&quot;&gt;
-    &lt;h3&gt;Details&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div style=&quot;text-align: justify&quot;&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/group.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        256 people responsed
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/flag.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Event by DENR
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/web.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Website: N/A
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/ticket.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Ticket: N/A
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/information.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Private Event
-    &lt;/p&gt;
-    &lt;p&gt;
-    This was the result of our tree-planting event. There was also a lecture where we learned about the value of environmental conservation in detail, followed by a fun activity. Here, with some of my former classmates, we planted trees at the top of our community.
-    &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;desktop__size &quot;&gt;
-  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
-    &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2018/05/31/event/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &amp;nbsp;
-    &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;
-      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;mobile__size&quot;&gt;
-    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
-        &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-        &lt;/div&gt;
-        &amp;nbsp;
-        &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2018/05/31/event/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">31 MAY 2018 8AM UTC+8 Tree Planting in Dingalan Aurora High School Event · Tree Planting Details 256 people responsed Event by DENR Website: N/A Ticket: N/A Private Event This was the result of our tree-planting event. There was also a lecture where we learned about the value of environmental conservation in detail, followed by a fun activity. Here, with some of my former classmates, we planted trees at the top of our community. Share &amp;nbsp; Tweet Tweet &amp;nbsp; Share</summary></entry></feed>
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">10 SEPTEMBER 2018 4AM UTC+8 AMA Computer University Hackathon Event University · College · Technology Details 256 people responsed Event by AMA Computer University Website: N/A Ticket: N/A Private Event This was one of the most important events at AMA Computer College. It includes a number of activities ranging from computing to performing. One of my deans was there, and it was a fantastic experience. Share &amp;nbsp; Tweet Tweet &amp;nbsp; Share</summary></entry></feed>
