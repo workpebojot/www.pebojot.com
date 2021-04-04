@@ -1,4 +1,4 @@
-I"Ð1<p><img src="https://user-images.githubusercontent.com/38276345/113085789-14724880-9213-11eb-93f7-187db9688673.png" class="rounded img-fluid" /></p>
+I"œ1<p><img src="https://user-images.githubusercontent.com/38276345/113085789-14724880-9213-11eb-93f7-187db9688673.png" class="rounded img-fluid" /></p>
 
 <h1 id="the-vacuum-project">The Vacuum Project</h1>
 
@@ -97,7 +97,7 @@
 
 <p>In <code class="language-plaintext highlighter-rouge">src/abstract files</code>, you can add your any dependencies there needed by your application. In short, we can illustrate it in simple graph:</p>
 
-<p><img class="img-fluid" src="https://user-images.githubusercontent.com/38276345/102958422-c4029500-4517-11eb-81e3-cbb9b0f668c4.png" /></p>
+<p><img class="img-fluid" src="/assets/images/sample.code.2020.10.28.project.png" /></p>
 
 <p>And we can then express them in code:</p>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Dependencies</span>
