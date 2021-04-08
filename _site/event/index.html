@@ -6,8 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
   <title>Event</title>
+  
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link type="application/atom+xml" rel="alternate" href="http://localhost:3000/feed.xml" />
   
@@ -32,99 +36,139 @@
 <body>
   <div class="container p-2">
     <nav class="navbar navbar-expand-lg navbar-light p-2">
-      <a class="navbar-brand navbar__desktop" href="/">
-        <h4>
-          <span class="main-hover">
-            Edison Pebojot
-          </span>
-        </h4>
-        <!-- <span>
-          <h6 class="text-secondary">
-            <span class="main-hover">
-              Software Developer
-            </span>
-          </h6>
-        </span> -->
-      </a>
-      <span class="navbar__mobile">
-        <a href="/" class="btn " style="margin: 2px;">
-          <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle"
-            alt="Edison Pebojot">
-        </a>
-      </span>
-      <span class="navbar__mobile">
-        <a href="/blog/" class="btn " style="margin: 2px;">
-          <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-        </a>
-      </span>
-      <span class="navbar__mobile">
-        <a href="/event/" class="btn btn btn-light" style="margin: 2px;">
-          <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
-        </a>
-      </span>
-      <span class="navbar__mobile">
-        <a href="/project/" class="btn " style="margin: 2px;">
-          <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-        </a>
-      </span>
-      <span class="navbar__mobile">
-        <a href="/about/" role="button"
-          class="btn btn-secondary "
-          style="margin: 2px;">
-          <b>
+      
+
+<span class="d-flex flex-grow-1">
+    <span class="navbar__desktop">
+        <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+            
+            <a class="nav-link  border-0" data-toggle="tabs"
+                href="/">
+                <h5>
+                    <span class="home-hover">
+                        Edison Pebojot
+                    </span>
+                </h5>
+            </a>
+            
+        </span>
+    </span>
+</span>
+
+
+
+
+
+
+
+
+
+
+<span class="navbar__mobile">
+    <a href="/" class="btn " style="margin: 2px;">
+        <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
+    </a>
+</span>
+<span class="navbar__mobile">
+    <a href="/blog/" class="btn " style="margin: 2px;">
+        <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
+    </a>
+</span>
+<span class="navbar__mobile">
+    <a href="/event/" class="btn btn btn-light" style="margin: 2px;">
+        <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
+    </a>
+</span>
+<span class="navbar__mobile">
+    <a href="/project/" class="btn " style="margin: 2px;">
+        <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
+    </a>
+</span>
+<span class="navbar__mobile">
+    <a href="/about/" role="button"
+        class="btn btn-secondary "
+        style="margin: 2px;">
+        <b>
             About
-          </b>
+        </b>
+    </a>
+</span>
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+    </span>
+</span>
+
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        <a class="nav-link  border-0" data-toggle="tabs"
+            href="/blog/">
+            <h5>
+                <span class="home-hover">
+                    Blog
+                </span>
+            </h5>
         </a>
-      </span>
-      <div class="collapse navbar-collapse justify-content-end navbar__desktop">
-        <div class="nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
-          
-<a class="nav-link  border-0" data-toggle="tabs" href="/">
-    <h5>
-        <span class="home-hover">
-            Home
-        </span>
-    </h5>
-</a>
+        
+    </span>
+</span>
 
-<a class="nav-link  border-0" data-toggle="tabs" href="/blog/">
-    <h5>
-        <span class="home-hover">
-            Blog
-        </span>
-    </h5>
-</a>
 
-<a class="nav-link active border-0" data-toggle="tabs" href="/event/">
-    <h5>
-        <span class="home-hover">
-            Event
-        </span>
-    </h5>
-</a>
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        <a class="nav-link active border-0" data-toggle="tabs"
+            href="/event/">
+            <h5>
+                <span class="home-hover">
+                    Event
+                </span>
+            </h5>
+        </a>
+        
+    </span>
+</span>
 
-<a class="nav-link  border-0" data-toggle="tabs" href="/project/">
-    <h5>
-        <span class="home-hover">
-            Project
-        </span>
-    </h5>
-</a>
 
-<a class="nav-link  border-0" data-toggle="tabs" href="/about/">
-    <h5>
-        <span class="home-hover">
-            About
-        </span>
-    </h5>
-</a>
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        <a class="nav-link  border-0" data-toggle="tabs"
+            href="/project/">
+            <h5>
+                <span class="home-hover">
+                    Project
+                </span>
+            </h5>
+        </a>
+        
+    </span>
+</span>
 
-        </div>
-      </div>
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        <a class="nav-link  border-0" data-toggle="tabs"
+            href="/about/">
+            <h5>
+                <span class="home-hover">
+                    About
+                </span>
+            </h5>
+        </a>
+        
+    </span>
+</span>
+
+
     </nav>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/home">
+      <div class="tab-pane container " id="/edison pebojot">
         <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">

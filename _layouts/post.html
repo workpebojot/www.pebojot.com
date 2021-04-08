@@ -36,36 +36,7 @@
     nonce="kjfhgux3"></script>
   <div class="container p-2">
     <nav class="navbar navbar-expand-lg navbar-light p-2">
-      <a class="navbar-brand navbar__desktop" href="/">
-        <h4>
-          Edison Pebojot
-        </h4>
-        <!-- <span>
-          <h6 class="text-secondary">Software Developer</h6>
-        </span> -->
-      </a>
-      <a href="/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
-      </a>
-      <a href="/blog/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-      </a>
-      <a href="/event/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
-      </a>
-      <a href="/project/" class="navbar__mobile" style="margin: 2px;">
-        <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-      </a>
-      <span class="navbar__mobile">
-        <a href="/about/" role="button" class="btn btn-secondary" style="margin: 2px;">
-          About
-        </a>
-      </span>
-      <div class="collapse navbar-collapse justify-content-end navbar__desktop">
-        <div class="nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
-          {% include navigation.html %}
-        </div>
-      </div>
+      {% include navigation.html %}
     </nav>
     <div class="tab-content mt-2">
       <div class="tab-pane container active" id="/{{ page.url | downcase }}">

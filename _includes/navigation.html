@@ -1,9 +1,66 @@
 {% for item in site.data.navigation %}
-<a class="nav-link {% if page.url==item.link %}active{% endif %} border-0" data-toggle="tabs" href="{{ item.link }}">
-    <h5>
-        <span class="home-hover">
-            {{ item.name }}
+{% if item.link=="/"%}
+<span class="d-flex flex-grow-1">
+    <span class="navbar__desktop">
+        <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+            {% if item.link=="/"%}
+            <a class="nav-link {% if page.url==item.link %}active{% endif %} border-0" data-toggle="tabs"
+                href="{{ item.link }}">
+                <h5>
+                    <span class="home-hover">
+                        {{ item.name }}
+                    </span>
+                </h5>
+            </a>
+            {% endif %}
         </span>
-    </h5>
-</a>
+    </span>
+</span>
+{% endif %}
+{% endfor %}
+<span class="navbar__mobile">
+    <a href="/" class="btn {% if page.url=='/' %}btn btn-light{% endif %}" style="margin: 2px;">
+        <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
+    </a>
+</span>
+<span class="navbar__mobile">
+    <a href="/blog/" class="btn {% if page.url=='/blog/' %}btn btn-light{% endif %}" style="margin: 2px;">
+        <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
+    </a>
+</span>
+<span class="navbar__mobile">
+    <a href="/event/" class="btn {% if page.url=='/event/' %}btn btn-light{% endif %}" style="margin: 2px;">
+        <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
+    </a>
+</span>
+<span class="navbar__mobile">
+    <a href="/project/" class="btn {% if page.url=='/project/' %}btn btn-light{% endif %}" style="margin: 2px;">
+        <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
+    </a>
+</span>
+<span class="navbar__mobile">
+    <a href="/about/" role="button"
+        class="btn {% if page.url!='/about/' %}btn-secondary{% endif %} {% if page.url=='/about/' %}btn btn-light{% endif %}"
+        style="margin: 2px;">
+        <b>
+            About
+        </b>
+    </a>
+</span>
+{% for item in site.data.navigation %}
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        {% if item.link!="/"%}
+        <a class="nav-link {% if page.url==item.link %}active{% endif %} border-0" data-toggle="tabs"
+            href="{{ item.link }}">
+            <h5>
+                <span class="home-hover">
+                    {{ item.name }}
+                </span>
+            </h5>
+        </a>
+        {% endif %}
+    </span>
+</span>
+
 {% endfor %}
