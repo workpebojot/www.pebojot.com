@@ -53,6 +53,11 @@
             
         </span>
     </span>
+    <span class="navbar__mobile">
+        <a href="/" class="btn " style="margin: 2px;">
+            <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
+        </a>
+    </span>
 </span>
 
 
@@ -65,33 +70,26 @@
 
 
 <span class="navbar__mobile">
-    <a href="/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/blog/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/event/" class="btn btn btn-light" style="margin: 2px;">
-        <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/project/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/about/" role="button"
-        class="btn btn-secondary "
-        style="margin: 2px;">
-        <b>
-            About
-        </b>
-    </a>
+    <div class="d-flex align-items-center">
+        <a href="/blog/" class="p-1 btn ">
+            <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
+        </a>
+        <a href="/event/" class="p-1 btn btn-light">
+            <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
+        </a>
+        <a href="/project/" class="p-1 btn ">
+            <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
+        </a>
+        <a href="/about/" role="button" 
+            class="p-1 btn btn-secondary ">
+            <b>
+                About
+            </b>
+        </a>
+        <!-- <span id="menu" class="btn">
+            <img id="menu-src" src="/assets/images/menu.webp" >
+        </span> -->
+    </div>
 </span>
 
 <span class="navbar__desktop">
@@ -168,8 +166,21 @@
     </nav>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/edison pebojot">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -201,10 +212,10 @@
             <a href="/2020/08/28/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.8.28.event.cover.webp" class="card-img-top" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Elliptic Curve Cryptography and Quantum Computing: The Mathematics
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 15 people responsed
@@ -241,10 +252,10 @@
             <a href="/2018/09/10/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.09.10.event.cover.webp" class="card-img-top" alt="Hackathon Event: AMA Computer University">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Hackathon Event: AMA Computer University
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 256 people responsed
@@ -279,10 +290,10 @@
             <a href="/2018/05/31/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.05.31.event.cover.webp" class="card-img-top" alt="Tree Planting: About Environmental Conservation">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Tree Planting: About Environmental Conservation
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 87 people responsed
@@ -317,10 +328,10 @@
             <a href="/2016/03/12/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2016.03.12.event.cover.webp" class="card-img-top" alt="Theatre: Acting Session for El Filibusterismo in Grade 10">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Theatre: Acting Session for El Filibusterismo in Grade 10
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 23 people responsed
@@ -353,12 +364,25 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/blog">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -390,10 +414,10 @@
             <a href="/2020/08/28/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.8.28.event.cover.webp" class="card-img-top" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Elliptic Curve Cryptography and Quantum Computing: The Mathematics
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 15 people responsed
@@ -430,10 +454,10 @@
             <a href="/2018/09/10/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.09.10.event.cover.webp" class="card-img-top" alt="Hackathon Event: AMA Computer University">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Hackathon Event: AMA Computer University
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 256 people responsed
@@ -468,10 +492,10 @@
             <a href="/2018/05/31/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.05.31.event.cover.webp" class="card-img-top" alt="Tree Planting: About Environmental Conservation">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Tree Planting: About Environmental Conservation
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 87 people responsed
@@ -506,10 +530,10 @@
             <a href="/2016/03/12/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2016.03.12.event.cover.webp" class="card-img-top" alt="Theatre: Acting Session for El Filibusterismo in Grade 10">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Theatre: Acting Session for El Filibusterismo in Grade 10
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 23 people responsed
@@ -542,12 +566,25 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container active" id="/event">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container active">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -579,10 +616,10 @@
             <a href="/2020/08/28/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.8.28.event.cover.webp" class="card-img-top" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Elliptic Curve Cryptography and Quantum Computing: The Mathematics
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 15 people responsed
@@ -619,10 +656,10 @@
             <a href="/2018/09/10/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.09.10.event.cover.webp" class="card-img-top" alt="Hackathon Event: AMA Computer University">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Hackathon Event: AMA Computer University
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 256 people responsed
@@ -657,10 +694,10 @@
             <a href="/2018/05/31/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.05.31.event.cover.webp" class="card-img-top" alt="Tree Planting: About Environmental Conservation">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Tree Planting: About Environmental Conservation
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 87 people responsed
@@ -695,10 +732,10 @@
             <a href="/2016/03/12/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2016.03.12.event.cover.webp" class="card-img-top" alt="Theatre: Acting Session for El Filibusterismo in Grade 10">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Theatre: Acting Session for El Filibusterismo in Grade 10
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 23 people responsed
@@ -731,12 +768,25 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/project">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -768,10 +818,10 @@
             <a href="/2020/08/28/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.8.28.event.cover.webp" class="card-img-top" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Elliptic Curve Cryptography and Quantum Computing: The Mathematics
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 15 people responsed
@@ -808,10 +858,10 @@
             <a href="/2018/09/10/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.09.10.event.cover.webp" class="card-img-top" alt="Hackathon Event: AMA Computer University">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Hackathon Event: AMA Computer University
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 256 people responsed
@@ -846,10 +896,10 @@
             <a href="/2018/05/31/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.05.31.event.cover.webp" class="card-img-top" alt="Tree Planting: About Environmental Conservation">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Tree Planting: About Environmental Conservation
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 87 people responsed
@@ -884,10 +934,10 @@
             <a href="/2016/03/12/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2016.03.12.event.cover.webp" class="card-img-top" alt="Theatre: Acting Session for El Filibusterismo in Grade 10">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Theatre: Acting Session for El Filibusterismo in Grade 10
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 23 people responsed
@@ -920,12 +970,25 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/about">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -957,10 +1020,10 @@
             <a href="/2020/08/28/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.8.28.event.cover.webp" class="card-img-top" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Elliptic Curve Cryptography and Quantum Computing: The Mathematics
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 15 people responsed
@@ -997,10 +1060,10 @@
             <a href="/2018/09/10/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.09.10.event.cover.webp" class="card-img-top" alt="Hackathon Event: AMA Computer University">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Hackathon Event: AMA Computer University
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 256 people responsed
@@ -1035,10 +1098,10 @@
             <a href="/2018/05/31/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.05.31.event.cover.webp" class="card-img-top" alt="Tree Planting: About Environmental Conservation">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Tree Planting: About Environmental Conservation
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 87 people responsed
@@ -1073,10 +1136,10 @@
             <a href="/2016/03/12/event/" class="btn btn-light" role="button">
               <img src="/assets/images/2016.03.12.event.cover.webp" class="card-img-top" alt="Theatre: Acting Session for El Filibusterismo in Grade 10">
             </a>
-            <div class="card-body">
-              <h5 class="card-title">
+            <div class="card-body lead">
+              <h4 class="card-title">
                 Theatre: Acting Session for El Filibusterismo in Grade 10
-              </h5>
+              </h4>
               <p>
                 <img src="/assets/images/group.webp" width="24" height="24">
                 23 people responsed
@@ -1109,11 +1172,11 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
   </div>
-
+<script type="text/javascript" src="/assets/js/custom/custom.js"></script>
 </body>
 
 </html>

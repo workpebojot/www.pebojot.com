@@ -53,6 +53,11 @@
             
         </span>
     </span>
+    <span class="navbar__mobile">
+        <a href="/" class="btn " style="margin: 2px;">
+            <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
+        </a>
+    </span>
 </span>
 
 
@@ -65,33 +70,26 @@
 
 
 <span class="navbar__mobile">
-    <a href="/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/blog/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/event/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/project/" class="btn btn btn-light" style="margin: 2px;">
-        <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/about/" role="button"
-        class="btn btn-secondary "
-        style="margin: 2px;">
-        <b>
-            About
-        </b>
-    </a>
+    <div class="d-flex align-items-center">
+        <a href="/blog/" class="p-1 btn ">
+            <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
+        </a>
+        <a href="/event/" class="p-1 btn ">
+            <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
+        </a>
+        <a href="/project/" class="p-1 btn btn-light">
+            <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
+        </a>
+        <a href="/about/" role="button" 
+            class="p-1 btn btn-secondary ">
+            <b>
+                About
+            </b>
+        </a>
+        <!-- <span id="menu" class="btn">
+            <img id="menu-src" src="/assets/images/menu.webp" >
+        </span> -->
+    </div>
 </span>
 
 <span class="navbar__desktop">
@@ -168,8 +166,21 @@
     </nav>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/edison pebojot">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -191,11 +202,20 @@
             <div class="card-header">
               Muon: Software Package Directory
             </div>
-            <a href="/2021/03/20/project/" class="btn btn-light"role="button">
+            <a href="/2021/03/20/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2021.03.20.project.cover.webp" class="card-img-top img-fluid" alt="Muon: Software Package Directory">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The muon is a software package directory tool. It helps you to find software packages from different
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/111939433-3a0e9c00-8b07-11eb-8e12-6e9f1ad78b3d.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -228,11 +248,20 @@
             <div class="card-header">
               www.pebojot.com
             </div>
-            <a href="/2020/12/25/project/" class="btn btn-light"role="button">
+            <a href="/2020/12/25/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.12.25.project.cover.webp" class="card-img-top img-fluid" alt="www.pebojot.com">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/113083148-4208c300-920e-11eb-8855-a7715a3d9028.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -261,11 +290,20 @@
             <div class="card-header">
               The Vacuum Project
             </div>
-            <a href="/2020/10/28/project/" class="btn btn-light"role="button">
+            <a href="/2020/10/28/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.10.28.project.cover.webp" class="card-img-top img-fluid" alt="The Vacuum Project">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/109790527-76f41b00-7c4c-11eb-92f5-d7b72832783a.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -296,11 +334,20 @@
             <div class="card-header">
               Braindotnet
             </div>
-            <a href="/2018/10/12/project/" class="btn btn-light"role="button">
+            <a href="/2018/10/12/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.10.12.project.cover.webp" class="card-img-top img-fluid" alt="Braindotnet">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University. Specifically, it was developed in the year 2018. The goal is to create a tool for students to communicate with one another.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University. Specifically, it was developed in the year 2018. The goal is to create a tool for students to communicate with one another.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University.
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://deifpxeochufn.cloudfront.net/wp-content/uploads/2017/11/Onsen-UI.jpg" width="32" height="32" class="img-fluid" alt="Github">
@@ -333,12 +380,25 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/blog">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -360,11 +420,20 @@
             <div class="card-header">
               Muon: Software Package Directory
             </div>
-            <a href="/2021/03/20/project/" class="btn btn-light"role="button">
+            <a href="/2021/03/20/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2021.03.20.project.cover.webp" class="card-img-top img-fluid" alt="Muon: Software Package Directory">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The muon is a software package directory tool. It helps you to find software packages from different
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/111939433-3a0e9c00-8b07-11eb-8e12-6e9f1ad78b3d.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -397,11 +466,20 @@
             <div class="card-header">
               www.pebojot.com
             </div>
-            <a href="/2020/12/25/project/" class="btn btn-light"role="button">
+            <a href="/2020/12/25/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.12.25.project.cover.webp" class="card-img-top img-fluid" alt="www.pebojot.com">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/113083148-4208c300-920e-11eb-8855-a7715a3d9028.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -430,11 +508,20 @@
             <div class="card-header">
               The Vacuum Project
             </div>
-            <a href="/2020/10/28/project/" class="btn btn-light"role="button">
+            <a href="/2020/10/28/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.10.28.project.cover.webp" class="card-img-top img-fluid" alt="The Vacuum Project">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/109790527-76f41b00-7c4c-11eb-92f5-d7b72832783a.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -465,11 +552,20 @@
             <div class="card-header">
               Braindotnet
             </div>
-            <a href="/2018/10/12/project/" class="btn btn-light"role="button">
+            <a href="/2018/10/12/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.10.12.project.cover.webp" class="card-img-top img-fluid" alt="Braindotnet">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University. Specifically, it was developed in the year 2018. The goal is to create a tool for students to communicate with one another.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University. Specifically, it was developed in the year 2018. The goal is to create a tool for students to communicate with one another.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University.
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://deifpxeochufn.cloudfront.net/wp-content/uploads/2017/11/Onsen-UI.jpg" width="32" height="32" class="img-fluid" alt="Github">
@@ -502,12 +598,25 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/event">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -529,11 +638,20 @@
             <div class="card-header">
               Muon: Software Package Directory
             </div>
-            <a href="/2021/03/20/project/" class="btn btn-light"role="button">
+            <a href="/2021/03/20/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2021.03.20.project.cover.webp" class="card-img-top img-fluid" alt="Muon: Software Package Directory">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The muon is a software package directory tool. It helps you to find software packages from different
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/111939433-3a0e9c00-8b07-11eb-8e12-6e9f1ad78b3d.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -566,11 +684,20 @@
             <div class="card-header">
               www.pebojot.com
             </div>
-            <a href="/2020/12/25/project/" class="btn btn-light"role="button">
+            <a href="/2020/12/25/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.12.25.project.cover.webp" class="card-img-top img-fluid" alt="www.pebojot.com">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/113083148-4208c300-920e-11eb-8855-a7715a3d9028.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -599,11 +726,20 @@
             <div class="card-header">
               The Vacuum Project
             </div>
-            <a href="/2020/10/28/project/" class="btn btn-light"role="button">
+            <a href="/2020/10/28/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.10.28.project.cover.webp" class="card-img-top img-fluid" alt="The Vacuum Project">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/109790527-76f41b00-7c4c-11eb-92f5-d7b72832783a.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -634,11 +770,20 @@
             <div class="card-header">
               Braindotnet
             </div>
-            <a href="/2018/10/12/project/" class="btn btn-light"role="button">
+            <a href="/2018/10/12/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.10.12.project.cover.webp" class="card-img-top img-fluid" alt="Braindotnet">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University. Specifically, it was developed in the year 2018. The goal is to create a tool for students to communicate with one another.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University. Specifically, it was developed in the year 2018. The goal is to create a tool for students to communicate with one another.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University.
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://deifpxeochufn.cloudfront.net/wp-content/uploads/2017/11/Onsen-UI.jpg" width="32" height="32" class="img-fluid" alt="Github">
@@ -671,12 +816,25 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container active" id="/project">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container active">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -698,11 +856,20 @@
             <div class="card-header">
               Muon: Software Package Directory
             </div>
-            <a href="/2021/03/20/project/" class="btn btn-light"role="button">
+            <a href="/2021/03/20/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2021.03.20.project.cover.webp" class="card-img-top img-fluid" alt="Muon: Software Package Directory">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The muon is a software package directory tool. It helps you to find software packages from different
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/111939433-3a0e9c00-8b07-11eb-8e12-6e9f1ad78b3d.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -735,11 +902,20 @@
             <div class="card-header">
               www.pebojot.com
             </div>
-            <a href="/2020/12/25/project/" class="btn btn-light"role="button">
+            <a href="/2020/12/25/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.12.25.project.cover.webp" class="card-img-top img-fluid" alt="www.pebojot.com">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/113083148-4208c300-920e-11eb-8855-a7715a3d9028.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -768,11 +944,20 @@
             <div class="card-header">
               The Vacuum Project
             </div>
-            <a href="/2020/10/28/project/" class="btn btn-light"role="button">
+            <a href="/2020/10/28/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.10.28.project.cover.webp" class="card-img-top img-fluid" alt="The Vacuum Project">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/109790527-76f41b00-7c4c-11eb-92f5-d7b72832783a.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -803,11 +988,20 @@
             <div class="card-header">
               Braindotnet
             </div>
-            <a href="/2018/10/12/project/" class="btn btn-light"role="button">
+            <a href="/2018/10/12/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.10.12.project.cover.webp" class="card-img-top img-fluid" alt="Braindotnet">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University. Specifically, it was developed in the year 2018. The goal is to create a tool for students to communicate with one another.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University. Specifically, it was developed in the year 2018. The goal is to create a tool for students to communicate with one another.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University.
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://deifpxeochufn.cloudfront.net/wp-content/uploads/2017/11/Onsen-UI.jpg" width="32" height="32" class="img-fluid" alt="Github">
@@ -840,12 +1034,25 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/about">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -867,11 +1074,20 @@
             <div class="card-header">
               Muon: Software Package Directory
             </div>
-            <a href="/2021/03/20/project/" class="btn btn-light"role="button">
+            <a href="/2021/03/20/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2021.03.20.project.cover.webp" class="card-img-top img-fluid" alt="Muon: Software Package Directory">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The muon is a software package directory tool. It helps you to find software packages from different
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/111939433-3a0e9c00-8b07-11eb-8e12-6e9f1ad78b3d.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -904,11 +1120,20 @@
             <div class="card-header">
               www.pebojot.com
             </div>
-            <a href="/2020/12/25/project/" class="btn btn-light"role="button">
+            <a href="/2020/12/25/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.12.25.project.cover.webp" class="card-img-top img-fluid" alt="www.pebojot.com">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/113083148-4208c300-920e-11eb-8855-a7715a3d9028.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -937,11 +1162,20 @@
             <div class="card-header">
               The Vacuum Project
             </div>
-            <a href="/2020/10/28/project/" class="btn btn-light"role="button">
+            <a href="/2020/10/28/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2020.10.28.project.cover.webp" class="card-img-top img-fluid" alt="The Vacuum Project">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://user-images.githubusercontent.com/38276345/109790527-76f41b00-7c4c-11eb-92f5-d7b72832783a.png" width="32" height="32" class="img-fluid" alt="Github">
@@ -972,11 +1206,20 @@
             <div class="card-header">
               Braindotnet
             </div>
-            <a href="/2018/10/12/project/" class="btn btn-light"role="button">
+            <a href="/2018/10/12/project/" class="btn btn-light" role="button">
               <img src="/assets/images/2018.10.12.project.cover.webp" class="card-img-top img-fluid" alt="Braindotnet">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University. Specifically, it was developed in the year 2018. The goal is to create a tool for students to communicate with one another.</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University. Specifically, it was developed in the year 2018. The goal is to create a tool for students to communicate with one another.
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University.
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="https://deifpxeochufn.cloudfront.net/wp-content/uploads/2017/11/Onsen-UI.jpg" width="32" height="32" class="img-fluid" alt="Github">
@@ -1009,11 +1252,11 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
   </div>
-
+<script type="text/javascript" src="/assets/js/custom/custom.js"></script>
 </body>
 
 </html>

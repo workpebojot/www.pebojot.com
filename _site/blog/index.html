@@ -53,6 +53,11 @@
             
         </span>
     </span>
+    <span class="navbar__mobile">
+        <a href="/" class="btn " style="margin: 2px;">
+            <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
+        </a>
+    </span>
 </span>
 
 
@@ -65,33 +70,26 @@
 
 
 <span class="navbar__mobile">
-    <a href="/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/blog/" class="btn btn btn-light" style="margin: 2px;">
-        <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/event/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/project/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/about/" role="button"
-        class="btn btn-secondary "
-        style="margin: 2px;">
-        <b>
-            About
-        </b>
-    </a>
+    <div class="d-flex align-items-center">
+        <a href="/blog/" class="p-1 btn btn-light">
+            <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
+        </a>
+        <a href="/event/" class="p-1 btn ">
+            <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
+        </a>
+        <a href="/project/" class="p-1 btn ">
+            <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
+        </a>
+        <a href="/about/" role="button" 
+            class="p-1 btn btn-secondary ">
+            <b>
+                About
+            </b>
+        </a>
+        <!-- <span id="menu" class="btn">
+            <img id="menu-src" src="/assets/images/menu.webp" >
+        </span> -->
+    </div>
 </span>
 
 <span class="navbar__desktop">
@@ -168,8 +166,21 @@
     </nav>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/edison pebojot">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -185,7 +196,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/31/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Describe Your Task as a Software Developer</h5>
+              <h4 class="mb-1">Describe Your Task as a Software Developer</h4>
               <small class="text-muted desktop__size">31 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -193,7 +204,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 31 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make.
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -203,7 +223,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/29/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">The Basics of Software Requirement Gathering</h5>
+              <h4 class="mb-1">The Basics of Software Requirement Gathering</h4>
               <small class="text-muted desktop__size">29 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -211,7 +231,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 29 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -223,7 +252,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/03/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Software Ethics to me (or to you)</h5>
+              <h4 class="mb-1">Software Ethics to me (or to you)</h4>
               <small class="text-muted desktop__size">03 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -231,7 +260,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 03 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -241,7 +279,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2020/12/28/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h5>
+              <h4 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h4>
               <small class="text-muted desktop__size">28 Dec 2020</small>
             </div>
             <small class="text-muted mobile__size">
@@ -249,7 +287,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 28 Dec 2020</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -273,12 +320,25 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container active" id="/blog">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container active">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -294,7 +354,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/31/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Describe Your Task as a Software Developer</h5>
+              <h4 class="mb-1">Describe Your Task as a Software Developer</h4>
               <small class="text-muted desktop__size">31 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -302,7 +362,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 31 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make.
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -312,7 +381,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/29/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">The Basics of Software Requirement Gathering</h5>
+              <h4 class="mb-1">The Basics of Software Requirement Gathering</h4>
               <small class="text-muted desktop__size">29 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -320,7 +389,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 29 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -332,7 +410,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/03/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Software Ethics to me (or to you)</h5>
+              <h4 class="mb-1">Software Ethics to me (or to you)</h4>
               <small class="text-muted desktop__size">03 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -340,7 +418,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 03 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -350,7 +437,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2020/12/28/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h5>
+              <h4 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h4>
               <small class="text-muted desktop__size">28 Dec 2020</small>
             </div>
             <small class="text-muted mobile__size">
@@ -358,7 +445,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 28 Dec 2020</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -382,12 +478,25 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/event">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -403,7 +512,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/31/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Describe Your Task as a Software Developer</h5>
+              <h4 class="mb-1">Describe Your Task as a Software Developer</h4>
               <small class="text-muted desktop__size">31 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -411,7 +520,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 31 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make.
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -421,7 +539,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/29/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">The Basics of Software Requirement Gathering</h5>
+              <h4 class="mb-1">The Basics of Software Requirement Gathering</h4>
               <small class="text-muted desktop__size">29 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -429,7 +547,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 29 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -441,7 +568,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/03/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Software Ethics to me (or to you)</h5>
+              <h4 class="mb-1">Software Ethics to me (or to you)</h4>
               <small class="text-muted desktop__size">03 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -449,7 +576,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 03 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -459,7 +595,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2020/12/28/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h5>
+              <h4 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h4>
               <small class="text-muted desktop__size">28 Dec 2020</small>
             </div>
             <small class="text-muted mobile__size">
@@ -467,7 +603,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 28 Dec 2020</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -491,12 +636,25 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/project">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -512,7 +670,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/31/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Describe Your Task as a Software Developer</h5>
+              <h4 class="mb-1">Describe Your Task as a Software Developer</h4>
               <small class="text-muted desktop__size">31 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -520,7 +678,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 31 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make.
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -530,7 +697,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/29/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">The Basics of Software Requirement Gathering</h5>
+              <h4 class="mb-1">The Basics of Software Requirement Gathering</h4>
               <small class="text-muted desktop__size">29 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -538,7 +705,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 29 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -550,7 +726,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/03/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Software Ethics to me (or to you)</h5>
+              <h4 class="mb-1">Software Ethics to me (or to you)</h4>
               <small class="text-muted desktop__size">03 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -558,7 +734,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 03 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -568,7 +753,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2020/12/28/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h5>
+              <h4 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h4>
               <small class="text-muted desktop__size">28 Dec 2020</small>
             </div>
             <small class="text-muted mobile__size">
@@ -576,7 +761,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 28 Dec 2020</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -600,12 +794,25 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/about">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
       <span class=" mobile__size">
@@ -621,7 +828,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/31/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Describe Your Task as a Software Developer</h5>
+              <h4 class="mb-1">Describe Your Task as a Software Developer</h4>
               <small class="text-muted desktop__size">31 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -629,7 +836,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 31 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make.
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -639,7 +855,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/29/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">The Basics of Software Requirement Gathering</h5>
+              <h4 class="mb-1">The Basics of Software Requirement Gathering</h4>
               <small class="text-muted desktop__size">29 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -647,7 +863,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 29 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -659,7 +884,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2021/03/03/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">Software Ethics to me (or to you)</h5>
+              <h4 class="mb-1">Software Ethics to me (or to you)</h4>
               <small class="text-muted desktop__size">03 Mar 2021</small>
             </div>
             <small class="text-muted mobile__size">
@@ -667,7 +892,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 03 Mar 2021</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -677,7 +911,7 @@
         <li class="list-group-item border-0 bg-light">
           <a href="/2020/12/28/blog/" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h5>
+              <h4 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h4>
               <small class="text-muted desktop__size">28 Dec 2020</small>
             </div>
             <small class="text-muted mobile__size">
@@ -685,7 +919,16 @@
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by Pebojot | 28 Dec 2020</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by Pebojot</small>
           </a>
         </li>
@@ -709,11 +952,11 @@
     </div>
   </div>
 </div>
-      </div>
+</div>
     </div>
     
   </div>
-
+<script type="text/javascript" src="/assets/js/custom/custom.js"></script>
 </body>
 
 </html>

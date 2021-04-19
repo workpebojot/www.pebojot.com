@@ -53,6 +53,11 @@
             
         </span>
     </span>
+    <span class="navbar__mobile">
+        <a href="/" class="btn btn btn-light" style="margin: 2px;">
+            <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
+        </a>
+    </span>
 </span>
 
 
@@ -65,33 +70,26 @@
 
 
 <span class="navbar__mobile">
-    <a href="/" class="btn btn btn-light" style="margin: 2px;">
-        <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/blog/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/event/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/project/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/about/" role="button"
-        class="btn btn-secondary "
-        style="margin: 2px;">
-        <b>
-            About
-        </b>
-    </a>
+    <div class="d-flex align-items-center">
+        <a href="/blog/" class="p-1 btn ">
+            <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
+        </a>
+        <a href="/event/" class="p-1 btn ">
+            <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
+        </a>
+        <a href="/project/" class="p-1 btn ">
+            <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
+        </a>
+        <a href="/about/" role="button" 
+            class="p-1 btn btn-secondary ">
+            <b>
+                About
+            </b>
+        </a>
+        <!-- <span id="menu" class="btn">
+            <img id="menu-src" src="/assets/images/menu.webp" >
+        </span> -->
+    </div>
 </span>
 
 <span class="navbar__desktop">
@@ -168,69 +166,80 @@
     </nav>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container active" id="/edison pebojot">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container active">
+    <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-4 bg-light p-2">
-            <span class="profile-image-wrapper rounded-circle">
+        <div class="col-sm-3 bg-light p-2">
+            <span class="profile-image-wrapper">
                 <a href="/about/" class="btn bg-transparent rounded-circle" style="padding: 0;" role="button">
-                    <img src="./assets/images/2x2.webp" class="rounded-circle float-left img-fluid profile-image-fade"
-                    sizealt="Edison Pebojot">
+                    <img src="./assets/images/2x2.webp" class="float-left img-thumbnail profile-image-fade"
+                        sizealt="Edison Pebojot">
                 </a>
             </span>
-            <div class="card-body">
-                <h4 class="card-title" style="text-align: center;">Edison Pebojot</h4>
-                <p class="card-text" style="text-align: justify;word-break: keep-all;hyphens: auto;">
-                    Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
-                    raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
-                    Patrick’s Academy Inc., a Catholic high school. After two years, he went to Science High School in
-                    Surigao Del Sur, Philippines, where he studied Physics. <sup><a href="https://everipedia.org/wiki/lang_en/edison-pebojot">[Encyclopedia]</a></sup>
-                </p>
-                <div class="row">
-                    <div class="col gap-1 d-flex justify-content-center">
-                        <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/quora.logo.webp"
-                                alt="Quora">
-                        </a>
-                        <a href="https://twitter.com/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/twitter.logo.webp"
-                                alt="Twitter">
-                        </a>
-                        <a href="https://linkedin.com/in/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/linkedin.logo.webp"
-                                alt="LinkedIn">
-                        </a>
-                        <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/stackoverflow.logo.webp"
-                                alt="StackOverflow" /></a>
-                        <a href="https://fb.com/personalpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/facebook.logo.webp"
-                                alt="Facebook" /></a>
-                        <a href="https://www.codewars.com/users/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/codewars.logo.webp"
-                                alt="Codewars" /></a>
-                        <a href="https://github.com/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/github.logo.webp"
-                                alt="Github" /></a>
-                        <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/google.play.logo.webp"
-                                alt="Google Play" /></a>
-                    </div>
-                </div>
-                <br>
+        </div>
+        <div class="col-sm-5 bg-light p-2">
+            <span class="desktop__size">
+                <h5 style="text-align: left;">Edison Pebojot</h5>
+            </span>
+            <span class="mobile__size">
+                <h5 style="text-align: center;">Edison Pebojot</h5>
+            </span>
+            <p class="lead" style="text-align: justify;word-break: break-all;">
+                Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
+                raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
+                Patrick’s Academy Inc., a Catholic high school. <sup><a
+                        href="https://everipedia.org/wiki/lang_en/edison-pebojot">[Encyclopedia]</a></sup>
+            </p>
+            <div class="gap-1">
+                <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/quora.logo.webp" alt="Quora">
+                </a>
+                <a href="https://twitter.com/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/twitter.logo.webp"
+                        alt="Twitter">
+                </a>
+                <a href="https://linkedin.com/in/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/linkedin.logo.webp"
+                        alt="LinkedIn">
+                </a>
+                <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/stackoverflow.logo.webp"
+                        alt="StackOverflow" /></a>
+                <a href="https://fb.com/personalpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/facebook.logo.webp"
+                        alt="Facebook" /></a>
+                <a href="https://www.codewars.com/users/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/codewars.logo.webp"
+                        alt="Codewars" /></a>
+                <a href="https://github.com/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/github.logo.webp"
+                        alt="Github" /></a>
+                <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/google.play.logo.webp"
+                        alt="Google Play" /></a>
+            </div>
+        </div>
+        <div class="col-sm-4 bg-light p-2">
+            <div class="pt-0 pl-3">
                 <p class="card-text">
                     <b>Born:</b> Dingalan, Aurora, Philippines
                 </p>
                 <p class="card-text">
-                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer University (BS)</a>
+                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer
+                        University (BS)</a>
                 </p>
                 </p>
                 <p class="card-text">
@@ -239,326 +248,381 @@
             </div>
             <div style="display: none;">
                 <ul class="list-group">
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/31/blog/">Describe Your Task as a Software Developer</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/20/project/">Muon: Software Package Directory</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/03/blog/">Software Ethics to me (or to you)</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/12/28/blog/">An Android Platform for Filipino Employment (Beta Program)</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/12/25/project/">www.pebojot.com</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/10/28/project/">The Vacuum Project</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/08/28/event/">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/10/12/project/">Braindotnet</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/09/10/event/">Hackathon Event: AMA Computer University</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/05/31/event/">Tree Planting: About Environmental Conservation</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2016/03/12/event/">Theatre: Acting Session for El Filibusterismo in Grade 10</a>
-                </li>
-                
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/31/blog/">Describe Your Task as a Software Developer</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/20/project/">Muon: Software Package Directory</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/03/blog/">Software Ethics to me (or to you)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/28/blog/">An Android Platform for Filipino Employment (Beta Program)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/25/project/">www.pebojot.com</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/10/28/project/">The Vacuum Project</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/08/28/event/">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/10/12/project/">Braindotnet</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/09/10/event/">Hackathon Event: AMA Computer University</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/05/31/event/">Tree Planting: About Environmental Conservation</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2016/03/12/event/">Theatre: Acting Session for El Filibusterismo in Grade 10</a>
+                    </li>
+                    
                 </ul>
             </div>
         </div>
-        <div class="col-sm-8 bg-light p-2">
-            <div class="row">
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Blog</h5>
-                    </a>
-                    
-                    
-                    
-                    <a href="2021/03/31/blog/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2021.3.31.blog.cover.webp" class="img-fluid" alt="Describe Your Task as a Software Developer">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Describe Your Task as a Software Developer</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Blog
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Front-End, Back-End, Full Stack, Architecture
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                <a href="2021/03/31/blog/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2021.3.31.blog.cover.webp" class="img-thumbnail" alt="Describe Your Task as a Software Developer">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Describe Your Task as a Software Developer</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             You'll need to decide what you're going to make once you've decided what product you need to make.
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                31 Mar 2021
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            31 Mar 2021
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <div href="/blog/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
                     </div>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Event</h5>
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2020.8.28.event.cover.webp" class="img-fluid" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+                </a>
+                <a href="/blog/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Event
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Hackathon, Planting, Mathematics, Programming
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2020.8.28.event.cover.webp" class="img-thumbnail" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session (and succeeding sessions) we will give an introduction of what Quantum Computing is and the mathematics required to understand it
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                28 Aug 2020
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            28 Aug 2020
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/event/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Project</h5>
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <a href="2021/03/20/project/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2021.03.20.project.cover.webp" class="img-fluid" alt="Muon: Software Package Directory">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Muon: Software Package Directory</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+                    </div>
+                </a>
+                <a href="/event/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Project
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Linux, Android, Progressive Web App, Package
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="2021/03/20/project/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2021.03.20.project.cover.webp" class="img-thumbnail" alt="Muon: Software Package Directory">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Muon: Software Package Directory</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             The muon is a software package directory tool. It helps you to find software packages from different
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                20 Mar 2021
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            20 Mar 2021
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/project/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
+                    </div>
+                </a>
+                <a href="/project/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             </div>
         </div>
     </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/blog">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-4 bg-light p-2">
-            <span class="profile-image-wrapper rounded-circle">
+        <div class="col-sm-3 bg-light p-2">
+            <span class="profile-image-wrapper">
                 <a href="/about/" class="btn bg-transparent rounded-circle" style="padding: 0;" role="button">
-                    <img src="./assets/images/2x2.webp" class="rounded-circle float-left img-fluid profile-image-fade"
-                    sizealt="Edison Pebojot">
+                    <img src="./assets/images/2x2.webp" class="float-left img-thumbnail profile-image-fade"
+                        sizealt="Edison Pebojot">
                 </a>
             </span>
-            <div class="card-body">
-                <h4 class="card-title" style="text-align: center;">Edison Pebojot</h4>
-                <p class="card-text" style="text-align: justify;word-break: keep-all;hyphens: auto;">
-                    Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
-                    raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
-                    Patrick’s Academy Inc., a Catholic high school. After two years, he went to Science High School in
-                    Surigao Del Sur, Philippines, where he studied Physics. <sup><a href="https://everipedia.org/wiki/lang_en/edison-pebojot">[Encyclopedia]</a></sup>
-                </p>
-                <div class="row">
-                    <div class="col gap-1 d-flex justify-content-center">
-                        <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/quora.logo.webp"
-                                alt="Quora">
-                        </a>
-                        <a href="https://twitter.com/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/twitter.logo.webp"
-                                alt="Twitter">
-                        </a>
-                        <a href="https://linkedin.com/in/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/linkedin.logo.webp"
-                                alt="LinkedIn">
-                        </a>
-                        <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/stackoverflow.logo.webp"
-                                alt="StackOverflow" /></a>
-                        <a href="https://fb.com/personalpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/facebook.logo.webp"
-                                alt="Facebook" /></a>
-                        <a href="https://www.codewars.com/users/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/codewars.logo.webp"
-                                alt="Codewars" /></a>
-                        <a href="https://github.com/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/github.logo.webp"
-                                alt="Github" /></a>
-                        <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/google.play.logo.webp"
-                                alt="Google Play" /></a>
-                    </div>
-                </div>
-                <br>
+        </div>
+        <div class="col-sm-5 bg-light p-2">
+            <span class="desktop__size">
+                <h5 style="text-align: left;">Edison Pebojot</h5>
+            </span>
+            <span class="mobile__size">
+                <h5 style="text-align: center;">Edison Pebojot</h5>
+            </span>
+            <p class="lead" style="text-align: justify;word-break: break-all;">
+                Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
+                raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
+                Patrick’s Academy Inc., a Catholic high school. <sup><a
+                        href="https://everipedia.org/wiki/lang_en/edison-pebojot">[Encyclopedia]</a></sup>
+            </p>
+            <div class="gap-1">
+                <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/quora.logo.webp" alt="Quora">
+                </a>
+                <a href="https://twitter.com/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/twitter.logo.webp"
+                        alt="Twitter">
+                </a>
+                <a href="https://linkedin.com/in/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/linkedin.logo.webp"
+                        alt="LinkedIn">
+                </a>
+                <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/stackoverflow.logo.webp"
+                        alt="StackOverflow" /></a>
+                <a href="https://fb.com/personalpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/facebook.logo.webp"
+                        alt="Facebook" /></a>
+                <a href="https://www.codewars.com/users/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/codewars.logo.webp"
+                        alt="Codewars" /></a>
+                <a href="https://github.com/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/github.logo.webp"
+                        alt="Github" /></a>
+                <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/google.play.logo.webp"
+                        alt="Google Play" /></a>
+            </div>
+        </div>
+        <div class="col-sm-4 bg-light p-2">
+            <div class="pt-0 pl-3">
                 <p class="card-text">
                     <b>Born:</b> Dingalan, Aurora, Philippines
                 </p>
                 <p class="card-text">
-                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer University (BS)</a>
+                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer
+                        University (BS)</a>
                 </p>
                 </p>
                 <p class="card-text">
@@ -567,326 +631,381 @@
             </div>
             <div style="display: none;">
                 <ul class="list-group">
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/31/blog/">Describe Your Task as a Software Developer</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/20/project/">Muon: Software Package Directory</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/03/blog/">Software Ethics to me (or to you)</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/12/28/blog/">An Android Platform for Filipino Employment (Beta Program)</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/12/25/project/">www.pebojot.com</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/10/28/project/">The Vacuum Project</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/08/28/event/">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/10/12/project/">Braindotnet</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/09/10/event/">Hackathon Event: AMA Computer University</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/05/31/event/">Tree Planting: About Environmental Conservation</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2016/03/12/event/">Theatre: Acting Session for El Filibusterismo in Grade 10</a>
-                </li>
-                
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/31/blog/">Describe Your Task as a Software Developer</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/20/project/">Muon: Software Package Directory</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/03/blog/">Software Ethics to me (or to you)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/28/blog/">An Android Platform for Filipino Employment (Beta Program)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/25/project/">www.pebojot.com</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/10/28/project/">The Vacuum Project</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/08/28/event/">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/10/12/project/">Braindotnet</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/09/10/event/">Hackathon Event: AMA Computer University</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/05/31/event/">Tree Planting: About Environmental Conservation</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2016/03/12/event/">Theatre: Acting Session for El Filibusterismo in Grade 10</a>
+                    </li>
+                    
                 </ul>
             </div>
         </div>
-        <div class="col-sm-8 bg-light p-2">
-            <div class="row">
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Blog</h5>
-                    </a>
-                    
-                    
-                    
-                    <a href="2021/03/31/blog/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2021.3.31.blog.cover.webp" class="img-fluid" alt="Describe Your Task as a Software Developer">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Describe Your Task as a Software Developer</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Blog
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Front-End, Back-End, Full Stack, Architecture
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                <a href="2021/03/31/blog/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2021.3.31.blog.cover.webp" class="img-thumbnail" alt="Describe Your Task as a Software Developer">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Describe Your Task as a Software Developer</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             You'll need to decide what you're going to make once you've decided what product you need to make.
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                31 Mar 2021
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            31 Mar 2021
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <div href="/blog/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
                     </div>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Event</h5>
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2020.8.28.event.cover.webp" class="img-fluid" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+                </a>
+                <a href="/blog/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Event
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Hackathon, Planting, Mathematics, Programming
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2020.8.28.event.cover.webp" class="img-thumbnail" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session (and succeeding sessions) we will give an introduction of what Quantum Computing is and the mathematics required to understand it
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                28 Aug 2020
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            28 Aug 2020
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/event/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Project</h5>
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <a href="2021/03/20/project/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2021.03.20.project.cover.webp" class="img-fluid" alt="Muon: Software Package Directory">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Muon: Software Package Directory</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+                    </div>
+                </a>
+                <a href="/event/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Project
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Linux, Android, Progressive Web App, Package
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="2021/03/20/project/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2021.03.20.project.cover.webp" class="img-thumbnail" alt="Muon: Software Package Directory">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Muon: Software Package Directory</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             The muon is a software package directory tool. It helps you to find software packages from different
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                20 Mar 2021
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            20 Mar 2021
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/project/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
+                    </div>
+                </a>
+                <a href="/project/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             </div>
         </div>
     </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/event">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-4 bg-light p-2">
-            <span class="profile-image-wrapper rounded-circle">
+        <div class="col-sm-3 bg-light p-2">
+            <span class="profile-image-wrapper">
                 <a href="/about/" class="btn bg-transparent rounded-circle" style="padding: 0;" role="button">
-                    <img src="./assets/images/2x2.webp" class="rounded-circle float-left img-fluid profile-image-fade"
-                    sizealt="Edison Pebojot">
+                    <img src="./assets/images/2x2.webp" class="float-left img-thumbnail profile-image-fade"
+                        sizealt="Edison Pebojot">
                 </a>
             </span>
-            <div class="card-body">
-                <h4 class="card-title" style="text-align: center;">Edison Pebojot</h4>
-                <p class="card-text" style="text-align: justify;word-break: keep-all;hyphens: auto;">
-                    Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
-                    raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
-                    Patrick’s Academy Inc., a Catholic high school. After two years, he went to Science High School in
-                    Surigao Del Sur, Philippines, where he studied Physics. <sup><a href="https://everipedia.org/wiki/lang_en/edison-pebojot">[Encyclopedia]</a></sup>
-                </p>
-                <div class="row">
-                    <div class="col gap-1 d-flex justify-content-center">
-                        <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/quora.logo.webp"
-                                alt="Quora">
-                        </a>
-                        <a href="https://twitter.com/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/twitter.logo.webp"
-                                alt="Twitter">
-                        </a>
-                        <a href="https://linkedin.com/in/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/linkedin.logo.webp"
-                                alt="LinkedIn">
-                        </a>
-                        <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/stackoverflow.logo.webp"
-                                alt="StackOverflow" /></a>
-                        <a href="https://fb.com/personalpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/facebook.logo.webp"
-                                alt="Facebook" /></a>
-                        <a href="https://www.codewars.com/users/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/codewars.logo.webp"
-                                alt="Codewars" /></a>
-                        <a href="https://github.com/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/github.logo.webp"
-                                alt="Github" /></a>
-                        <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/google.play.logo.webp"
-                                alt="Google Play" /></a>
-                    </div>
-                </div>
-                <br>
+        </div>
+        <div class="col-sm-5 bg-light p-2">
+            <span class="desktop__size">
+                <h5 style="text-align: left;">Edison Pebojot</h5>
+            </span>
+            <span class="mobile__size">
+                <h5 style="text-align: center;">Edison Pebojot</h5>
+            </span>
+            <p class="lead" style="text-align: justify;word-break: break-all;">
+                Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
+                raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
+                Patrick’s Academy Inc., a Catholic high school. <sup><a
+                        href="https://everipedia.org/wiki/lang_en/edison-pebojot">[Encyclopedia]</a></sup>
+            </p>
+            <div class="gap-1">
+                <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/quora.logo.webp" alt="Quora">
+                </a>
+                <a href="https://twitter.com/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/twitter.logo.webp"
+                        alt="Twitter">
+                </a>
+                <a href="https://linkedin.com/in/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/linkedin.logo.webp"
+                        alt="LinkedIn">
+                </a>
+                <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/stackoverflow.logo.webp"
+                        alt="StackOverflow" /></a>
+                <a href="https://fb.com/personalpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/facebook.logo.webp"
+                        alt="Facebook" /></a>
+                <a href="https://www.codewars.com/users/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/codewars.logo.webp"
+                        alt="Codewars" /></a>
+                <a href="https://github.com/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/github.logo.webp"
+                        alt="Github" /></a>
+                <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/google.play.logo.webp"
+                        alt="Google Play" /></a>
+            </div>
+        </div>
+        <div class="col-sm-4 bg-light p-2">
+            <div class="pt-0 pl-3">
                 <p class="card-text">
                     <b>Born:</b> Dingalan, Aurora, Philippines
                 </p>
                 <p class="card-text">
-                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer University (BS)</a>
+                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer
+                        University (BS)</a>
                 </p>
                 </p>
                 <p class="card-text">
@@ -895,326 +1014,381 @@
             </div>
             <div style="display: none;">
                 <ul class="list-group">
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/31/blog/">Describe Your Task as a Software Developer</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/20/project/">Muon: Software Package Directory</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/03/blog/">Software Ethics to me (or to you)</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/12/28/blog/">An Android Platform for Filipino Employment (Beta Program)</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/12/25/project/">www.pebojot.com</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/10/28/project/">The Vacuum Project</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/08/28/event/">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/10/12/project/">Braindotnet</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/09/10/event/">Hackathon Event: AMA Computer University</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/05/31/event/">Tree Planting: About Environmental Conservation</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2016/03/12/event/">Theatre: Acting Session for El Filibusterismo in Grade 10</a>
-                </li>
-                
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/31/blog/">Describe Your Task as a Software Developer</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/20/project/">Muon: Software Package Directory</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/03/blog/">Software Ethics to me (or to you)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/28/blog/">An Android Platform for Filipino Employment (Beta Program)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/25/project/">www.pebojot.com</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/10/28/project/">The Vacuum Project</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/08/28/event/">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/10/12/project/">Braindotnet</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/09/10/event/">Hackathon Event: AMA Computer University</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/05/31/event/">Tree Planting: About Environmental Conservation</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2016/03/12/event/">Theatre: Acting Session for El Filibusterismo in Grade 10</a>
+                    </li>
+                    
                 </ul>
             </div>
         </div>
-        <div class="col-sm-8 bg-light p-2">
-            <div class="row">
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Blog</h5>
-                    </a>
-                    
-                    
-                    
-                    <a href="2021/03/31/blog/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2021.3.31.blog.cover.webp" class="img-fluid" alt="Describe Your Task as a Software Developer">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Describe Your Task as a Software Developer</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Blog
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Front-End, Back-End, Full Stack, Architecture
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                <a href="2021/03/31/blog/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2021.3.31.blog.cover.webp" class="img-thumbnail" alt="Describe Your Task as a Software Developer">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Describe Your Task as a Software Developer</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             You'll need to decide what you're going to make once you've decided what product you need to make.
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                31 Mar 2021
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            31 Mar 2021
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <div href="/blog/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
                     </div>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Event</h5>
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2020.8.28.event.cover.webp" class="img-fluid" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+                </a>
+                <a href="/blog/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Event
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Hackathon, Planting, Mathematics, Programming
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2020.8.28.event.cover.webp" class="img-thumbnail" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session (and succeeding sessions) we will give an introduction of what Quantum Computing is and the mathematics required to understand it
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                28 Aug 2020
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            28 Aug 2020
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/event/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Project</h5>
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <a href="2021/03/20/project/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2021.03.20.project.cover.webp" class="img-fluid" alt="Muon: Software Package Directory">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Muon: Software Package Directory</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+                    </div>
+                </a>
+                <a href="/event/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Project
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Linux, Android, Progressive Web App, Package
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="2021/03/20/project/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2021.03.20.project.cover.webp" class="img-thumbnail" alt="Muon: Software Package Directory">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Muon: Software Package Directory</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             The muon is a software package directory tool. It helps you to find software packages from different
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                20 Mar 2021
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            20 Mar 2021
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/project/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
+                    </div>
+                </a>
+                <a href="/project/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             </div>
         </div>
     </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/project">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-4 bg-light p-2">
-            <span class="profile-image-wrapper rounded-circle">
+        <div class="col-sm-3 bg-light p-2">
+            <span class="profile-image-wrapper">
                 <a href="/about/" class="btn bg-transparent rounded-circle" style="padding: 0;" role="button">
-                    <img src="./assets/images/2x2.webp" class="rounded-circle float-left img-fluid profile-image-fade"
-                    sizealt="Edison Pebojot">
+                    <img src="./assets/images/2x2.webp" class="float-left img-thumbnail profile-image-fade"
+                        sizealt="Edison Pebojot">
                 </a>
             </span>
-            <div class="card-body">
-                <h4 class="card-title" style="text-align: center;">Edison Pebojot</h4>
-                <p class="card-text" style="text-align: justify;word-break: keep-all;hyphens: auto;">
-                    Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
-                    raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
-                    Patrick’s Academy Inc., a Catholic high school. After two years, he went to Science High School in
-                    Surigao Del Sur, Philippines, where he studied Physics. <sup><a href="https://everipedia.org/wiki/lang_en/edison-pebojot">[Encyclopedia]</a></sup>
-                </p>
-                <div class="row">
-                    <div class="col gap-1 d-flex justify-content-center">
-                        <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/quora.logo.webp"
-                                alt="Quora">
-                        </a>
-                        <a href="https://twitter.com/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/twitter.logo.webp"
-                                alt="Twitter">
-                        </a>
-                        <a href="https://linkedin.com/in/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/linkedin.logo.webp"
-                                alt="LinkedIn">
-                        </a>
-                        <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/stackoverflow.logo.webp"
-                                alt="StackOverflow" /></a>
-                        <a href="https://fb.com/personalpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/facebook.logo.webp"
-                                alt="Facebook" /></a>
-                        <a href="https://www.codewars.com/users/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/codewars.logo.webp"
-                                alt="Codewars" /></a>
-                        <a href="https://github.com/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/github.logo.webp"
-                                alt="Github" /></a>
-                        <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/google.play.logo.webp"
-                                alt="Google Play" /></a>
-                    </div>
-                </div>
-                <br>
+        </div>
+        <div class="col-sm-5 bg-light p-2">
+            <span class="desktop__size">
+                <h5 style="text-align: left;">Edison Pebojot</h5>
+            </span>
+            <span class="mobile__size">
+                <h5 style="text-align: center;">Edison Pebojot</h5>
+            </span>
+            <p class="lead" style="text-align: justify;word-break: break-all;">
+                Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
+                raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
+                Patrick’s Academy Inc., a Catholic high school. <sup><a
+                        href="https://everipedia.org/wiki/lang_en/edison-pebojot">[Encyclopedia]</a></sup>
+            </p>
+            <div class="gap-1">
+                <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/quora.logo.webp" alt="Quora">
+                </a>
+                <a href="https://twitter.com/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/twitter.logo.webp"
+                        alt="Twitter">
+                </a>
+                <a href="https://linkedin.com/in/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/linkedin.logo.webp"
+                        alt="LinkedIn">
+                </a>
+                <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/stackoverflow.logo.webp"
+                        alt="StackOverflow" /></a>
+                <a href="https://fb.com/personalpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/facebook.logo.webp"
+                        alt="Facebook" /></a>
+                <a href="https://www.codewars.com/users/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/codewars.logo.webp"
+                        alt="Codewars" /></a>
+                <a href="https://github.com/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/github.logo.webp"
+                        alt="Github" /></a>
+                <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/google.play.logo.webp"
+                        alt="Google Play" /></a>
+            </div>
+        </div>
+        <div class="col-sm-4 bg-light p-2">
+            <div class="pt-0 pl-3">
                 <p class="card-text">
                     <b>Born:</b> Dingalan, Aurora, Philippines
                 </p>
                 <p class="card-text">
-                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer University (BS)</a>
+                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer
+                        University (BS)</a>
                 </p>
                 </p>
                 <p class="card-text">
@@ -1223,326 +1397,381 @@
             </div>
             <div style="display: none;">
                 <ul class="list-group">
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/31/blog/">Describe Your Task as a Software Developer</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/20/project/">Muon: Software Package Directory</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/03/blog/">Software Ethics to me (or to you)</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/12/28/blog/">An Android Platform for Filipino Employment (Beta Program)</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/12/25/project/">www.pebojot.com</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/10/28/project/">The Vacuum Project</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/08/28/event/">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/10/12/project/">Braindotnet</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/09/10/event/">Hackathon Event: AMA Computer University</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/05/31/event/">Tree Planting: About Environmental Conservation</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2016/03/12/event/">Theatre: Acting Session for El Filibusterismo in Grade 10</a>
-                </li>
-                
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/31/blog/">Describe Your Task as a Software Developer</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/20/project/">Muon: Software Package Directory</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/03/blog/">Software Ethics to me (or to you)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/28/blog/">An Android Platform for Filipino Employment (Beta Program)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/25/project/">www.pebojot.com</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/10/28/project/">The Vacuum Project</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/08/28/event/">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/10/12/project/">Braindotnet</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/09/10/event/">Hackathon Event: AMA Computer University</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/05/31/event/">Tree Planting: About Environmental Conservation</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2016/03/12/event/">Theatre: Acting Session for El Filibusterismo in Grade 10</a>
+                    </li>
+                    
                 </ul>
             </div>
         </div>
-        <div class="col-sm-8 bg-light p-2">
-            <div class="row">
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Blog</h5>
-                    </a>
-                    
-                    
-                    
-                    <a href="2021/03/31/blog/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2021.3.31.blog.cover.webp" class="img-fluid" alt="Describe Your Task as a Software Developer">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Describe Your Task as a Software Developer</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Blog
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Front-End, Back-End, Full Stack, Architecture
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                <a href="2021/03/31/blog/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2021.3.31.blog.cover.webp" class="img-thumbnail" alt="Describe Your Task as a Software Developer">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Describe Your Task as a Software Developer</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             You'll need to decide what you're going to make once you've decided what product you need to make.
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                31 Mar 2021
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            31 Mar 2021
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <div href="/blog/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
                     </div>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Event</h5>
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2020.8.28.event.cover.webp" class="img-fluid" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+                </a>
+                <a href="/blog/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Event
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Hackathon, Planting, Mathematics, Programming
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2020.8.28.event.cover.webp" class="img-thumbnail" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session (and succeeding sessions) we will give an introduction of what Quantum Computing is and the mathematics required to understand it
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                28 Aug 2020
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            28 Aug 2020
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/event/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Project</h5>
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <a href="2021/03/20/project/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2021.03.20.project.cover.webp" class="img-fluid" alt="Muon: Software Package Directory">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Muon: Software Package Directory</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+                    </div>
+                </a>
+                <a href="/event/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Project
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Linux, Android, Progressive Web App, Package
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="2021/03/20/project/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2021.03.20.project.cover.webp" class="img-thumbnail" alt="Muon: Software Package Directory">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Muon: Software Package Directory</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             The muon is a software package directory tool. It helps you to find software packages from different
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                20 Mar 2021
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            20 Mar 2021
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/project/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
+                    </div>
+                </a>
+                <a href="/project/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             </div>
         </div>
     </div>
 </div>
-      </div>
+</div>
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container " id="/about">
-        <div class="container-fluid">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-4 bg-light p-2">
-            <span class="profile-image-wrapper rounded-circle">
+        <div class="col-sm-3 bg-light p-2">
+            <span class="profile-image-wrapper">
                 <a href="/about/" class="btn bg-transparent rounded-circle" style="padding: 0;" role="button">
-                    <img src="./assets/images/2x2.webp" class="rounded-circle float-left img-fluid profile-image-fade"
-                    sizealt="Edison Pebojot">
+                    <img src="./assets/images/2x2.webp" class="float-left img-thumbnail profile-image-fade"
+                        sizealt="Edison Pebojot">
                 </a>
             </span>
-            <div class="card-body">
-                <h4 class="card-title" style="text-align: center;">Edison Pebojot</h4>
-                <p class="card-text" style="text-align: justify;word-break: keep-all;hyphens: auto;">
-                    Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
-                    raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
-                    Patrick’s Academy Inc., a Catholic high school. After two years, he went to Science High School in
-                    Surigao Del Sur, Philippines, where he studied Physics. <sup><a href="https://everipedia.org/wiki/lang_en/edison-pebojot">[Encyclopedia]</a></sup>
-                </p>
-                <div class="row">
-                    <div class="col gap-1 d-flex justify-content-center">
-                        <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/quora.logo.webp"
-                                alt="Quora">
-                        </a>
-                        <a href="https://twitter.com/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/twitter.logo.webp"
-                                alt="Twitter">
-                        </a>
-                        <a href="https://linkedin.com/in/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/linkedin.logo.webp"
-                                alt="LinkedIn">
-                        </a>
-                        <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/stackoverflow.logo.webp"
-                                alt="StackOverflow" /></a>
-                        <a href="https://fb.com/personalpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/facebook.logo.webp"
-                                alt="Facebook" /></a>
-                        <a href="https://www.codewars.com/users/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/codewars.logo.webp"
-                                alt="Codewars" /></a>
-                        <a href="https://github.com/workpebojot" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/github.logo.webp"
-                                alt="Github" /></a>
-                        <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
-                            <img height="32" width="32" class="float-left"
-                                src="./assets/images/google.play.logo.webp"
-                                alt="Google Play" /></a>
-                    </div>
-                </div>
-                <br>
+        </div>
+        <div class="col-sm-5 bg-light p-2">
+            <span class="desktop__size">
+                <h5 style="text-align: left;">Edison Pebojot</h5>
+            </span>
+            <span class="mobile__size">
+                <h5 style="text-align: center;">Edison Pebojot</h5>
+            </span>
+            <p class="lead" style="text-align: justify;word-break: break-all;">
+                Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
+                raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
+                Patrick’s Academy Inc., a Catholic high school. <sup><a
+                        href="https://everipedia.org/wiki/lang_en/edison-pebojot">[Encyclopedia]</a></sup>
+            </p>
+            <div class="gap-1">
+                <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/quora.logo.webp" alt="Quora">
+                </a>
+                <a href="https://twitter.com/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/twitter.logo.webp"
+                        alt="Twitter">
+                </a>
+                <a href="https://linkedin.com/in/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/linkedin.logo.webp"
+                        alt="LinkedIn">
+                </a>
+                <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/stackoverflow.logo.webp"
+                        alt="StackOverflow" /></a>
+                <a href="https://fb.com/personalpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/facebook.logo.webp"
+                        alt="Facebook" /></a>
+                <a href="https://www.codewars.com/users/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/codewars.logo.webp"
+                        alt="Codewars" /></a>
+                <a href="https://github.com/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/github.logo.webp"
+                        alt="Github" /></a>
+                <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/google.play.logo.webp"
+                        alt="Google Play" /></a>
+            </div>
+        </div>
+        <div class="col-sm-4 bg-light p-2">
+            <div class="pt-0 pl-3">
                 <p class="card-text">
                     <b>Born:</b> Dingalan, Aurora, Philippines
                 </p>
                 <p class="card-text">
-                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer University (BS)</a>
+                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer
+                        University (BS)</a>
                 </p>
                 </p>
                 <p class="card-text">
@@ -1551,264 +1780,308 @@
             </div>
             <div style="display: none;">
                 <ul class="list-group">
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/31/blog/">Describe Your Task as a Software Developer</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/20/project/">Muon: Software Package Directory</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2021/03/03/blog/">Software Ethics to me (or to you)</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/12/28/blog/">An Android Platform for Filipino Employment (Beta Program)</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/12/25/project/">www.pebojot.com</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/10/28/project/">The Vacuum Project</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2020/08/28/event/">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/10/12/project/">Braindotnet</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/09/10/event/">Hackathon Event: AMA Computer University</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2018/05/31/event/">Tree Planting: About Environmental Conservation</a>
-                </li>
-                
-                <li class="list-group-item">
-                    <a href="/2016/03/12/event/">Theatre: Acting Session for El Filibusterismo in Grade 10</a>
-                </li>
-                
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/31/blog/">Describe Your Task as a Software Developer</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/20/project/">Muon: Software Package Directory</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/03/blog/">Software Ethics to me (or to you)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/28/blog/">An Android Platform for Filipino Employment (Beta Program)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/25/project/">www.pebojot.com</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/10/28/project/">The Vacuum Project</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/08/28/event/">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/10/12/project/">Braindotnet</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/09/10/event/">Hackathon Event: AMA Computer University</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/05/31/event/">Tree Planting: About Environmental Conservation</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2016/03/12/event/">Theatre: Acting Session for El Filibusterismo in Grade 10</a>
+                    </li>
+                    
                 </ul>
             </div>
         </div>
-        <div class="col-sm-8 bg-light p-2">
-            <div class="row">
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Blog</h5>
-                    </a>
-                    
-                    
-                    
-                    <a href="2021/03/31/blog/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2021.3.31.blog.cover.webp" class="img-fluid" alt="Describe Your Task as a Software Developer">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Describe Your Task as a Software Developer</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Blog
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Front-End, Back-End, Full Stack, Architecture
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                <a href="2021/03/31/blog/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2021.3.31.blog.cover.webp" class="img-thumbnail" alt="Describe Your Task as a Software Developer">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Describe Your Task as a Software Developer</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             You'll need to decide what you're going to make once you've decided what product you need to make.
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                31 Mar 2021
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            31 Mar 2021
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <div href="/blog/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
                     </div>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Event</h5>
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2020.8.28.event.cover.webp" class="img-fluid" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+                </a>
+                <a href="/blog/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Event
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Hackathon, Planting, Mathematics, Programming
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2020.8.28.event.cover.webp" class="img-thumbnail" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session (and succeeding sessions) we will give an introduction of what Quantum Computing is and the mathematics required to understand it
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                28 Aug 2020
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            28 Aug 2020
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/event/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
-                <div class="list-group m-1">
-                    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
-                        aria-disabled="true">
-                        <h5>Latest Project</h5>
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    <a href="2021/03/20/project/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        <div class="card mb-3 rounded">
-                            <div class="row g-0 d-flex align-items-center">
-                                <div class="col-md-6">
-                                    <img src="/assets/images/2021.03.20.project.cover.webp" class="img-fluid" alt="Muon: Software Package Directory">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Muon: Software Package Directory</h5>
-                                        <p class="card-text" style="text-align: justify;word-break: keep-all;">
+                    </div>
+                </a>
+                <a href="/event/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Project
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Linux, Android, Progressive Web App, Package
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light">
+            <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="2021/03/20/project/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2021.03.20.project.cover.webp" class="img-thumbnail" alt="Muon: Software Package Directory">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Muon: Software Package Directory</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
                                             The muon is a software package directory tool. It helps you to find software packages from different
                                         </p>
-                                        <p class="card-text">
-                                            <small class="text-muted">
-                                                20 Mar 2021
-                                            </small>
-                                        </p>
-                                    </div>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            20 Mar 2021
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/project/" class="list-group-item list-group-item-action border-0"
-                        style="background-color: transparent">
-                        See More
-                    </a>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
+                    </div>
+                </a>
+                <a href="/project/" class="list-group-item list-group-item-action border-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             </div>
         </div>
     </div>
 </div>
-      </div>
+</div>
     </div>
     
   </div>
-
+<script type="text/javascript" src="/assets/js/custom/custom.js"></script>
 </body>
 
 </html>

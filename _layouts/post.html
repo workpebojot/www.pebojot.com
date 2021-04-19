@@ -38,19 +38,14 @@
     <nav class="navbar navbar-expand-lg navbar-light p-2">
       {% include navigation.html %}
     </nav>
-    <div class="tab-content mt-2">
-      <div class="tab-pane container active" id="/{{ page.url | downcase }}">
-        <div class="container-fluid">
-          <div class="container-sm">
-            {{ content }}
-          </div>
-        </div>
-      </div>
+    <div class="tab-content p-2">
+      {% include menu.content.html %}
     </div>
   </div>
   </div>
 
   <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script type="text/javascript" src="{{ '/assets/js/custom/custom.js' | relative_url }}"></script>
 </body>
 
 </html>

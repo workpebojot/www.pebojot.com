@@ -53,6 +53,11 @@
             
         </span>
     </span>
+    <span class="navbar__mobile">
+        <a href="/" class="btn " style="margin: 2px;">
+            <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
+        </a>
+    </span>
 </span>
 
 
@@ -65,33 +70,26 @@
 
 
 <span class="navbar__mobile">
-    <a href="/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/blog/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/event/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/project/" class="btn " style="margin: 2px;">
-        <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/about/" role="button"
-        class="btn btn-secondary "
-        style="margin: 2px;">
-        <b>
-            About
-        </b>
-    </a>
+    <div class="d-flex align-items-center">
+        <a href="/blog/" class="p-1 btn ">
+            <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
+        </a>
+        <a href="/event/" class="p-1 btn ">
+            <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
+        </a>
+        <a href="/project/" class="p-1 btn ">
+            <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
+        </a>
+        <a href="/about/" role="button" 
+            class="p-1 btn btn-secondary ">
+            <b>
+                About
+            </b>
+        </a>
+        <!-- <span id="menu" class="btn">
+            <img id="menu-src" src="/assets/images/menu.webp" >
+        </span> -->
+    </div>
 </span>
 
 <span class="navbar__desktop">
@@ -166,11 +164,22 @@
 
 
     </nav>
-    <div class="tab-content mt-2">
-      <div class="tab-pane container active" id="//2021/03/03/blog/">
-        <div class="container-fluid">
-          <div class="container-sm">
-            <p><img src="/assets/images/2021.03.03.blog.cover.webp" class="rounded img-fluid" /></p>
+    <div class="tab-content p-2">
+      <div id="menu-tab" style="visibility: hidden;display: none;">
+    <h4>Content</h4>
+    <div style="border-style: dashed none none none;"></div>
+    <a href="/blog/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Blog</h5>   
+    </a><br>
+    <a href="/event/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Event</h5>  
+    </a><br>
+    <a href="/project/" class="btn" tabindex="-1" role="button" aria-disabled="false">
+        <h5 class="fw-light">Project</h5>    
+    </a>
+</div>
+<div id="menu-content" style="visibility: visible;" class="tab-pane container ">
+    <p><img src="/assets/images/2021.03.03.blog.cover.webp" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
     <h2>Software Ethics to me (or to you)</h2>
@@ -320,14 +329,13 @@ There is no one-size-fits-all solution to ethics; rather, it may be arbitrary. N
 <br />
 <br /></p>
 
-          </div>
-        </div>
-      </div>
+</div>
     </div>
   </div>
   </div>
 
   <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script type="text/javascript" src="/assets/js/custom/custom.js"></script>
 </body>
 
 </html>

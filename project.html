@@ -21,11 +21,20 @@ title: Project
             <div class="card-header">
               {{ post.title }}
             </div>
-            <a href="{{ post.url }}" class="btn btn-light"role="button">
+            <a href="{{ post.url }}" class="btn btn-light" role="button">
               <img src="{{ post.image_url }}" class="card-img-top img-fluid" alt="{{ post.title }}">
             </a>
             <div class="card-body">
-              <p class="card-text" style="text-align: justify;word-break: keep-all;">{{ post.excerpt }}</p>
+              <span class="desktop__size ">
+                <p class="card-text lead" style="text-align: justify;">
+                  {{ post.excerpt }}
+                </p>
+              </span>
+              <span class="mobile__size ">
+                <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  {{ post.short_description }}
+                </p>
+              </span>
               <div class="d-flex justify-content-evenly">
                 <button type="button" class="btn btn-light">
                   <img src="{{ post.tag_logo_1 }}" width="32" height="32" class="img-fluid" alt="Github">

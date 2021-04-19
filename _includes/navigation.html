@@ -15,37 +15,35 @@
             {% endif %}
         </span>
     </span>
+    <span class="navbar__mobile">
+        <a href="/" class="btn {% if page.url=='/' %}btn btn-light{% endif %}" style="margin: 2px;">
+            <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
+        </a>
+    </span>
 </span>
 {% endif %}
 {% endfor %}
 <span class="navbar__mobile">
-    <a href="/" class="btn {% if page.url=='/' %}btn btn-light{% endif %}" style="margin: 2px;">
-        <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/blog/" class="btn {% if page.url=='/blog/' %}btn btn-light{% endif %}" style="margin: 2px;">
-        <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/event/" class="btn {% if page.url=='/event/' %}btn btn-light{% endif %}" style="margin: 2px;">
-        <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/project/" class="btn {% if page.url=='/project/' %}btn btn-light{% endif %}" style="margin: 2px;">
-        <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-    </a>
-</span>
-<span class="navbar__mobile">
-    <a href="/about/" role="button"
-        class="btn {% if page.url!='/about/' %}btn-secondary{% endif %} {% if page.url=='/about/' %}btn btn-light{% endif %}"
-        style="margin: 2px;">
-        <b>
-            About
-        </b>
-    </a>
+    <div class="d-flex align-items-center">
+        <a href="/blog/" class="p-1 btn {% if page.url=='/blog/' %}btn-light{% endif %}">
+            <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
+        </a>
+        <a href="/event/" class="p-1 btn {% if page.url=='/event/' %}btn-light{% endif %}">
+            <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
+        </a>
+        <a href="/project/" class="p-1 btn {% if page.url=='/project/' %}btn-light{% endif %}">
+            <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
+        </a>
+        <a href="/about/" role="button" 
+            class="p-1 btn {% if page.url!='/about/' %}btn-secondary{% endif %} {% if page.url=='/about/' %}btn-light{% endif %}">
+            <b>
+                About
+            </b>
+        </a>
+        <!-- <span id="menu" class="btn">
+            <img id="menu-src" src="/assets/images/menu.webp" >
+        </span> -->
+    </div>
 </span>
 {% for item in site.data.navigation %}
 <span class="navbar__desktop">

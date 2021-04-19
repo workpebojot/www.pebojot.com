@@ -19,7 +19,7 @@ title: Blog
         <li class="list-group-item border-0 bg-light">
           <a href="{{ post.url }}" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">{{ post.title }}</h5>
+              <h4 class="mb-1">{{ post.title }}</h4>
               <small class="text-muted desktop__size">{{ post.date | date_to_string }}</small>
             </div>
             <small class="text-muted mobile__size">
@@ -27,7 +27,16 @@ title: Blog
                 alt="Edison Pebojot">
             </small>
             <small class="text-muted mobile__size"> by {{ post.author }} | {{ post.date | date_to_string }}</small>
-            <p class="card-text" style="text-align: justify;word-break: break-all;">{{ post.excerpt }}</p>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  {{ post.excerpt }}
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  {{ post.short_description }}
+              </p>
+            </span>
             <small class="text-muted desktop__size"> by {{ post.author }}</small>
           </a>
         </li>
