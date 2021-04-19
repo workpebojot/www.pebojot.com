@@ -106,11 +106,12 @@
     </nav>
     {% for item in site.data.navigation %}
     <div class="tab-content p-2">
-      {% include menu.content.html %}
+      <div class="tab-pane container {% if page.url==item.link %}active{% endif %}">
+        {{ content }}
+      </div>
     </div>
     {% endfor %}
   </div>
-<script type="text/javascript" src="{{ '/assets/js/custom/custom.js' | relative_url }}"></script>
 </body>
 
 </html>
