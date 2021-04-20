@@ -24,18 +24,18 @@
 {% endif %}
 {% endfor %}
 <span class="navbar__mobile">
-    <div class="d-flex align-items-center">
-        <a href="/blog/" class="p-1 btn {% if page.url=='/blog/' %}btn-light{% endif %}">
+    <div class="d-flex align-items-center gap-1">
+        <a href="/blog/" class="btn {% if page.url=='/blog/' %}btn-light{% endif %}">
             <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
         </a>
-        <a href="/event/" class="p-1 btn {% if page.url=='/event/' %}btn-light{% endif %}">
+        <a href="/event/" class="btn {% if page.url=='/event/' %}btn-light{% endif %}">
             <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
         </a>
-        <a href="/project/" class="p-1 btn {% if page.url=='/project/' %}btn-light{% endif %}">
+        <a href="/project/" class="btn {% if page.url=='/project/' %}btn-light{% endif %}">
             <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
         </a>
         <a href="/about/" role="button" 
-            class="p-1 btn {% if page.url!='/about/' %}btn-secondary{% endif %} {% if page.url=='/about/' %}btn-light{% endif %}">
+            class="btn {% if page.url!='/about/' %}btn-secondary{% endif %} {% if page.url=='/about/' %}btn-light{% endif %}">
             <b>
                 About
             </b>
