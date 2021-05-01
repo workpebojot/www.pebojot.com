@@ -91,12 +91,12 @@ title: Home
         </h6>
     </div>
     <div class="row">
-        <div class="col bg-light">
+        <div class="col bg-light p-0">
             <div class="list-group m-1">
                 {% for post in site.posts %}
                 {% if post.latest==true %}
                 {% if post.type=="blog" %}
-                <a href="{{ post.blog_url }}" class="list-group-item list-group-item-action border-0"
+                <a href="{{ post.blog_url }}" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
@@ -126,7 +126,7 @@ title: Home
                         </div>
                     </div>
                 </a>
-                <a href="/blog/" class="list-group-item list-group-item-action border-0"
+                <a href="/blog/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     See More
                 </a>
@@ -146,12 +146,12 @@ title: Home
         </h6>
     </div>
     <div class="row">
-        <div class="col bg-light">
+        <div class="col bg-light p-0">
             <div class="list-group m-1">
                 {% for post in site.posts %}
                 {% if post.latest==true %}
                 {% if post.type=="event" %}
-                <a href="{{ post.event_url }}" class="list-group-item list-group-item-action border-0"
+                <a href="{{ post.event_url }}" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
@@ -181,7 +181,7 @@ title: Home
                         </div>
                     </div>
                 </a>
-                <a href="/event/" class="list-group-item list-group-item-action border-0"
+                <a href="/event/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     See More
                 </a>
@@ -201,12 +201,12 @@ title: Home
         </h6>
     </div>
     <div class="row">
-        <div class="col bg-light">
+        <div class="col bg-light p-0">
             <div class="list-group m-1">
                 {% for post in site.posts %}
                 {% if post.latest==true %}
                 {% if post.type=="project" %}
-                <a href="{{ post.project_url }}" class="list-group-item list-group-item-action border-0"
+                <a href="{{ post.project_url }}" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
@@ -236,7 +236,7 @@ title: Home
                         </div>
                     </div>
                 </a>
-                <a href="/project/" class="list-group-item list-group-item-action border-0"
+                <a href="/project/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     See More
                 </a>
