@@ -1,3 +1,22 @@
+#navbar {
+  overflow: hidden;
+  elevation: 1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 .line {
   margin:5px 0;
   height:2px;

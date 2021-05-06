@@ -35,7 +35,7 @@
 
 <body>
   <div class="container p-2">
-    <nav class="navbar navbar-expand-lg navbar-light p-2">
+    <nav id="navbar1" class="navbar navbar-expand-lg navbar-light p-2">
       
 
 <span class="d-flex flex-grow-1">
@@ -102,7 +102,7 @@
 <span class="navbar__desktop">
     <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
         
-        <a class="nav-link active border-0" data-toggle="tabs"
+        <a class="nav-link active bg-transparent border-0" data-toggle="tabs"
             href="/blog/">
             <h5>
                 <span class="home-hover">
@@ -166,7 +166,7 @@
     </nav>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
@@ -311,7 +311,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container active">
+      <div class="content tab-pane container active">
         <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
@@ -456,7 +456,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
@@ -601,7 +601,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
@@ -746,7 +746,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <div class="container-fluid">
   <div class="row rounded-left">
     <div class="col p-2">
@@ -892,5 +892,26 @@
     
   </div>
 </body>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar1 = document.getElementById("navbar1");
+var sticky = navbar1.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar1.classList.add("sticky-top");
+    navbar1.classList.add("bg-light");
+    navbar1.classList.add("rounded");
+    navbar1.classList.add("mt-1");
+  } else {
+    navbar1.classList.remove("sticky-top");
+    navbar1.classList.remove("bg-light");
+    navbar1.classList.remove("rounded");
+    navbar1.classList.remove("mt-1");
+  }
+}
+</script>
 
 </html>

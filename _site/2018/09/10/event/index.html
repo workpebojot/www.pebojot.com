@@ -35,7 +35,7 @@
     src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=875318043308259&autoLogAppEvents=1"
     nonce="kjfhgux3"></script>
   <div class="container p-2">
-    <nav class="navbar navbar-expand-lg navbar-light p-2">
+    <nav id="navbar2" class="navbar navbar-expand-lg navbar-light p-2">
       
 
 <span class="d-flex flex-grow-1">
@@ -166,7 +166,7 @@
     </nav>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <p><img src="/assets/images/2018.09.10.event.cover.png" class="rounded img-fluid" /></p>
 
 <p><b>10 SEPTEMBER 2018 4AM UTC+8</b></p>
@@ -241,7 +241,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <p><img src="/assets/images/2018.09.10.event.cover.png" class="rounded img-fluid" /></p>
 
 <p><b>10 SEPTEMBER 2018 4AM UTC+8</b></p>
@@ -316,7 +316,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <p><img src="/assets/images/2018.09.10.event.cover.png" class="rounded img-fluid" /></p>
 
 <p><b>10 SEPTEMBER 2018 4AM UTC+8</b></p>
@@ -391,7 +391,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <p><img src="/assets/images/2018.09.10.event.cover.png" class="rounded img-fluid" /></p>
 
 <p><b>10 SEPTEMBER 2018 4AM UTC+8</b></p>
@@ -466,7 +466,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <p><img src="/assets/images/2018.09.10.event.cover.png" class="rounded img-fluid" /></p>
 
 <p><b>10 SEPTEMBER 2018 4AM UTC+8</b></p>
@@ -541,7 +541,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <p><img src="/assets/images/2018.09.10.event.cover.png" class="rounded img-fluid" /></p>
 
 <p><b>10 SEPTEMBER 2018 4AM UTC+8</b></p>
@@ -616,7 +616,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <p><img src="/assets/images/2018.09.10.event.cover.png" class="rounded img-fluid" /></p>
 
 <p><b>10 SEPTEMBER 2018 4AM UTC+8</b></p>
@@ -691,7 +691,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <p><img src="/assets/images/2018.09.10.event.cover.png" class="rounded img-fluid" /></p>
 
 <p><b>10 SEPTEMBER 2018 4AM UTC+8</b></p>
@@ -766,7 +766,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <p><img src="/assets/images/2018.09.10.event.cover.png" class="rounded img-fluid" /></p>
 
 <p><b>10 SEPTEMBER 2018 4AM UTC+8</b></p>
@@ -841,7 +841,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container active">
+      <div class="content tab-pane container active">
         <p><img src="/assets/images/2018.09.10.event.cover.png" class="rounded img-fluid" /></p>
 
 <p><b>10 SEPTEMBER 2018 4AM UTC+8</b></p>
@@ -916,7 +916,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <p><img src="/assets/images/2018.09.10.event.cover.png" class="rounded img-fluid" /></p>
 
 <p><b>10 SEPTEMBER 2018 4AM UTC+8</b></p>
@@ -991,7 +991,7 @@
     </div>
     
     <div class="tab-content p-2">
-      <div class="tab-pane container ">
+      <div class="content tab-pane container ">
         <p><img src="/assets/images/2018.09.10.event.cover.png" class="rounded img-fluid" /></p>
 
 <p><b>10 SEPTEMBER 2018 4AM UTC+8</b></p>
@@ -1071,4 +1071,24 @@
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar2 = document.getElementById("navbar2");
+var sticky = navbar2.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar2.classList.add("sticky-top");
+    navbar2.classList.add("bg-light");
+    navbar2.classList.add("rounded");
+    navbar2.classList.add("mt-1");
+  } else {
+    navbar2.classList.remove("sticky-top");
+    navbar2.classList.remove("bg-light");
+    navbar2.classList.remove("rounded");
+    navbar2.classList.remove("mt-1");
+  }
+}
+</script>
 </html>
