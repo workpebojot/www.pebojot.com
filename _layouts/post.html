@@ -35,12 +35,12 @@
     src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=875318043308259&autoLogAppEvents=1"
     nonce="kjfhgux3"></script>
   <div class="container p-2">
-    <nav class="navbar navbar-expand-lg navbar-light p-2">
+    <nav id="navbar2" class="navbar navbar-expand-lg navbar-light p-2">
       {% include navigation.html %}
     </nav>
     {% for post in site.posts %}
     <div class="tab-content p-2">
-      <div class="tab-pane container {% if page.url==post.url %}active{% endif %}">
+      <div class="content tab-pane container {% if page.url==post.url %}active{% endif %}">
         {{ content }}
       </div>
     </div>
@@ -51,4 +51,24 @@
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar2 = document.getElementById("navbar2");
+var sticky = navbar2.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar2.classList.add("sticky-top");
+    navbar2.classList.add("bg-light");
+    navbar2.classList.add("rounded");
+    navbar2.classList.add("mt-1");
+  } else {
+    navbar2.classList.remove("sticky-top");
+    navbar2.classList.remove("bg-light");
+    navbar2.classList.remove("rounded");
+    navbar2.classList.remove("mt-1");
+  }
+}
+</script>
 </html>

@@ -101,17 +101,38 @@
 
 <body>
   <div class="container p-2">
-    <nav class="navbar navbar-expand-lg navbar-light p-2">
+    <nav id="navbar1" class="navbar navbar-expand-lg navbar-light p-2">
       {% include navigation.html %}
     </nav>
     {% for item in site.data.navigation %}
     <div class="tab-content p-2">
-      <div class="tab-pane container {% if page.url==item.link %}active{% endif %}">
+      <div class="content tab-pane container {% if page.url==item.link %}active{% endif %}">
         {{ content }}
       </div>
     </div>
     {% endfor %}
   </div>
 </body>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar1 = document.getElementById("navbar1");
+var sticky = navbar1.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar1.classList.add("sticky-top");
+    navbar1.classList.add("bg-light");
+    navbar1.classList.add("rounded");
+    navbar1.classList.add("mt-1");
+  } else {
+    navbar1.classList.remove("sticky-top");
+    navbar1.classList.remove("bg-light");
+    navbar1.classList.remove("rounded");
+    navbar1.classList.remove("mt-1");
+  }
+}
+</script>
 
 </html>
