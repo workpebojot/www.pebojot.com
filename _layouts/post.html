@@ -40,7 +40,7 @@
     </nav>
     {% for post in site.posts %}
     <div class="tab-content p-2">
-      <div class="content tab-pane container {% if page.url==post.url %}active{% endif %}">
+      <div class="tab-pane container {% if page.url==post.url %}active{% endif %}">
         {{ content }}
       </div>
     </div>
