@@ -1,1 +1,4 @@
-_site/
+### Jekyll ###
+_site
+.jekyll-metadata
+*-cache/
