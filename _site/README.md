@@ -19,4 +19,4 @@ Edison Pebojot's goal is to demonstrate that his relevant activity is in the sof
 The project's development version, on the other hand, is private. If you'd like to help, please contact me at pebojot.edison.work@outlook.com.
 
 ## License
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/) &copy; 2021
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
