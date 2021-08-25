@@ -1,4 +1,560 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2021-05-19T11:35:14+08:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">Describe Your Task as a Software Developer</title><link href="http://localhost:3000/2021/03/31/blog/" rel="alternate" type="text/html" title="Describe Your Task as a Software Developer" /><published>2021-03-31T00:00:00+08:00</published><updated>2021-03-31T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/31/blog</id><content type="html" xml:base="http://localhost:3000/2021/03/31/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.3.31.blog.cover.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2021-08-25T21:05:18+08:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">Defects Management using Prioritization &amp;amp; Estimation</title><link href="http://localhost:3000/2021/08/25/blog/" rel="alternate" type="text/html" title="Defects Management using Prioritization &amp;amp; Estimation" /><published>2021-08-25T00:00:00+08:00</published><updated>2021-08-25T00:00:00+08:00</updated><id>http://localhost:3000/2021/08/25/blog</id><content type="html" xml:base="http://localhost:3000/2021/08/25/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.8.25.blog.cover.png&quot; class=&quot;rounded img-fluid&quot; alt=&quot;cover&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;desktop__size&quot; style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif;&quot;&gt;
+    &lt;h2&gt;Defects Management using Prioritization &amp;amp; Estimation&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mobile__size&quot; style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif;&quot;&gt;
+    &lt;h2&gt;Defects Management using Prioritization &amp;amp; Estimation&lt;/h2&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;desktop__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;small class=&quot;text-muted&quot;&gt;
+        &lt;img src=&quot;/assets/images/2x2.webp&quot; width=&quot;30&quot; height=&quot;30&quot; class=&quot;img-fluid rounded-circle&quot; alt=&quot;Edison Pebojot&quot; /&gt;
+        &lt;/small&gt;
+    &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        By Edison Pebojot
+      &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        25 August 2021
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;a href=&quot;https://twitter.com/workpebojot?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-follow-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Follow @workpebojot&lt;/a&gt;
+        &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+      &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-color-scheme=&quot;no-preference: light; light: light; dark: light;&quot; data-size=&quot;large&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+ &lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;small class=&quot;text-muted&quot;&gt;
+                &lt;img src=&quot;/assets/images/2x2.webp&quot; width=&quot;30&quot; height=&quot;30&quot; class=&quot;img-fluid rounded-circle&quot; alt=&quot;Edison Pebojot&quot; /&gt;
+            &lt;/small&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            By Edison Pebojot
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center flex-grow-1&quot;&gt;
+            08/25/2021
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/workpebojot?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-follow-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Follow @workpebojot&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a class=&quot;github-button align-self-center&quot; href=&quot;https://github.com/workpebojot&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif;&quot;&gt;
+    &lt;p&gt;
+        So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on, but I'd like to focus on technical debt today because it is the most common type of debt in the software industry. As a result, one of the most common topics discussed by experienced programmers in the software industry is technical debt. So, when we talk about technical debt, we're actually talking about software defects. Because the term bug can refer to insects, some people prefer to refer to it as a defect, because a defect is the result of a mistake. This is called Mistake metamorphism.
+    &lt;/p&gt;
+    &lt;p&gt;
+        In mistake metamorphism, when we change some parts of the source code, we may need to change other parts of the source code as well in order for the software to function properly. Unfortunately, some of us would rather not change certain other parts (or components) for various reasons (maybe because it was hard to change). This is a mistake. And this mistake continues to flow through the pipeline (or Kanban board). That mistake slowly transforms into something dark as it travels through the pipeline. It's so dark that it's now considered a defect in the pipeline's final stage (deployment). And that defect can result in software that isn't up to par. It means that some of it is functional, but not all of it is. For example, clicking the button is working, but clicking the anchor is not.
+    &lt;/p&gt;
+    &lt;p&gt;
+        When some parts of a programme work before but not after a change, this is referred to as software regression (defect). Some defects, however, are unintentional. For example, just because you change some parts of the source code and leave the rest alone to make the software work perfectly does not mean there isn't a defect. It could be due to incompatibilities that cause the software to perform poorly. Some parts (components) of your software, for example, may not work in the runtime environment. This is due to the execution model's inability to comprehend your source code. It's possible that the execution model from that runtime entails using &quot;if statement&quot; with parenthesis instead.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Software incompatibility is the term for this type of incompatibility. It's also possible that you made some mistakes that were unintentional. It's possible that the runtime environment has been updated and no longer supports the programming language features you're using (or vice versa). And it's here that forward and backward compatibility is established. Forward compatibility is used when your software needs to work flawlessly with a new version of the runtime environment. Backward compatibility is available for older versions of the runtime environment. Because your system is still young and mistakes are common, you're more likely to encounter intentional defects in greenfield projects.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Defect triage, on the other hand, can be used to manage defects. Some tools, such as Github or Trello, refer to this as bug triage, but this is incorrect. If you rely on these tools excessively, you may be justified in using the term bug triage during working hours, and you may disagree with me. Using the word defect, on the other hand, is transparent because it indicates that you made a mistake, which you should not hide from the public.
+    &lt;/p&gt;
+    &lt;p&gt;
+        In any case, the most common method of defect triage is through the use of a tool and a casual meeting. To avoid infobesity, the tool includes a defect triage board (board), four columns (open, high priority, low priority, closed), and a WiP limit for each column. The developer who made the mistake in the version control system should speak with the tester during the casual meeting. Some prefer to speak with stakeholders and product owners because they are more familiar with the scope of the technical debt's impact and may be able to offer useful solutions. Some people prefer to use an issue board instead of talking to stakeholders and product owners. An issue board is preferable because it allows more people to discuss the problem than just the developer and tester.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Rather than adding a defect to the issue board, some developers prefer to avoid mistakes right away. However, some errors are unintentional, such as software incompatibility. But mistakes can also be reduced to a bare minimum. As a result, we must prioritise and estimate the issue. You need to know the issue's value and size in order to prioritise and estimate it. The output of resolving the problem must be useful to the user, and the impact should be minimal. It should be kept to a minimum because a large impact means a large mistake. And, no matter how significant the impact, most users will not value what you fix if the issue is not valuable. This can lead to a waste of time.
+    &lt;/p&gt;
+    &lt;p&gt;
+        In addition to size and value, people use velocity (for scrum) and time (for kanban). In fact, in software development, velocity and time are critical because they are used to communicate with stakeholders. The standard deviation formula is used to calculate the mean of the total number of story points in four sprints over the course of a month. However, because the velocity has no units like tasks per minute, there are trust issues between the team and the stakeholders. As a result, some people attempt to convert velocity to time. For instance, 30 points equals 6 days, 60 points equals 12 days, and so on. T-shirt sizing and the cone of uncertainty are also used by some people to communicate with stakeholders, but this is beyond the scope of this blog.
+    &lt;/p&gt;
+    &lt;p&gt;
+        As a result, some people prefer to use time (in kanban). You use time in kanban to communicate with stakeholders about how long they should expect their product to arrive. Lead time, cycle time, and actionable agile metrics (ACM) are used to calculate time. I won't go into detail because it's much better if you investigate it for yourself to gain a better understanding. All of this talk about velocity and time, on the other hand, is a way of communicating to stakeholders how long it will take to fix the defect. You'll need a way to explain to stakeholders how long they should wait for the fix, especially if the defect is valuable.
+    &lt;/p&gt;
+    &lt;h3&gt;Summary&lt;/h3&gt;
+    &lt;hr /&gt;
+    &lt;p&gt;
+        Technical debt is the most common type of debt in the software industry. Technical debt refers to software defects, which can be caused by mistake and incompatibilities. Some people prefer to refer to it as a defect, because a defect is the result of a mistake. In mistake metamorphism, when we change some parts of the source code, we may need to change other parts too. And this mistake slowly transforms into something dark as it travels through the pipeline.
+    &lt;/p&gt;
+    &lt;p&gt;
+        It's so dark that it's now considered a defect in the pipeline's final stage (deployment) And that defect can result in software that isn't up to par. Some tools, such as Github or Trello, refer to bug triage as bug triage, but this is incorrect. Using the word defect, on the other hand, is transparent because it indicates that you made a mistake, which you should not hide from the public. If you rely on these tools excessively, you may be justified in using the term bug trage during working hours, and you may disagree with me.
+    &lt;/p&gt;
+    &lt;p&gt;
+        The most common method of defect triage is through the use of a tool and a casual meeting. Some people prefer to use an issue board instead of talking to stakeholders and product owners. The output of resolving the problem must be useful to the user, and the impact should be minimal. This is because it should be kept to a minimum because a large impact means a large mistake. Some people prefer to use time (in kanban) to communicate with stakeholders about how long they should expect their product to arrive.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Lead time, cycle time, and actionable agile metrics (ACM) are used to calculate time. Time is a way of communicating to stakeholders how long it will take to fix a defect, especially if the defect is critical. It's much better if you investigate it for yourself to gain a better understanding.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;hr /&gt;
+&lt;div class=&quot;desktop__size &quot;&gt;
+  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2022/08/25/blog/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
+      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2022/08/25/blog/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on, but I'd like to focus on technical debt today because it is the most common type of debt in the software industry.</summary></entry><entry><title type="html">Continual Improvement for Kanban Team</title><link href="http://localhost:3000/2021/08/24/blog/" rel="alternate" type="text/html" title="Continual Improvement for Kanban Team" /><published>2021-08-24T00:00:00+08:00</published><updated>2021-08-24T00:00:00+08:00</updated><id>http://localhost:3000/2021/08/24/blog</id><content type="html" xml:base="http://localhost:3000/2021/08/24/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.8.24.blog.cover.png&quot; class=&quot;rounded img-fluid&quot; alt=&quot;cover&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;desktop__size&quot; style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif;&quot;&gt;
+    &lt;h2&gt;Continual Improvement for Kanban Team&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mobile__size&quot; style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif;&quot;&gt;
+    &lt;h2&gt;Continual Improvement for Kanban Team&lt;/h2&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;desktop__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;small class=&quot;text-muted&quot;&gt;
+        &lt;img src=&quot;/assets/images/2x2.webp&quot; width=&quot;30&quot; height=&quot;30&quot; class=&quot;img-fluid rounded-circle&quot; alt=&quot;Edison Pebojot&quot; /&gt;
+        &lt;/small&gt;
+    &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        By Edison Pebojot
+      &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        24 August 2021
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;a href=&quot;https://twitter.com/workpebojot?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-follow-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Follow @workpebojot&lt;/a&gt;
+        &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+      &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-color-scheme=&quot;no-preference: light; light: light; dark: light;&quot; data-size=&quot;large&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+ &lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;small class=&quot;text-muted&quot;&gt;
+                &lt;img src=&quot;/assets/images/2x2.webp&quot; width=&quot;30&quot; height=&quot;30&quot; class=&quot;img-fluid rounded-circle&quot; alt=&quot;Edison Pebojot&quot; /&gt;
+            &lt;/small&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            By Edison Pebojot
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center flex-grow-1&quot;&gt;
+            08/24/2021
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/workpebojot?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-follow-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Follow @workpebojot&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a class=&quot;github-button align-self-center&quot; href=&quot;https://github.com/workpebojot&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif;&quot;&gt;
+    &lt;p&gt;
+        Now, I mentioned Scrum, Kanban, and Scrumban yesterday (for small teams). Additionally, Prince2 Agile and PMI (for big teams). At some point in our personal lives, we all want to improve ourselves. But the improvement I'm referring to is for the Kanban team, specifically for their standards/culture. I'd like to start with small teams because, after all, we all start small and work our way up, right? Okay, that's enough for now.
+    &lt;/p&gt;
+    &lt;h4&gt;Continual Improvement&lt;/h4&gt;
+    &lt;p&gt;
+        We've all heard the phrase &quot;continuous improvement.&quot; Essentially, it was changed to continual improvement due to the semantics of the word itself, as continuous refers to improvement through repetition, whereas continual refers to improvement through scaling. So, we have scaling vs. repeating. You improve by repeating the standard/culture rather than scaling it to something better if you use continuous improvement 
+    &lt;/p&gt;
+    &lt;p&gt;
+        However, if you use continual improvement, you can improve by scaling up the standard/culture without having to repeat it. As a result, the semantics of the latter are far superior to the former. Because there was a debate among the &lt;a href=&quot;https://www.iso.org/standard/21823.html&quot; target=&quot;_blank&quot;&gt;ISO 9001:2000&lt;/a&gt; developers about the meaning of continuous improvement, &lt;a href=&quot;https://www.iso.org/committee/53882.html&quot; target=&quot;_blank&quot;&gt;ISO/TC 176&lt;/a&gt; changed it.
+    &lt;/p&gt;
+    &lt;h4&gt;Retrospective&lt;/h4&gt;
+    &lt;p&gt;
+        In any case, we want to raise our standards/culture. Every business culture/standard is distinct in its own way. You'll also need to scale yours.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Scaling your standards/culture is simple in Scrum. Go at &lt;a href=&quot;https://retromat.org/&quot; target=&quot;_blank&quot;&gt;Retromat&lt;/a&gt; and scroll down to learn how to do a retrospective in scrum. Although there are ordered stages that you must follow, I recommend that you click on each hashtag for each stage and try them out:
+    &lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;
+                Set the stage (&lt;a href=&quot;https://retromat.org/en/?id=122&quot; target=&quot;_blank&quot;&gt;#122&lt;/a&gt;)
+            &lt;/li&gt;
+            &lt;li&gt;
+                Gather data (&lt;a href=&quot;https://retromat.org/en/?id=51&quot; target=&quot;_blank&quot;&gt;#51&lt;/a&gt;)
+            &lt;/li&gt;
+            &lt;li&gt;
+                Generate insights (&lt;a href=&quot;https://retromat.org/en/?id=9&quot; target=&quot;_blank&quot;&gt;#9&lt;/a&gt;)
+            &lt;/li&gt;
+            &lt;li&gt;
+                Decide what to do (&lt;a href=&quot;https://retromat.org/en/?id=39&quot; target=&quot;_blank&quot;&gt;#39&lt;/a&gt;)
+            &lt;/li&gt;
+            &lt;li&gt;
+                Close the retrospective (&lt;a href=&quot;https://retromat.org/en/?id=60&quot; target=&quot;_blank&quot;&gt;#60&lt;/a&gt;)
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;p&gt;
+        This should be done every 1-2 weeks sprints, in scrum, of course. The story is different in Kanban.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Scaling your standards/culture in Kanban is difficult. In Kanban, you'll need an &lt;a href=&quot;https://en.wikipedia.org/wiki/A3_problem_solving&quot; target=&quot;_blank&quot;&gt;A3 Problem Solving&lt;/a&gt; (method), an &lt;a href=&quot;https://en.wikipedia.org/wiki/A3_problem_solving#/media/File:A3_problem_solving_worksheet.jpg&quot; target=&quot;_blank&quot;&gt;A3 Problem Solving Template&lt;/a&gt; (paper), a &lt;a href=&quot;https://en.wikipedia.org/wiki/PDCA&quot; target=&quot;_blank&quot;&gt;PDCA&lt;/a&gt; (design), a &lt;a href=&quot;https://www.reliableplant.com/root-cause-analysis-31548&quot; target=&quot;_blank&quot;&gt;Root Cause Analysis Tool&lt;/a&gt; (lean tool), and an &lt;a href=&quot;https://www.targetprocess.com/blog/development-practice-retrospectives-in-kanban/&quot; target=&quot;_blank&quot;&gt;Issue board&lt;/a&gt; (board) to conduct a retrospective.
+    &lt;/p&gt;
+    &lt;p&gt;
+       The A3 Problem Solving is the first (method). It's self-explanatory if you use an A3 Problem Solving Template (paper), which is an A3-size piece of paper like this:
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;img src=&quot;https://user-images.githubusercontent.com/38276345/130525644-b2bc26f4-41cf-40d6-8d66-e9c200a16f24.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;template&quot; /&gt;
+      &lt;figcaption&gt;Figure 1. A3 Problem Solving Template (&lt;a href=&quot;https://en.wikipedia.org/wiki/A3_problem_solving#/media/File:A3_problem_solving_worksheet.jpg&quot; target=&quot;_blank&quot;&gt;source&lt;/a&gt;)&lt;/figcaption&gt;
+    &lt;p&gt;
+        You can now use the PDCA (design), and Root Cause Analysis Tool (lean tool).
+    &lt;/p&gt;
+        Plan:
+        &lt;ol&gt;
+            &lt;li&gt;Clarify the problem&lt;/li&gt;
+            &lt;li&gt;Breakdown the problem&lt;/li&gt;
+            &lt;li&gt;Set the target&lt;/li&gt;
+            &lt;li&gt;Analyze the Root Cause - use the &lt;a href=&quot;https://www.reliableplant.com/root-cause-analysis-31548&quot; target=&quot;_blank&quot;&gt;Root Cause Analysis Tool&lt;/a&gt; (lean tool)&lt;/li&gt;
+            &lt;li&gt;Develop counter measures&lt;/li&gt;
+         &lt;/ol&gt;
+         Do: &lt;br /&gt;
+         &amp;nbsp; &amp;nbsp; 6. Implement countermeasures
+        &lt;br /&gt;
+        Check: &lt;br /&gt;
+        &amp;nbsp; &amp;nbsp; 7. Monitor Results and Process
+        &lt;br /&gt;h
+        Adjust: &lt;br /&gt;
+        &amp;nbsp; &amp;nbsp; 8. Standardize and share success
+        &lt;br /&gt;
+    &lt;p&gt;
+        There are stages in scrum that must be followed in order (stages). You must use an A3 Problem Solving in Kanban (method). Every 1-2-week sprint in scrum, you must conduct a retrospective. In Kanban, an Issue board (board) is required to conduct a retrospective.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Now, your problems/issues are collected on the issue board (board). The number of problems/issues on the issue board (board) is actually limited to 5. Only if the issue board (board) now contains 5 problems/issues does a retrospective take place. The issuer of issue should clarify the problem, break the problem into smaller parts and set the target (or goal). 
+    &lt;/p&gt;
+    &lt;p&gt;
+        The problem/issue must now be transferred to the A3 Problem Solving Template (paper), PDCA (design), and use Root Cause Analysis Tool (lean tool) so that we can determine the root cause of the issue and develop countermeasures (solution). If the the results in the implementation of the solution is working, use it to change your standards or culture.
+    &lt;/p&gt;
+    &lt;h4&gt;Physical vs Virtual (Retrospective)&lt;/h4&gt;
+    &lt;p&gt;
+        You may now be physically working, usually in a building. Try the above if you want to conduct a retrospective. Try the (stages) for scrum. You can use the (method) for kanban. However, we may work remotely on occasion, and in this case, retrospective is a little different because our standards/culture have changed as a result of the pandemic. You should try to use a retrospective tool if you are working remotely and want to conduct a retrospective. Try the &lt;a href=&quot;https://www.retrium.com/&quot; target=&quot;_blank&quot;&gt;Retrium&lt;/a&gt; or &lt;a href=&quot;https://www.leancoffeetable.com/&quot; target=&quot;_blank&quot;&gt;Lean Coffee Tables&lt;/a&gt; for scrum. You can use Trello, Zoom, or Webex for Kanban.
+    &lt;/p&gt;
+    &lt;p&gt;
+        It's a little more difficult in Kanban because we frequently use (method) rather than (stages). To put it another way, in Kanban, we have an Issue board (board) in Trello where we can put 5 issues. Why are there only 5 issues? It usually depends on your team, but keep in mind that in Kanban, each column in the Kanban board has a N + 1 value. This means that if the issue board has 4 people in charge, we can add another issue to them. If there are 4 people, there must be 5 issues.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Rather than being members of the specific team, these 4 people are members of the general team. Why? Because they'll do some planning, implementation, monitoring and standardization that are not specificically pass to the specific team. They will now conduct the retrospective if there are 5 issues on the issue board. Typically, they will discuss the issue in a zoom or webex session while holding an A3-size paper/document.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Tool time is a method of resolving an issue by the entire team. Tool time is named after the general team's decision to use various &lt;a href=&quot;http://resources.hartfordtechnologies.com/blog/the-ultimate-list-of-lean-manufacturing-tools&quot; target=&quot;_blank&quot;&gt;lean manufacturing tools&lt;/a&gt; to resolve the problem.
+    &lt;/p&gt;
+    &lt;h4&gt;RPD and DxA&lt;/h4&gt;
+    &lt;p&gt;
+        They need to know the Retrospective Prime Directive (or RPD) and Discussion vs. Action (DxA) while discussing the issue in a zoom or webex session. In RPD, they discuss without blaming the problem on the team member who caused it (or mistake). If you blame them, this is bad because they may not open an issue again because they are afraid of being caught. In DxA, action takes precedence over discussion, because retrospective is pointless unless there is a change in standard/culture.
+    &lt;/p&gt;
+    &lt;h4&gt;Debt&lt;/h4&gt;
+    &lt;p&gt;
+        You may be familiar with the term &quot;technical debt.&quot; Instead of issue boards, they're common on bug triage boards. The main difference is that the bug triage board primarily focuses on code issues, with the development team instead of the management team in charge, whereas the issue board primarily focuses on general issues such as:
+    &lt;/p&gt;
+        &lt;ol&gt;
+            &lt;li&gt;Architecture Debt&lt;/li&gt;
+            &lt;li&gt;Infrastructure Debt&lt;/li&gt;
+            &lt;li&gt;Documentation Debt&lt;/li&gt;
+            &lt;li&gt;Monetary Debt&lt;/li&gt;
+            &lt;li&gt;Technical Debt&lt;/li&gt;
+            &lt;li&gt;And more&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;p&gt;
+        On the issue board, the one in charge is the general team instead of the development team. If debts are increasing, they can speed up the system's entropy. To slow down system entropy, the boy scout rule should be used to reduce debt. According to boy scout rules, you must clean something before moving it from left to right on the Kanban board.        
+    &lt;/p&gt;
+    &lt;h3&gt;Summary&lt;/h3&gt;
+    &lt;hr /&gt;
+    &lt;p&gt;
+        Every business culture/standard is distinct in its own way. Scaling your standards/culture is simple in Scrum, but it's different in Kanban. In Kanban, you'll need an A3 Problem Solving (method), a PDCA (design), a Root Cause Analysis Tool (lean tool) and an Issue board (board) Every 1-2 weeks in scrum, you must conduct a retrospective. This should be done every 1 to 2 weeks, of course. If you don't scale up the standard/culture, you have to repeat it.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Try the Retrium or Lean Coffee Tables for scrum. You can use Trello, Zoom, or Webex for Kanban. Try the (method) for kanban if you are working remotely and want to conduct a retrospective. If there are 5 issues on an issue board, there must be 5 people in charge of them. The general team will conduct the retrospective if there are more than 5 issues. They will discuss the issue while holding an A3-size paper/document.
+    &lt;/p&gt;    
+  &amp;lt;/div&amp;gt;
+---
+&lt;div class=&quot;desktop__size &quot;&gt;
+  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2022/08/24/blog/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &amp;nbsp;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
+      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2022/08/24/blog/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;/p&gt;&lt;/div&gt;</content><author><name>Pebojot</name></author><summary type="html">Now, I mentioned Scrum, Kanban, and Scrumban yesterday (for small teams). Additionally, Prince2 Agile and PMI (for big teams). At some point in our personal lives, we all want to improve ourselves. But the improvement I'm referring to is for the Kanban team</summary></entry><entry><title type="html">The Software Industry’s Project Management. Basically</title><link href="http://localhost:3000/2021/08/22/blog/" rel="alternate" type="text/html" title="The Software Industry’s Project Management. Basically" /><published>2021-08-22T00:00:00+08:00</published><updated>2021-08-22T00:00:00+08:00</updated><id>http://localhost:3000/2021/08/22/blog</id><content type="html" xml:base="http://localhost:3000/2021/08/22/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.8.22.blog.cover.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;desktop__size&quot; style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif;&quot;&gt;
+    &lt;h2&gt;The Software Industry's Project Management. Basically&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mobile__size&quot; style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif;&quot;&gt;
+    &lt;h2&gt;The Software Industry's Project Management. Basically&lt;/h2&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;desktop__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;small class=&quot;text-muted&quot;&gt;
+          &lt;img src=&quot;/assets/images/2x2.webp&quot; width=&quot;30&quot; height=&quot;30&quot; class=&quot;img-fluid rounded-circle&quot; alt=&quot;Edison Pebojot&quot; /&gt;
+        &lt;/small&gt;
+      &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        By Edison Pebojot
+      &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        22 August 2021
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;a href=&quot;https://twitter.com/workpebojot?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-follow-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Follow @workpebojot&lt;/a&gt;
+        &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+      &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-color-scheme=&quot;no-preference: light; light: light; dark: light;&quot; data-size=&quot;large&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;small class=&quot;text-muted&quot;&gt;
+                &lt;img src=&quot;/assets/images/2x2.webp&quot; width=&quot;30&quot; height=&quot;30&quot; class=&quot;img-fluid rounded-circle&quot; alt=&quot;Edison Pebojot&quot; /&gt;
+            &lt;/small&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            By Edison Pebojot
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center flex-grow-1&quot;&gt;
+            08/22/2021
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/workpebojot?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-follow-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Follow @workpebojot&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a class=&quot;github-button align-self-center&quot; href=&quot;https://github.com/workpebojot&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif;&quot;&gt;
+    &lt;p&gt;
+        So, last month, I talked about how to create your first task when gathering functional requirements for your system, which can also include non-functional requirements. I'd like to discuss how you can handle these tasks.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Scrum and Kanban are common task management tools in software development, but they're mostly used to track your work in a graphical chart called a burn down/up chart (for scrum) and a cumulative flow diagram (for Kanban).
+    &lt;/p&gt;
+    &lt;p&gt;
+        There are other more advanced task management or project management methods and standards in software development, such as Prince2 Agile (method) and PMI (standard), which we will discuss later. So, first and foremost, let's talk about Scrum.
+    &lt;/p&gt;
+    &lt;h4&gt;Scrum&lt;/h4&gt;
+    &lt;p&gt;
+        By the way, what is a scrum? Let's take a look at its history to get a better understanding of it. Scrum is based on the cargo cult belief system. What is the origin of the term &quot;cargo cult&quot;? Its meaning is self-evident. During World War 2, the most accurate explanation of the cargo cult was given. Anyway, we won't go over the entire history, but the reason I'm mentioning it is because a lot of cargo fell from the sky during World War 2. It was intended for the soldiers, but the islanders of Melanesia in the Pacific mistook it for a divine gift.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Is that clear? So, after World War II, these islanders in Melanesia, a Pacific island, performed rituals in the hopes of the God dropping more cargo. As a result, these rituals have become a part of their daily routine. However, they are unaware that their beliefs make them ignorant because they do not attempt to comprehend why those cargos fell from the sky in the first place. Perhaps they are unaware that World War II occurred.
+    &lt;/p&gt;
+    &lt;p&gt;
+        When we apply this to software development, the same thing happens, which is unfortunate for anyone who is caught up in these rituals. Regrettably, there are rituals in Scrum as well (Oh no). In which a software developer follows a software development process and repeats the same process on a daily basis without realising it. Their beliefs make them ignorant because they don't try to understand why something is happening; instead, they just do it, believing that the faster you work, the more successful the software product will be (but not).
+    &lt;/p&gt;
+    &lt;p&gt;
+        In reality, this is not the case, because competence is what determines whether software products will succeed or fail, rather than simply working on them and getting better at them to make them successful. There are Cargo cult programming practises like shotgun debugging and deep magic (among others) in Scrum, for example. If someone, does it, they try to copy code from the internet and paste it into their code editor with little knowledge of how it works. This is incompetence, and other Scrum team members may experience imposter syndrome as a result. Working on it and getting better at it causes us to lose sight of the process we're following.
+    &lt;/p&gt;
+    &lt;h5&gt;Product Backlog&lt;/h5&gt;
+    &lt;p&gt;
+        There is a product backlog in Scrum. It's similar to a to-do list where you write down all of your tasks. If these tasks are added to the product backlog, they are now known as product backlog items (or just PBI). These PBIs could be either functional or non-functional requirements. We also know that user stories are used to create these PBIs (refer to my old blog). However, it is the product owner who prioritises PBIs and estimates their size in the product backlog. He/she usually refers to it by the acronym INVEST.
+    &lt;/p&gt;
+    &lt;h5&gt;Team&lt;/h5&gt;
+    &lt;p&gt;
+        We heard from the product owner now, but not from the other members. In scrum, the team is usually quite small. Because they're so small, they're divided into three columns: product owner, developer, and scrum master. Scrum uses a cross-functional organisational structure rather than a functional one. And the members of the team are self-managing.
+    &lt;/p&gt;
+    &lt;p&gt;
+        The scrum master is an important column in the scrum. The scrum master is the person in charge of removing roadblocks to the delivery of the product that has been identified in the daily standup (it is a short meeting). The project manager differs from the Scrum master in that the project manager has people management skills, whereas the Scrum master does not.
+    &lt;/p&gt;
+    &lt;h5&gt;Transition of PBIs&lt;/h5&gt;
+    &lt;p&gt;
+        So, think of a PBI as an item flowing through the pipeline once more (like oil). We're not talking about oil or the definition of the word here in the dictionary; rather, we're talking about the PBI's Definition of Ready (DoR) and Definition of Done (DoD). Before we put it into development in DoR, we need to know if it's ready. And we need to know if the item is done before we put it into production. For example, in DoR, the product owner may prioritise the item and estimate its size before putting it into development, whereas in DoD, the item must be tested first before going into production, correct? In any case, we don't want bugs.
+    &lt;/p&gt;
+    &lt;h5&gt;Story Pointing&lt;/h5&gt;
+    &lt;p&gt;
+        So, we now know that user stories are similar to wishes written on index cards. Let's say we gathered 60 index cards with our respondents' wishes on them. This allows us to categorise similar wishes into epics. Separate the epics into smaller tasks, which are now known as PBIs, and place them in the product backlog. We can't, however, simply add the task to the product backlog.
+    &lt;/p&gt;
+    &lt;p&gt;
+        We must first provide them with story points. The purpose of story points is to help with task prioritisation and estimation. The lower the estimate, the higher the priority, and the smaller the story points of the tasks (size). Even if the story points of the tasks are smaller, the estimate (size) can be higher. For example, just because the tasks are more important doesn't mean the impact will be smaller; it could be even larger at some point. Even if the story point is small, a simple sign-up button, for example, can have a large impact on a large number of users.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Planning poker is one method of assigning story points to tasks. You give each member of your team a card. To avoid anchoring cognitive bias, they can write the task's story points on the card without telling the rest of the team. Anchoring is a cognitive bias in which other team members influence a decision.
+    &lt;/p&gt;
+    &lt;h5&gt;Small Meeting&lt;/h5&gt;
+    &lt;p&gt;
+        We have a small meeting called daily stand-up in Scrum, which can take as little as 15-20 minutes. The main goal is to quickly identify roadblocks, with each team member sharing something that makes their development more difficult to implement. The scrum master, product owner, developers, and stakeholders were mostly present at the meeting. The blockers should be noted by the Scrum master.
+    &lt;/p&gt;
+    &lt;h5&gt;Burn up/down charts&lt;/h5&gt;
+    &lt;p&gt;
+        We now use a burnup chart and a burndown chart in Scrum. They're actually two different graphs. An x-axis and a y-axis are used in burndown charts. The number of remaining works (number of remaining work) is on the y-axis, and the number of days is on the x-axis (number of days). This is actually bad if the number of remaining works and the number of days increase. As the number of days passes, the number of remaining works should decrease.
+    &lt;/p&gt;
+    &lt;p&gt;
+        We also have an x-axis and a y-axis in burnup charts. The number of completed works (number of completed work) is on the y-axis, and the number of days is on the x-axis (number of days). If the total number of completed works is greater than the total number of days, this is good. It is bad if the number of completed works is lower than the number of days passed.
+    &lt;/p&gt;
+    &lt;h4&gt;Kanban&lt;/h4&gt;
+    &lt;p&gt;
+        So, now that we've discussed Scrum, there's another task/project management tool to consider: Kanban. I'm going to go over a quick history of it. We've all heard of lean manufacturing. It is commonly used in the hardware industry, such as automobiles. The car passes through the pipeline, which gradually assembles individual hardware components such as the engine, radiator beam, and engine cover into a functional vehicle.
+    &lt;/p&gt;
+    &lt;p&gt;
+        It was used because the delivery of these separate hardware parts, such as the engine, radiator beam, engine cover, and so on, was either too early or too late back in the day. These can cause bottlenecks because if the engine or radiator beam is too early, it can increase the receiver's work; however, if the engine or radiator beam is too late, it can decrease the receiver's work and cause it to be rejected, resulting in wasted work for the sender who built those hardware parts. The delivery of hardware parts is sometimes not too early or too late, but the hardware parts may contain human errors, such as an engine or radiator beam that does not work properly.
+    &lt;/p&gt;
+    &lt;p&gt;
+        We can now connect lean manufacturing in the hardware industry to lean manufacturing in the software industry. We use a Kanban board instead of a pipeline. We have separate software parts like the search bar, footer, tab bar, and so on, instead of separate hardware parts like the engine, radiator beam, and engine cover.
+    &lt;/p&gt;
+    &lt;p&gt;
+        We used a Kanban board because the delivery of these software parts, such as the search bar, footer, and tab bar, was either too early or too late back in the day. These can cause bottlenecks because if the search bar or footer is too early, it may increase the receiver's tasks; however, if the search bar or footer is too late, it may decrease the receiver's tasks and cause it to be rejected, resulting in wasted work for the sender. When software parts are delivered on time, there is a chance that human error will occur, such as the search bar or footer not working properly. 
+    &lt;/p&gt;
+    &lt;p&gt;
+        We have separate columns on the Kanban board for &quot;to-do,&quot; &quot;doing,&quot; and &quot;done,&quot; with each task moving from left to right. Each column, however, has a Work-in-Progress limit (or WiP limit). As a result, each column's tasks are limited. Because it balances the receiver's tasks, this WiP limit helps us avoid bottlenecks (no increase in task, no decrease in task). However, even if the task is balanced, there is no guarantee that the software components delivered will function correctly. As a result, there is an Entry/Exit criteria between each column (like DoR and DoD in Scrum). That is all there is to it. This Entry/Exit criterion aids us in avoiding human error in the flow of software components through the Kanban board.   
+    &lt;/p&gt;
+    &lt;p&gt;
+        Burn up/burn down charts are used in Scrum. The Cumulative Flow Diagram is used in Kanban (CFD). We have an x-axis and a y-axis in CFD. The number of tasks in each column on the Kanban board is represented on the y-axis. The number of days is represented on the x-axis. As the number of days increases, the number of tasks should decrease. Because there is a problem if the lines in the CFD graph do not remain flat.
+    &lt;/p&gt;
+    &lt;h4&gt;Scrumban&lt;/h4&gt;
+    &lt;p&gt;
+        I describe how bad Scrum is in the first part. Scrumban was born out of this need. Scrumban is similar to peanut butter on a sandwich. Scrumban was created as a bridge between Scrum and Kanban. It was not actually intended to combine the two, but combined them to help us transition to kanban.
+    &lt;/p&gt;
+    &lt;h4&gt;Prince2 and PMI&lt;/h4&gt;
+    &lt;p&gt;
+        We previously discussed project management tools such as scrum and Kanban (or even scrumban). However, there is a more advanced project management tool known as Prince2 and Project Management Professional (PMP).
+    &lt;/p&gt;
+    &lt;p&gt;
+        Prince2 is a project management methodology. It is, in fact, the de facto standard for project management throughout the UN system. You can use Prince2 Agile specifically for the software industry. Keep in mind that Prince2 is a very complex project management method that is typically applied to large projects. It is not always necessary to use Prince2 for smaller projects.
+    &lt;/p&gt;
+    &lt;p&gt;
+        The PMP is a project management professional certification based on standardised project management principles. The PMP exam requires you to apply standardised project management principles. These standardised project management principles can be applied to the software industry to improve project success rates.
+    &lt;/p&gt;
+    &lt;h3&gt;Summary&lt;/h3&gt;
+    &lt;hr /&gt;
+    &lt;p&gt;
+        Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it. This leads to imposter syndrome, in which they lose sight of what's going on and get stuck in the rut.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Scrum is a cross-functional organisational structure where members of the team are self-managing. The Scrum master is the person in charge of removing roadblocks to the delivery of the product that has been identified in the daily standup (it is a short meeting) The purpose of story points is to help with task prioritisation and estimation. The smaller the story points of the task, the higher the priority, and the lower the estimate (size) Even if the story point is small, a simple sign-up button can have a large impact on users.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Lean manufacturing is commonly used in the hardware industry, such as automobiles. The delivery of hardware parts is sometimes not too early or late, but the software parts may contain human errors. Kanban board allows you to organize tasks into &quot;to-do,&quot; &quot;doing,&quot; and &quot;done&quot; columns. The Cumulative Flow Diagram is used in Kanban (CFD) The number of tasks in each column on the Kanban board is represented on the y-axis. As the number of days increases, the x-axis should decrease as the CFD graph flattens.
+    &lt;/p&gt;
+    &lt;p&gt;
+        Scrumban was created as a bridge between Scrum and Kanban. It was not actually intended to combine the two, but combined them to help us transition to Kanban in the first part of this article. The second part describes how bad Scrum is.
+    &lt;/p&gt;
+    
+  &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;desktop__size &quot;&gt;
+  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2022/08/22/blog/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &amp;nbsp;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
+      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2022/08/22/blog/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">Scrum and Kanban are common task management tools in software development, but they're mostly used to track your work in a graphical chart called a burn down/up chart (for scrum) and a cumulative flow diagram (for Kanban)</summary></entry><entry><title type="html">Describe Your Task as a Software Developer</title><link href="http://localhost:3000/2021/03/31/blog/" rel="alternate" type="text/html" title="Describe Your Task as a Software Developer" /><published>2021-03-31T00:00:00+08:00</published><updated>2021-03-31T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/31/blog</id><content type="html" xml:base="http://localhost:3000/2021/03/31/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.3.31.blog.cover.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;desktop__size &quot; style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif;&quot;&gt;
     &lt;h2&gt;Describe Your Task as a Software Developer&lt;/h2&gt;
@@ -1042,270 +1598,4 @@ The researcher proposed more studies on the unemployment rate or, more specifica
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</summary></entry><entry><title type="html">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</title><link href="http://localhost:3000/2020/08/28/event/" rel="alternate" type="text/html" title="Elliptic Curve Cryptography and Quantum Computing: The Mathematics" /><published>2020-08-28T00:00:00+08:00</published><updated>2020-08-28T00:00:00+08:00</updated><id>http://localhost:3000/2020/08/28/event</id><content type="html" xml:base="http://localhost:3000/2020/08/28/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2020.8.28.event.cover.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;28 FEBRUARY 2020 7PM-9PM UTC+8&lt;/b&gt;&lt;/p&gt;
-&lt;div style=&quot;text-align: left&quot;&gt;
-    &lt;h1&gt;Elliptic Curve Cryptography and Quantum Computing: The Mathematics&lt;/h1&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;small&gt;Quantum Computing · Computing · Computer Science&lt;/small&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;div style=&quot;text-align: left&quot;&gt;
-    &lt;h3&gt;Details&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div style=&quot;text-align: justify&quot;&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/group.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        15 people responsed
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/flag.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Event by Quantum Computing Philippines
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/web.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Website: https://bit.ly/3cAArSx (Meetup)
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/ticket.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Ticket: N/A
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/information.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Public Event
-    &lt;/p&gt;
-    &lt;p&gt;
-        Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session (and succeeding sessions) we will give an introduction of what Quantum Computing is and the mathematics required to understand it:
-        
-- Complex Numbers
-- Hilbert Spaces
-- Bracket Notation
-- Qubits
-- Bloch Sphere (Reimann Sphere )
-- Superposition
-- Entanglement
-- Measurement
-- Probability Theory
-- Eigenvectors
-    &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;desktop__size &quot;&gt;
-  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
-    &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2020/08/28/event/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &amp;nbsp;
-    &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
-      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;mobile__size&quot;&gt;
-    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
-        &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-        &lt;/div&gt;
-        &amp;nbsp;
-        &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2020/08/28/event/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session (and succeeding sessions) we will give an introduction of what Quantum Computing is and the mathematics required to understand it</summary></entry><entry><title type="html">Braindotnet</title><link href="http://localhost:3000/2018/10/12/project/" rel="alternate" type="text/html" title="Braindotnet" /><published>2018-10-12T00:00:00+08:00</published><updated>2018-10-12T00:00:00+08:00</updated><id>http://localhost:3000/2018/10/12/project</id><content type="html" xml:base="http://localhost:3000/2018/10/12/project/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/113077885-9d35b800-9204-11eb-8c60-9c8ddae1cb19.gif&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;braindotnet&quot;&gt;Braindotnet&lt;/h1&gt;
-&lt;hr /&gt;
-
-&lt;div class=&quot;desktop__size&quot;&gt;
-  &lt;div class=&quot;d-flex justify-content-start&quot;&gt;
-    &lt;div class=&quot;p-1&quot;&gt;
-      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/braindotnet/subscription&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Watch workpebojot/Vacuum on GitHub&quot;&gt;
-        Watch
-      &lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;p-1&quot;&gt;
-      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/braindotnet/fork&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Fork workpebojot/Vacuum on GitHub&quot;&gt;
-        Fork
-      &lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;p-1&quot;&gt;
-      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/braindotnet&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star workpebojot/Vacuum on GitHub&quot;&gt;
-        Star
-      &lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;p-1&quot;&gt;
-        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;mobile__size&quot;&gt;
-  &lt;div class=&quot;d-flex justify-content-start&quot;&gt;
-    &lt;div class=&quot;p-1&quot;&gt;
-      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/braindotnet&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star workpebojot/Vacuum on GitHub&quot;&gt;
-        Star
-      &lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;p-1&quot;&gt;
-        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Developed during &lt;a href=&quot;https://www.github.com/workpebojot/&quot;&gt;Edison Pebojot&lt;/a&gt;’s freshman year at &lt;a href=&quot;https://en.wikipedia.org/wiki/AMA_Computer_University&quot;&gt;AMA Computer University&lt;/a&gt;, Braindotnet is a PWA social networking application. It was specifically created in the year 2018. The old website is still up and running, and you can find it &lt;a href=&quot;https://braindotnet.web.app/&quot;&gt;here&lt;/a&gt;. If you are on a desktop, press &lt;strong&gt;F12&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;p&gt;The goal is to create a tool for students to communicate with one another. I originally intended it to be a quiz app for students, but it evolved into a social networking app.&lt;/p&gt;
-
-&lt;h2 id=&quot;screenshot&quot;&gt;Screenshot&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/38276345/113074331-70ca6d80-91fd-11eb-890f-889a3e32f417.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;technology-and-framework-used&quot;&gt;Technology and Framework used&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-  &lt;li&gt;Firebase&lt;/li&gt;
-  &lt;li&gt;Onsen UI&lt;/li&gt;
-  &lt;li&gt;JavaScript&lt;/li&gt;
-  &lt;li&gt;Node&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;code-example&quot;&gt;Code Example&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;p&gt;The content will be initialized at the BODY id:&lt;/p&gt;
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;index.hmtl &amp;gt; #BODY
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ git clone [URL.git]&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ cd braindotnet&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ git init&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ npm install&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;how-to-used&quot;&gt;How to used&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;p&gt;As you may know, I was a freshman in college at the time and am now a graduate student. I had completely forgotten how this project works. What I recall is that you’ll need a firebase CLI and that you’ll use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;firebase init&lt;/code&gt; to create a new project. That’s all there is to it; now you can code whatever you want. Then, using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;firebase deploy&lt;/code&gt;, you can upload your production folder to firebase hosting.&lt;/p&gt;
-
-&lt;h2 id=&quot;contribute&quot;&gt;Contribute&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;p&gt;So if you want to contribute, feel free to open a PR for a review. Thanks! 😉&lt;/p&gt;
-
-&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href=&quot;https://opensource.org/licenses/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-GPL%20v3-yellow.svg&quot; alt=&quot;GPLv3 License&quot; /&gt;&lt;/a&gt; © 2018&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;desktop__size &quot;&gt;
-  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
-    &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2018/10/12/project/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &amp;nbsp;
-    &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
-      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;mobile__size&quot;&gt;
-    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
-        &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-        &lt;/div&gt;
-        &amp;nbsp;
-        &lt;div class=&quot;align-self-center&quot;&gt;
-          &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2018/10/12/project/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">Braindotnet is a PWA social networking application developed during Edison Pebojot's freshman year at AMA Computer University. Specifically, it was developed in the year 2018. The goal is to create a tool for students to communicate with one another.</summary></entry><entry><title type="html">Hackathon Event: AMA Computer University</title><link href="http://localhost:3000/2018/09/10/event/" rel="alternate" type="text/html" title="Hackathon Event: AMA Computer University" /><published>2018-09-10T00:00:00+08:00</published><updated>2018-09-10T00:00:00+08:00</updated><id>http://localhost:3000/2018/09/10/event</id><content type="html" xml:base="http://localhost:3000/2018/09/10/event/">&lt;p&gt;&lt;img src=&quot;/assets/images/2018.09.10.event.cover.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;10 SEPTEMBER 2018 4AM UTC+8&lt;/b&gt;&lt;/p&gt;
-&lt;div style=&quot;text-align: left&quot;&gt;
-    &lt;h1&gt;AMA Computer University Hackathon Event&lt;/h1&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;small&gt;University · College · Technology&lt;/small&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;div style=&quot;text-align: left&quot;&gt;
-    &lt;h3&gt;Details&lt;/h3&gt;
-&lt;/div&gt;
-&lt;div style=&quot;text-align: justify&quot;&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/group.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        256 people responsed
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/flag.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Event by AMA Computer University
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/web.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Website: N/A
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/ticket.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Ticket: N/A
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;img src=&quot;/assets/images/information.webp&quot; width=&quot;24&quot; height=&quot;24&quot; /&gt;
-        Private Event
-    &lt;/p&gt;
-    &lt;p&gt;
-    This was one of the most important events at AMA Computer College. It includes a number of activities ranging from computing to performing. One of my deans was there, and it was a fantastic experience.
-    &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;desktop__size &quot;&gt;
-  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
-    &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2018/09/10/event/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &amp;nbsp;
-    &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
-      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;mobile__size&quot;&gt;
-    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
-        &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-        &lt;/div&gt;
-        &amp;nbsp;
-        &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2018/09/10/event/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">10 SEPTEMBER 2018 4AM UTC+8 AMA Computer University Hackathon Event University · College · Technology Details 256 people responsed Event by AMA Computer University Website: N/A Ticket: N/A Private Event This was one of the most important events at AMA Computer College. It includes a number of activities ranging from computing to performing. One of my deans was there, and it was a fantastic experience. Share &amp;nbsp; Tweet Tweet &amp;nbsp; Share</summary></entry></feed>
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for Filipinos where they can deliver jobs and services from or to those who have jobs or have lost their job. The Android program allows fellow Filipinos to provide work and services.</summary></entry></feed>
