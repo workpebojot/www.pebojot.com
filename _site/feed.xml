@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2021-08-25T21:05:18+08:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">Defects Management using Prioritization &amp;amp; Estimation</title><link href="http://localhost:3000/2021/08/25/blog/" rel="alternate" type="text/html" title="Defects Management using Prioritization &amp;amp; Estimation" /><published>2021-08-25T00:00:00+08:00</published><updated>2021-08-25T00:00:00+08:00</updated><id>http://localhost:3000/2021/08/25/blog</id><content type="html" xml:base="http://localhost:3000/2021/08/25/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.8.25.blog.cover.png&quot; class=&quot;rounded img-fluid&quot; alt=&quot;cover&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2021-08-25T22:26:08+08:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">Defects Management using Prioritization &amp;amp; Estimation</title><link href="http://localhost:3000/2021/08/25/blog/" rel="alternate" type="text/html" title="Defects Management using Prioritization &amp;amp; Estimation" /><published>2021-08-25T00:00:00+08:00</published><updated>2021-08-25T00:00:00+08:00</updated><id>http://localhost:3000/2021/08/25/blog</id><content type="html" xml:base="http://localhost:3000/2021/08/25/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.8.25.blog.cover.png&quot; class=&quot;rounded img-fluid&quot; alt=&quot;cover&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;desktop__size&quot; style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif;&quot;&gt;
     &lt;h2&gt;Defects Management using Prioritization &amp;amp; Estimation&lt;/h2&gt;
@@ -76,7 +76,7 @@
         When some parts of a programme work before but not after a change, this is referred to as software regression (defect). Some defects, however, are unintentional. For example, just because you change some parts of the source code and leave the rest alone to make the software work perfectly does not mean there isn't a defect. It could be due to incompatibilities that cause the software to perform poorly. Some parts (components) of your software, for example, may not work in the runtime environment. This is due to the execution model's inability to comprehend your source code. It's possible that the execution model from that runtime entails using &quot;if statement&quot; with parenthesis instead.
     &lt;/p&gt;
     &lt;p&gt;
-        Software incompatibility is the term for this type of incompatibility. It's also possible that you made some mistakes that were unintentional. It's possible that the runtime environment has been updated and no longer supports the programming language features you're using (or vice versa). And it's here that forward and backward compatibility is established. Forward compatibility is used when your software needs to work flawlessly with a new version of the runtime environment. Backward compatibility is available for older versions of the runtime environment. Because your system is still young and mistakes are common, you're more likely to encounter intentional defects in greenfield projects.
+        This type of incompatibility is called Software incompatibility. It's also possible that the runtime environment has been updated and no longer supports the programming language features you're using (or vice versa). And it's here that forward and backward compatibility is established. Forward compatibility is used when your software needs to work flawlessly with a new version of the runtime environment. Backward compatibility is available for older versions of the runtime environment. Because your system is still young and mistakes are common, you're more likely to encounter intentional defects in greenfield projects.
     &lt;/p&gt;
     &lt;p&gt;
         Defect triage, on the other hand, can be used to manage defects. Some tools, such as Github or Trello, refer to this as bug triage, but this is incorrect. If you rely on these tools excessively, you may be justified in using the term bug triage during working hours, and you may disagree with me. Using the word defect, on the other hand, is transparent because it indicates that you made a mistake, which you should not hide from the public.
@@ -109,6 +109,7 @@
     &lt;/p&gt;
   &lt;/div&gt;
 &lt;hr /&gt;
+
 &lt;div class=&quot;desktop__size &quot;&gt;
   &lt;div class=&quot;d-flex align-items-center&quot;&gt;
     &lt;div class=&quot;align-self-center&quot;&gt;
@@ -317,15 +318,14 @@
     &lt;/p&gt;
     &lt;p&gt;
         Try the Retrium or Lean Coffee Tables for scrum. You can use Trello, Zoom, or Webex for Kanban. Try the (method) for kanban if you are working remotely and want to conduct a retrospective. If there are 5 issues on an issue board, there must be 5 people in charge of them. The general team will conduct the retrospective if there are more than 5 issues. They will discuss the issue while holding an A3-size paper/document.
-    &lt;/p&gt;    
-  &amp;lt;/div&amp;gt;
----
-&lt;div class=&quot;desktop__size &quot;&gt;
+    &lt;/p&gt;
+&amp;lt;/div&amp;gt;
+&lt;hr /&gt;
+&lt;div class=&quot;desktop__size&quot;&gt;
   &lt;div class=&quot;d-flex align-items-center&quot;&gt;
     &lt;div class=&quot;align-self-center&quot;&gt;
       &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2022/08/24/blog/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
     &lt;/div&gt;
-    &amp;nbsp;
     &lt;div class=&quot;align-self-center&quot;&gt;
       &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
       &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
@@ -521,17 +521,14 @@
     &lt;p&gt;
         Scrumban was created as a bridge between Scrum and Kanban. It was not actually intended to combine the two, but combined them to help us transition to Kanban in the first part of this article. The second part describes how bad Scrum is.
     &lt;/p&gt;
-    
   &lt;/div&gt;
-
 &lt;hr /&gt;
 
-&lt;div class=&quot;desktop__size &quot;&gt;
+&lt;div class=&quot;desktop__size&quot;&gt;
   &lt;div class=&quot;d-flex align-items-center&quot;&gt;
     &lt;div class=&quot;align-self-center&quot;&gt;
       &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2022/08/22/blog/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
     &lt;/div&gt;
-    &amp;nbsp;
     &lt;div class=&quot;align-self-center&quot;&gt;
       &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
       &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
@@ -544,7 +541,6 @@
         &lt;div class=&quot;align-self-center&quot;&gt;
             &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
         &lt;/div&gt;
-        &amp;nbsp;
         &lt;div class=&quot;align-self-center&quot;&gt;
             &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2022/08/22/blog/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
         &lt;/div&gt;
