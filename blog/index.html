@@ -1,0 +1,1455 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <title>Blog</title>
+  
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" />
+  
+    <!-- facebook -->
+    <meta property="og:url" content="https://www.pebojot.com/blog/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Blog" />
+    <meta property="og:description" content="Here's my blog collection about software development." />
+    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/112705216-bd9a0580-8ed8-11eb-8f9e-41ecca50e396.png" />
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@workpebojot" />
+    <meta name="twitter:creator" content="@workpebojot" />
+    <meta property="og:url" content="https://www.pebojot.com/blog/" />
+    <meta property="og:title" content="Blog" />
+    <meta property="og:description" content="Here's my blog collection about software development." />
+    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/112705216-bd9a0580-8ed8-11eb-8f9e-41ecca50e396.png" />
+  
+</head>
+
+<body>
+  <div class="container p-2">
+    <nav id="navbar1" class="navbar navbar-expand-lg navbar-light p-2">
+      
+
+<span class="d-flex flex-grow-1">
+    <span class="navbar__desktop">
+        <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+            
+            <a class="nav-link  border-0" data-toggle="tabs"
+                href="/">
+                <h5>
+                    <span class="home-hover">
+                        Edison Pebojot
+                    </span>
+                </h5>
+            </a>
+            
+        </span>
+    </span>
+    <span class="navbar__mobile">
+        <a href="/" class="btn " style="margin: 2px;">
+            <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
+        </a>
+    </span>
+</span>
+
+
+
+
+
+
+
+
+
+
+<span class="navbar__mobile">
+    <div class="d-flex align-items-center gap-1">
+        <a href="/blog/" class="btn btn-light">
+            <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
+        </a>
+        <a href="/event/" class="btn ">
+            <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
+        </a>
+        <a href="/project/" class="btn ">
+            <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
+        </a>
+        <a href="/about/" role="button" 
+            class="btn btn-secondary ">
+            <b>
+                About
+            </b>
+        </a>
+        <!-- <span id="menu" class="btn">
+            <img id="menu-src" src="/assets/images/menu.webp" >
+        </span> -->
+    </div>
+</span>
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+    </span>
+</span>
+
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        <a class="nav-link active bg-transparent border-0" data-toggle="tabs"
+            href="/blog/">
+            <h5>
+                <span class="home-hover">
+                    Blog
+                </span>
+            </h5>
+        </a>
+        
+    </span>
+</span>
+
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        <a class="nav-link  border-0" data-toggle="tabs"
+            href="/event/">
+            <h5>
+                <span class="home-hover">
+                    Event
+                </span>
+            </h5>
+        </a>
+        
+    </span>
+</span>
+
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        <a class="nav-link  border-0" data-toggle="tabs"
+            href="/project/">
+            <h5>
+                <span class="home-hover">
+                    Project
+                </span>
+            </h5>
+        </a>
+        
+    </span>
+</span>
+
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        <a class="nav-link  border-0" data-toggle="tabs"
+            href="/about/">
+            <h5>
+                <span class="home-hover">
+                    About
+                </span>
+            </h5>
+        </a>
+        
+    </span>
+</span>
+
+
+    </nav>
+    
+    <div class="tab-content p-2">
+      <div class="tab-pane container ">
+        <div class="container-fluid">
+  <div class="row rounded-left">
+    <div class="col p-2">
+      <span class=" mobile__size">
+        <div class="d-flex justify-content-right">
+          <a href="/blog/" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+            <h1>Blog</h1>
+          </a>
+        </div>
+      </span>
+      <ul class="list-group">
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/28/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Modern approach and practice for CI and CD</h4>
+              <small class="text-muted desktop__size">28 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 28 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Defects are common in software development, as we all know. When you come across it, you can be sure that stakeholders are unhappy with it, and they will ask you how long they should wait for a fix (or changes).
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Defects are common in software development, as we all know. When you come across it, you can be sure that stakeholders are unhappy with it
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/25/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Software Defects Management for Mistake</h4>
+              <small class="text-muted desktop__size">25 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 25 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on, but I'd like to focus on technical debt today because it is the most common type of debt in the software industry.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/24/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Continual Improvement for Kanban Team</h4>
+              <small class="text-muted desktop__size">24 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 24 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Now, I mentioned Scrum, Kanban, and Scrumban yesterday (for small teams). Additionally, Prince2 Agile and PMI (for big teams). At some point in our personal lives, we all want to improve ourselves. But the improvement I'm referring to is for the Kanban team
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Now, I mentioned Scrum, Kanban, and Scrumban yesterday (for small teams).
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/22/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">The Software Industry's Project Management. Basically</h4>
+              <small class="text-muted desktop__size">22 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 22 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Scrum and Kanban are common task management tools in software development, but they're mostly used to track your work in a graphical chart called a burn down/up chart (for scrum) and a cumulative flow diagram (for Kanban)
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Scrum and Kanban are common task management tools in software development
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/31/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Describe Your Task as a Software Developer</h4>
+              <small class="text-muted desktop__size">31 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 31 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make.
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/29/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">The Basics of Software Requirement Gathering</h4>
+              <small class="text-muted desktop__size">29 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 29 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/03/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Software Ethics to me (or to you)</h4>
+              <small class="text-muted desktop__size">03 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 03 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2020/12/28/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h4>
+              <small class="text-muted desktop__size">28 Dec 2020</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 28 Dec 2020</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  According to Renz & Katarina (2020), “Students and unemployed individuals are found to be highly vulnerable.
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+    
+    <div class="tab-content p-2">
+      <div class="tab-pane container active">
+        <div class="container-fluid">
+  <div class="row rounded-left">
+    <div class="col p-2">
+      <span class=" mobile__size">
+        <div class="d-flex justify-content-right">
+          <a href="/blog/" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+            <h1>Blog</h1>
+          </a>
+        </div>
+      </span>
+      <ul class="list-group">
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/28/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Modern approach and practice for CI and CD</h4>
+              <small class="text-muted desktop__size">28 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 28 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Defects are common in software development, as we all know. When you come across it, you can be sure that stakeholders are unhappy with it, and they will ask you how long they should wait for a fix (or changes).
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Defects are common in software development, as we all know. When you come across it, you can be sure that stakeholders are unhappy with it
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/25/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Software Defects Management for Mistake</h4>
+              <small class="text-muted desktop__size">25 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 25 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on, but I'd like to focus on technical debt today because it is the most common type of debt in the software industry.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/24/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Continual Improvement for Kanban Team</h4>
+              <small class="text-muted desktop__size">24 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 24 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Now, I mentioned Scrum, Kanban, and Scrumban yesterday (for small teams). Additionally, Prince2 Agile and PMI (for big teams). At some point in our personal lives, we all want to improve ourselves. But the improvement I'm referring to is for the Kanban team
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Now, I mentioned Scrum, Kanban, and Scrumban yesterday (for small teams).
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/22/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">The Software Industry's Project Management. Basically</h4>
+              <small class="text-muted desktop__size">22 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 22 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Scrum and Kanban are common task management tools in software development, but they're mostly used to track your work in a graphical chart called a burn down/up chart (for scrum) and a cumulative flow diagram (for Kanban)
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Scrum and Kanban are common task management tools in software development
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/31/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Describe Your Task as a Software Developer</h4>
+              <small class="text-muted desktop__size">31 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 31 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make.
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/29/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">The Basics of Software Requirement Gathering</h4>
+              <small class="text-muted desktop__size">29 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 29 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/03/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Software Ethics to me (or to you)</h4>
+              <small class="text-muted desktop__size">03 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 03 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2020/12/28/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h4>
+              <small class="text-muted desktop__size">28 Dec 2020</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 28 Dec 2020</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  According to Renz & Katarina (2020), “Students and unemployed individuals are found to be highly vulnerable.
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+    
+    <div class="tab-content p-2">
+      <div class="tab-pane container ">
+        <div class="container-fluid">
+  <div class="row rounded-left">
+    <div class="col p-2">
+      <span class=" mobile__size">
+        <div class="d-flex justify-content-right">
+          <a href="/blog/" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+            <h1>Blog</h1>
+          </a>
+        </div>
+      </span>
+      <ul class="list-group">
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/28/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Modern approach and practice for CI and CD</h4>
+              <small class="text-muted desktop__size">28 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 28 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Defects are common in software development, as we all know. When you come across it, you can be sure that stakeholders are unhappy with it, and they will ask you how long they should wait for a fix (or changes).
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Defects are common in software development, as we all know. When you come across it, you can be sure that stakeholders are unhappy with it
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/25/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Software Defects Management for Mistake</h4>
+              <small class="text-muted desktop__size">25 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 25 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on, but I'd like to focus on technical debt today because it is the most common type of debt in the software industry.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/24/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Continual Improvement for Kanban Team</h4>
+              <small class="text-muted desktop__size">24 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 24 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Now, I mentioned Scrum, Kanban, and Scrumban yesterday (for small teams). Additionally, Prince2 Agile and PMI (for big teams). At some point in our personal lives, we all want to improve ourselves. But the improvement I'm referring to is for the Kanban team
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Now, I mentioned Scrum, Kanban, and Scrumban yesterday (for small teams).
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/22/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">The Software Industry's Project Management. Basically</h4>
+              <small class="text-muted desktop__size">22 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 22 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Scrum and Kanban are common task management tools in software development, but they're mostly used to track your work in a graphical chart called a burn down/up chart (for scrum) and a cumulative flow diagram (for Kanban)
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Scrum and Kanban are common task management tools in software development
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/31/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Describe Your Task as a Software Developer</h4>
+              <small class="text-muted desktop__size">31 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 31 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make.
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/29/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">The Basics of Software Requirement Gathering</h4>
+              <small class="text-muted desktop__size">29 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 29 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/03/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Software Ethics to me (or to you)</h4>
+              <small class="text-muted desktop__size">03 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 03 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2020/12/28/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h4>
+              <small class="text-muted desktop__size">28 Dec 2020</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 28 Dec 2020</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  According to Renz & Katarina (2020), “Students and unemployed individuals are found to be highly vulnerable.
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+    
+    <div class="tab-content p-2">
+      <div class="tab-pane container ">
+        <div class="container-fluid">
+  <div class="row rounded-left">
+    <div class="col p-2">
+      <span class=" mobile__size">
+        <div class="d-flex justify-content-right">
+          <a href="/blog/" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+            <h1>Blog</h1>
+          </a>
+        </div>
+      </span>
+      <ul class="list-group">
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/28/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Modern approach and practice for CI and CD</h4>
+              <small class="text-muted desktop__size">28 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 28 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Defects are common in software development, as we all know. When you come across it, you can be sure that stakeholders are unhappy with it, and they will ask you how long they should wait for a fix (or changes).
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Defects are common in software development, as we all know. When you come across it, you can be sure that stakeholders are unhappy with it
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/25/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Software Defects Management for Mistake</h4>
+              <small class="text-muted desktop__size">25 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 25 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on, but I'd like to focus on technical debt today because it is the most common type of debt in the software industry.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/24/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Continual Improvement for Kanban Team</h4>
+              <small class="text-muted desktop__size">24 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 24 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Now, I mentioned Scrum, Kanban, and Scrumban yesterday (for small teams). Additionally, Prince2 Agile and PMI (for big teams). At some point in our personal lives, we all want to improve ourselves. But the improvement I'm referring to is for the Kanban team
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Now, I mentioned Scrum, Kanban, and Scrumban yesterday (for small teams).
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/22/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">The Software Industry's Project Management. Basically</h4>
+              <small class="text-muted desktop__size">22 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 22 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Scrum and Kanban are common task management tools in software development, but they're mostly used to track your work in a graphical chart called a burn down/up chart (for scrum) and a cumulative flow diagram (for Kanban)
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Scrum and Kanban are common task management tools in software development
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/31/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Describe Your Task as a Software Developer</h4>
+              <small class="text-muted desktop__size">31 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 31 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make.
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/29/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">The Basics of Software Requirement Gathering</h4>
+              <small class="text-muted desktop__size">29 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 29 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/03/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Software Ethics to me (or to you)</h4>
+              <small class="text-muted desktop__size">03 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 03 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2020/12/28/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h4>
+              <small class="text-muted desktop__size">28 Dec 2020</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 28 Dec 2020</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  According to Renz & Katarina (2020), “Students and unemployed individuals are found to be highly vulnerable.
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+    
+    <div class="tab-content p-2">
+      <div class="tab-pane container ">
+        <div class="container-fluid">
+  <div class="row rounded-left">
+    <div class="col p-2">
+      <span class=" mobile__size">
+        <div class="d-flex justify-content-right">
+          <a href="/blog/" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+            <h1>Blog</h1>
+          </a>
+        </div>
+      </span>
+      <ul class="list-group">
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/28/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Modern approach and practice for CI and CD</h4>
+              <small class="text-muted desktop__size">28 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 28 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Defects are common in software development, as we all know. When you come across it, you can be sure that stakeholders are unhappy with it, and they will ask you how long they should wait for a fix (or changes).
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Defects are common in software development, as we all know. When you come across it, you can be sure that stakeholders are unhappy with it
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/25/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Software Defects Management for Mistake</h4>
+              <small class="text-muted desktop__size">25 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 25 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on, but I'd like to focus on technical debt today because it is the most common type of debt in the software industry.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/24/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Continual Improvement for Kanban Team</h4>
+              <small class="text-muted desktop__size">24 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 24 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Now, I mentioned Scrum, Kanban, and Scrumban yesterday (for small teams). Additionally, Prince2 Agile and PMI (for big teams). At some point in our personal lives, we all want to improve ourselves. But the improvement I'm referring to is for the Kanban team
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Now, I mentioned Scrum, Kanban, and Scrumban yesterday (for small teams).
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/08/22/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">The Software Industry's Project Management. Basically</h4>
+              <small class="text-muted desktop__size">22 Aug 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 22 Aug 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Scrum and Kanban are common task management tools in software development, but they're mostly used to track your work in a graphical chart called a burn down/up chart (for scrum) and a cumulative flow diagram (for Kanban)
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Scrum and Kanban are common task management tools in software development
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/31/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Describe Your Task as a Software Developer</h4>
+              <small class="text-muted desktop__size">31 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 31 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make. What exactly is it? You must decide what you will do because this will serve as a means of communication with your team, allowing you to fully comprehend
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  You'll need to decide what you're going to make once you've decided what product you need to make.
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/29/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">The Basics of Software Requirement Gathering</h4>
+              <small class="text-muted desktop__size">29 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 29 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  The role of the developer in software requirement gathering will vary with each team. Large teams
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2021/03/03/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">Software Ethics to me (or to you)</h4>
+              <small class="text-muted desktop__size">03 Mar 2021</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 03 Mar 2021</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics and rules of ethics are incorporated into the technical associations that serve professionals of most engineering fields.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  Software engineering as a discipline has a tentative perception of engineering ethics. Ethics
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        <li class="list-group-item border-0 bg-light">
+          <a href="/2020/12/28/blog/" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h4 class="mb-1">An Android Platform for Filipino Employment (Beta Program)</h4>
+              <small class="text-muted desktop__size">28 Dec 2020</small>
+            </div>
+            <small class="text-muted mobile__size">
+              <img src="/assets/images/2x2.webp" width="20" height="20" class="img-fluid rounded-circle"
+                alt="Edison Pebojot">
+            </small>
+            <small class="text-muted mobile__size"> by Pebojot | 28 Dec 2020</small>
+            <span class="desktop__size ">
+              <p class="card-text lead" style="text-align: justify;">
+                  The proposed Vacuum Cleaner project is to develop the Household Chores Service Platform for everyone where they can deliver jobs and services from or to those who have jobs or have lost their job due to pandemic. The Android program allows everyone to provide work and services.
+              </p>
+            </span>
+            <span class="mobile__size ">
+              <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                  According to Renz & Katarina (2020), “Students and unemployed individuals are found to be highly vulnerable.
+              </p>
+            </span>
+            <small class="text-muted desktop__size"> by Pebojot</small>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+    
+  </div>
+</body>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar1 = document.getElementById("navbar1");
+var sticky = navbar1.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar1.classList.add("sticky-top");
+    navbar1.classList.add("bg-light");
+    navbar1.classList.add("rounded-bottom");
+  } else {
+    navbar1.classList.remove("sticky-top");
+    navbar1.classList.remove("bg-light");
+    navbar1.classList.remove("rounded-bottom");
+  }
+}
+</script>
+
+</html>
